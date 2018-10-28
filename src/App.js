@@ -19,34 +19,39 @@ class App extends Component {
     return (
       <Router>
       <div>
+
       <nav>
-      <ul>
-      <li>
+      <div>
       <Link to="/">Home</Link>
-      </li>
-      <li>
+      </div>
+      <div>
       <Link to="/about/">About</Link>
-      </li>
-      <li>
+      </div>
+      <div>
       <Link to="/portfolio/">Portfolio</Link>
-      </li>
-      <li>
+      </div>
+      <div>
       <Link to="/blog/">Blog</Link>
-      </li>
-      <li>
+      </div>
+      <div>
       <Link to="/contact/">Contact</Link>
-      </li>
-      </ul>
+      </div>
       </nav>
 
+      <main>
       <Route path="/" exact component={Home} />
       <Route path="/about/" component={About} />
       <Route path="/portfolio/" component={Portfolio} />
       <Route path="/blog/" component={Blog} />
       <Route path="/contact/" component={Contact} />
+      </main>
+
+      <footer>©2018 SandyChiu.com All rights reserved.</footer>
+
       </div>
       </Router>
-      )}
-  };
 
-  export default App;
+      )}
+    };
+
+    export default App;
