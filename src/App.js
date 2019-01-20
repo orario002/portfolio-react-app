@@ -2,18 +2,12 @@ import React, { Component } from "react";
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import Home from "./Pages/Home"
-import About from "./Pages/About"
+import Home from "./Pages/Home";
+import About from "./Pages/About";
 import Portfolio from "./Pages/Portfolio";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
-import Logo from "./Assets/logo.svg"
-
-// const Index = () => <h2>Home</h2>;
-// // const About = () => <h2>About</h2>;
-// // const Portfolio = () => <h2>Portfolio</h2>;
-// // const Blog = () => <h2>Blog</h2>;
-// // const Contact = () => <h2>Contact</h2>;
+import Logo from "./Assets/brand/logo.svg";
 
 class App extends Component {
   render() {
@@ -46,7 +40,7 @@ class App extends Component {
       <Route path="/contact/" component={Contact} />
       </main>
 
-      <footer>©2018 SandyChiu.com All rights reserved.</footer>
+      <footer>©2019 SandyChiu.com All rights reserved.</footer>
 
       </div>
       </Router>

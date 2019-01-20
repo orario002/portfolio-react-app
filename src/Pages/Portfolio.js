@@ -1,70 +1,31 @@
 import React, {Component} from "react";
-import { Media } from "reactstrap";
+
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+
+import Work from "./Work"
+import Gallery from "./Gallery"
 
 class Portfolio extends Component {
-  render() {
-    return (
-      <div>
-  <Media list>
-      <Media tag="li">
-        <Media left href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
-        </Media>
-        <Media body>
-          <Media heading>
-            Media heading
-          </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          <Media>
-            <Media left href="#">
-              <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
-            </Media>
-            <Media body>
-              <Media heading>
-                Nested media heading
-              </Media>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-              <Media>
-                <Media left href="#">
-                  <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
-                </Media>
-                <Media body>
-                  <Media heading>
-                    Nested media heading
-                  </Media>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </Media>
-              </Media>
-            </Media>
-          </Media>
-          <Media>
-            <Media left href="#">
-              <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
-            </Media>
-            <Media body>
-              <Media heading>
-                Nested media heading
-              </Media>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </Media>
-          </Media>
-        </Media>
-      </Media>
-      <Media tag="li">
-        <Media body>
-          <Media heading>
-            Media heading
-          </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-        </Media>
-        <Media right href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
-        </Media>
-      </Media>
-    </Media>
-      </div>
-    );
-  }
-}
- 
+    render() {
+        return (
+            <Router>
+                <div>
+                    <ul>
+                        <li>
+                            <Link to="/portfolio/work/">Work</Link>
+                        </li>
+                        <li>
+                            <Link to="/portfolio/gallery/">Gallery</Link>
+                        </li>
+                    </ul>
+                    <main>
+                        <Route path="/portfolio/work/" component={Work}/>
+                        <Route path="/portfolio/gallery/" component={Gallery}/>
+                    </main>
+                </div>
+            </Router>
+        )
+    }
+};
+
 export default Portfolio;
