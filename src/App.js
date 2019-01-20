@@ -7,6 +7,7 @@ import About from "./Pages/About"
 import Portfolio from "./Pages/Portfolio";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
+import Logo from "./Assets/logo.svg"
 
 // const Index = () => <h2>Home</h2>;
 // // const About = () => <h2>About</h2>;
@@ -19,10 +20,9 @@ class App extends Component {
     return (
       <Router>
       <div>
-
       <nav>
       <div>
-      <Link to="/">Home</Link>
+      <Link to="/"><img src={Logo} alt="logo" width="50" height="50"/></Link>
       </div>
       <div>
       <Link to="/about/">About</Link>
