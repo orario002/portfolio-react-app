@@ -7,7 +7,7 @@ import Solo from "../Assets/mockup/mockup-solomeworld.png";
 
 const JSON = {
     Sandy: {
-        name: 'sandys',
+        name: 'sandy',
         portfolioImage: `${Sandy}`,
         link: 'http://sandychiu.co.uk'
     },
