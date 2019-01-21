@@ -1,9 +1,9 @@
 import React from "react";
 import {Col} from "reactstrap";
-import Sandy from "../Assets/mockup/mockup-sandychiu-co-uk.png";
-import Olivet from "../Assets/mockup/mockup-olivet.png";
-import Wedding from "../Assets/mockup/mockup-sandyandstephen.png";
-import Solo from "../Assets/mockup/mockup-solomeworld.png";
+import Sandy from "../../Assets/mockup/mockup-sandychiu-co-uk.png";
+import Olivet from "../../Assets/mockup/mockup-olivet.png";
+import Wedding from "../../Assets/mockup/mockup-sandyandstephen.png";
+import Solo from "../../Assets/mockup/mockup-solomeworld.png";
 
 const JSON = {
     Sandy: {

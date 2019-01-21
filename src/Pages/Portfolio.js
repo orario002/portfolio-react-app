@@ -1,9 +1,10 @@
 import React, {Component} from "react";
 
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Route, Link, Switch} from "react-router-dom";
 
-import Work from "./Work"
-import Gallery from "./Gallery"
+import Work from "./Portfolio/Work"
+import Gallery from "./Portfolio/Gallery"
+import Photography from "./Portfolio/Photography"
 
 class Portfolio extends Component {
     render() {
@@ -12,15 +13,21 @@ class Portfolio extends Component {
                 <div>
                     <ul>
                         <li>
-                            <Link to="/portfolio/work/">Work</Link>
+                            <Link to="/portfolio/work/">Website</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio/gallery/">Gallery</Link>
+                            <Link to="/portfolio/gallery/">Drawing</Link>
+                        </li>
+                        <li>
+                            <Link to="/portfolio/photography/">Photography</Link>
                         </li>
                     </ul>
                     <main>
-                        <Route path="/portfolio/work/" component={Work}/>
-                        <Route path="/portfolio/gallery/" component={Gallery}/>
+                        <Switch>
+                            <Route exact path="/portfolio/work/" component={Work}/>
+                            <Route path="/portfolio/gallery/" component={Gallery}/>
+                            <Route path="/portfolio/photography/" component={Photography}/>
+                        </Switch>
                     </main>
                 </div>
             </Router>
