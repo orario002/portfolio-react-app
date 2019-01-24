@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -22,7 +22,7 @@ class App extends Component {
       <Link to="/about/">About</Link>
       </div>
       <div>
-      <Link to="/portfolio/">Portfolio</Link>
+      <NavLink exact to="/portfolio/work/">Portfolio</NavLink>
       </div>
       <div>
       <Link to="/blog/">Blog</Link>
@@ -35,7 +35,7 @@ class App extends Component {
       <main>
       <Route path="/" exact component={Home} />
       <Route path="/about/" component={About} />
-      <Route path="/portfolio/" component={Portfolio} />
+      <Route path="/portfolio/work" component={Portfolio} />
       <Route path="/blog/" component={Blog} />
       <Route path="/contact/" component={Contact} />
       </main>
