@@ -40,7 +40,7 @@ class App extends Component {
       <Route path="/contact/" component={Contact} />
       </main>
 
-      <footer>©2019 SandyChiu.com All rights reserved.</footer>
+      <footer className="d-flex justify-content-center">©2019 SandyChiu.com All rights reserved.</footer>
 
       </div>
       </Router>

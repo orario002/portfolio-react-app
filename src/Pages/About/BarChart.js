@@ -2,7 +2,7 @@ import React, {Component} from "react";
 
 function BarGroup(props) {
     let barPadding = 5;
-    let barColour = '#ffc800';
+    let barColour = '#999';
     let widthScale = d => d * 5;
 
     let width = widthScale(props.d.value);
