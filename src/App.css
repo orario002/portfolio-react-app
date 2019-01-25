@@ -208,12 +208,13 @@ ul {
 .blog__post {
   margin: 3rem 1rem;
   width: 25%;
-  -webkit-box-shadow: 9px 9px 20px 0px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 9px 9px 20px 0px rgba(0, 0, 0, 0.4);
-  box-shadow: 9px 9px 20px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
 }
 .blog__topImg {
   max-width: 100%;
+  margin: 1rem 0;
 }
 .blog__content {
   padding: 0.8rem;

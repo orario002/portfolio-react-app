@@ -34,7 +34,7 @@ class BarChart extends Component {
             <BarGroup d={d} barHeight={barHeight} />
         </g>);
 
-        return <svg width="800" height="300" >
+        return <svg className="col-6" width="800" height="300">
             <g className="container">
                 <text className="title" x="10" y="30">Design Tools</text>
                 <g className="chart" transform="translate(100,60)">

@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Col} from "reactstrap";
 import BarChart from "./About/BarChart";
+import SimplePieChart from "./About/SimplePieChart";
 
 const JSON = {
     am: {
@@ -34,6 +35,7 @@ class About extends Component {
     return (
         <div>
             <BarChart />
+            <SimplePieChart />
           <div className="row">
               {Object.keys(JSON).map(key => (
                   <Col xs="12" sm="6" md="4" className={"p-4"}>

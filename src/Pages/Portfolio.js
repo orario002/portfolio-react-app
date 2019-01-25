@@ -13,10 +13,10 @@ class Portfolio extends Component {
                 <div>
                     <ul>
                         <li>
-                            <Link to="/portfolio/work/">Website</Link>
+                            <Link to="/portfolio/work/">Websites</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio/gallery/">Drawing</Link>
+                            <Link to="/portfolio/gallery/">Illustration</Link>
                         </li>
                         <li>
                             <Link to="/portfolio/photography/">Photography</Link>
