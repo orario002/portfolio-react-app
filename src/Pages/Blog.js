@@ -67,9 +67,9 @@ class Blog extends Component {
                     Posts go here
                 </ul>
                 {/*<ul class="blog__counter">*/}
-                    {/*<li class="blog__counterItem blog__counterItem-active"></li>*/}
-                    {/*<li class="blog__counterItem"></li>*/}
-                    {/*<li class="blog__counterItem"></li>*/}
+                {/*<li class="blog__counterItem blog__counterItem-active"></li>*/}
+                {/*<li class="blog__counterItem"></li>*/}
+                {/*<li class="blog__counterItem"></li>*/}
                 {/*</ul>*/}
             </section>
         )

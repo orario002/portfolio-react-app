@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Col} from "reactstrap";
 import BarChart from "./About/BarChart";
-import SimplePieChart from "./About/SimplePieChart";
+import PieChart from "./About/PieChart";
 
 const JSON = {
     am: {
@@ -31,22 +31,24 @@ const JSON = {
 };
 
 class About extends Component {
-  render() {
-    return (
-        <div>
-            <BarChart />
-            <SimplePieChart />
-          <div className="row">
-              {Object.keys(JSON).map(key => (
-                  <Col xs="12" sm="6" md="4" className={"p-4"}>
-                      <h3 className="title">{JSON[key].title}</h3>
-                          <p className="description">{JSON[key].text}</p>
-                  </Col>
-              ))}
-          </div>
-        </div>
-    );
-  }
+    render() {
+        return (
+            <div>
+                <div className="row">
+                    <BarChart/>
+                    <PieChart/>
+                </div>
+                <div className="row">
+                    {Object.keys(JSON).map(key => (
+                        <Col xs="12" sm="6" md="4" className={"p-4"}>
+                            <h3 className="title">{JSON[key].title}</h3>
+                            <p className="description">{JSON[key].text}</p>
+                        </Col>
+                    ))}
+                </div>
+            </div>
+        );
+    }
 }
 
 export default About;
