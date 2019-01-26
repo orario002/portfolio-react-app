@@ -35,8 +35,8 @@ class About extends Component {
         return (
             <div>
                 <div className="row">
-                    <BarChart/>
                     <PieChart/>
+                    <BarChart/>
                 </div>
                 <div className="row">
                     {Object.keys(JSON).map(key => (
