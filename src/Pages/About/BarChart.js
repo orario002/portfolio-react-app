@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Col} from "reactstrap";
 
 function BarGroup(props) {
     let barPadding = 5;
@@ -34,14 +35,14 @@ class BarChart extends Component {
             <BarGroup d={d} barHeight={barHeight} />
         </g>);
 
-        return <svg className="col-6" width="800" height="300">
+        return <Col sm="12" md="6" ><svg width="800" height="300">
             <g className="container">
                 <text className="title" x="10" y="30">Design Tools</text>
                 <g className="chart" transform="translate(100,60)">
                     {barGroups}
                 </g>
             </g>
-        </svg>
+        </svg></Col>
     }
 }
 

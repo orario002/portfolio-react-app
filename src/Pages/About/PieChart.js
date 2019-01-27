@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import * as d3 from "d3";
+import {Col} from "reactstrap";
 
 const data = [1, 2, 3];
 const Slice = props => {
@@ -31,7 +32,7 @@ class PieChart extends Component {
         let pie = d3.pie()(data);
 
         return (
-            <div className="col-6">
+            <Col sm="12" md="6" >
                 <g>
                     {label.map((label, index) => {
                             return (
@@ -48,7 +49,7 @@ class PieChart extends Component {
                         <Slice pie={pie}/>
                     </g>
                 </svg>
-            </div>
+            </Col>
         );
     }
 }

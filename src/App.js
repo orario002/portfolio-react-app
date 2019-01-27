@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 
-import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
+import {BrowserRouter as Router, Route, Link, NavLink} from "react-router-dom";
 
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -10,42 +10,47 @@ import Contact from "./Pages/Contact";
 import Logo from "./Assets/brand/logo.svg";
 
 class App extends Component {
-  render() {
-    return (
-      <Router>
-      <div>
-      <nav>
-      <div>
-      <Link to="/"><img src={Logo} alt="logo" width="50" height="50"/></Link>
-      </div>
-      <div>
-      <Link to="/about/">About</Link>
-      </div>
-      <div>
-      <NavLink exact to="/portfolio/work/">Portfolio</NavLink>
-      </div>
-      <div>
-      <Link to="/blog/">Blog</Link>
-      </div>
-      <div>
-      <Link to="/contact/">Contact</Link>
-      </div>
-      </nav>
+    render() {
+        return (
+            <Router>
+                <div className="site">
+                    <div className="site-content">
+                        <header>
+                            <nav>
+                                <div>
+                                    <Link to="/"><img src={Logo} alt="logo" width="50" height="50"/></Link>
+                                </div>
+                                <div>
+                                    <Link to="/about/">About</Link>
+                                </div>
+                                <div>
+                                    <NavLink exact to="/portfolio/work/">Portfolio</NavLink>
+                                </div>
+                                <div>
+                                    <Link to="/blog/">Blog</Link>
+                                </div>
+                                <div>
+                                    <Link to="/contact/">Contact</Link>
+                                </div>
+                            </nav>
+                        </header>
 
-      <main>
-      <Route path="/" exact component={Home} />
-      <Route path="/about/" component={About} />
-      <Route path="/portfolio/work" component={Portfolio} />
-      <Route path="/blog/" component={Blog} />
-      <Route path="/contact/" component={Contact} />
-      </main>
+                        <main>
+                            <Route path="/" exact component={Home}/>
+                            <Route path="/about/" component={About}/>
+                            <Route path="/portfolio/work" component={Portfolio}/>
+                            <Route path="/blog/" component={Blog}/>
+                            <Route path="/contact/" component={Contact}/>
+                        </main>
+                    </div>
+                    <footer className="text-center">©2019 sandychiu.com All rights reserved.
+                    </footer>
 
-      <footer className="d-flex justify-content-center">©2019 sandychiu.com All rights reserved.</footer>
+                </div>
+            </Router>
 
-      </div>
-      </Router>
+        )
+    }
+};
 
-      )}
-    };
-
-    export default App;
+export default App;

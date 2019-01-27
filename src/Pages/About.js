@@ -10,19 +10,19 @@ const JSON = {
     },
     like: {
         title: 'I enjoy',
-        text: 'Design and make things, Traveling',
+        text: 'Design and make things',
     },
     career: {
-        title: 'Career path',
+        title: 'I want to be',
         text: 'Interaction designer, Product designer'
     },
     interest: {
         title: 'I am interested in',
-        text: 'Design, Technology, Art, Entrepreneurship'
+        text: 'Design, Technology, Art'
     },
     animal: {
-        title: 'What would I be if I were an animal',
-        text: 'Unicorn + Koala + Sloth'
+        title: 'What inspires me',
+        text: 'Traveling'
     },
     goal: {
         title: 'What motivates me',

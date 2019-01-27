@@ -33,9 +33,9 @@ class Blog extends Component {
             let output = '';
             posts.forEach((item) => {
                 output += `
-         <li class="blog__post col-3" >
+         <li class="blog__post col-md-3  col-12" >
             <a href="${item.link}">
-               <img src="${item.thumbnail}" class="blog__topImg"></img>
+               <img src="${item.thumbnail}" class="blog__topImg"/>
                <div class="blog__content">
                   <div class="blog_preview">
                      <h2 class="blog__title">${shortenText(item.title, 0, 100)}</h2>
