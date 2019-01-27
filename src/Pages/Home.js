@@ -14,7 +14,7 @@ class Home extends Component {
             <div>
                 <h1>
                     <div>Sandy Chiu</div>
-                    <div>UI Designer and Developer</div></h1>
+                    <div>UI / UX Designer</div></h1>
             </div>
         );
     }

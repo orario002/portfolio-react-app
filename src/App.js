@@ -21,10 +21,10 @@ class App extends Component {
                                     <NavLink to="/"><img src={Logo} alt="logo" width="50" height="50"/></NavLink>
                                 </div>
                                 <div>
-                                    <NavLink activeClassName="selected" to="/about/">About</NavLink>
+                                    <NavLink activeClassName="selected" exact to="/portfolio/work/">Portfolio</NavLink>
                                 </div>
                                 <div>
-                                    <NavLink activeClassName="selected" exact to="/portfolio/work/">Portfolio</NavLink>
+                                    <NavLink activeClassName="selected" to="/about/">About</NavLink>
                                 </div>
                                 <div>
                                     <NavLink activeClassName="selected" to="/blog/">Blog</NavLink>
@@ -43,7 +43,12 @@ class App extends Component {
                             <Route path="/contact/" component={Contact}/>
                         </main>
                     </div>
-                    <footer className="text-center">©2019 sandychiu.com All rights reserved.
+                    <footer className="d-flex justify-content-between">
+                        <span>©2019 sandychiu.com All rights reserved.</span>
+                        <span class="social-emoji">
+                        <a class="mr-2" target="_blank" href="https://www.instagram.com/sandychiuuu">📸</a>
+                            <a target="_blank" href="https://www.twitter.com/sandychiu">🐦</a>
+                        </span>
                     </footer>
 
                 </div>

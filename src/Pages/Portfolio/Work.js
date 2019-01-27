@@ -10,9 +10,7 @@ class Work extends React.Component {
                 {Object.keys(WorkData).map(key => (
                     <Col sm="12" md="6">
                         <div>
-                            <a href="#">
-                                <ModalPortfolio isOpen={this.props.isModalOpen} toggle={this.toggle}
-                                />
+                            <a target="_blank" href={WorkData[key].link}>
                                 <img src={WorkData[key].portfolioImage} alt={WorkData[key].name} key={key}/>
                             </a>
                         </div>

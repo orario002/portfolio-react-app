@@ -23,32 +23,35 @@ const Slice = props => {
 class PieChart extends Component {
 
     render() {
-        const height = 400;
-        const width = 400;
+        const height = 300;
+        const width = 200;
         const label = [
             {name: "UI/UX Designer", color: "#cc1e56"},
             {name: "Front-End Developer", color: "#da5460"},
-            {name: "Graphic Designer", color: "#e88267"},];
+            {name: "Graphic Designer", color: "#f4ac6f"},];
         let pie = d3.pie()(data);
 
         return (
-            <Col sm="12" md="6" >
-                <g>
+            <Col sm="12" md="6">
+                <g className="d-flex justify-content-center">
                     {label.map((label, index) => {
                             return (
-                                <text style={{display: "inline-flex", alignItems: "center"}}>
-                                    <div className="mr-2" style={{backgroundColor: label.color, width: "30px", height: "30px"}}></div>
+                                <text style={{display: "inline-flex"}}>
+                                    <div className="mr-2"
+                                         style={{backgroundColor: label.color, width: "30px", height: "30px"}}></div>
                                     <p className="mr-2">{label.name}</p>
                                 </text>
                             )
                         }
                     )}
                 </g>
+                <span className="d-flex justify-content-center align-items-center">
                 <svg height={height} width={width}>
                     <g transform={`translate(${width / 2},${height / 2})`}>
                         <Slice pie={pie}/>
                     </g>
                 </svg>
+                </span>
             </Col>
         );
     }

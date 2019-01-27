@@ -7,7 +7,7 @@ export const WorkData = {
     Sandy: {
         name: 'sandy',
         portfolioImage: `${Sandy}`,
-        link: 'http://sandychiu.co.uk',
+        link: '#',
     },
     Olivet: {
         name: 'olivet',

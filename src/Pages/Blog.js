@@ -34,7 +34,7 @@ class Blog extends Component {
             posts.forEach((item) => {
                 output += `
          <li class="blog__post col-md-3  col-12" >
-            <a href="${item.link}">
+            <a target="_blank" href="${item.link}">
                <img src="${item.thumbnail}" class="blog__topImg"/>
                <div class="blog__content">
                   <div class="blog_preview">
