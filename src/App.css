@@ -241,10 +241,10 @@ footer {
   min-height: 100vh;
 }
 .home main {
+  padding: 10rem;
   font-weight: 800;
   font-size: 3rem;
   text-align: center;
-  padding: 10rem;
 }
 .home main h1 {
   font-weight: 800;
@@ -263,4 +263,14 @@ footer {
 .contact a {
   font-family: 'Archivo Black', sans-serif;
   margin-left: 0.25rem;
+}
+@media only screen and (max-width: 600px) {
+  main,
+  .contact,
+  .home main {
+    padding: 1rem;
+  }
+  .sub-nav {
+    margin: 0 !important;
+  }
 }

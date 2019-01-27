@@ -58,10 +58,7 @@ class Blog extends Component {
         return (
             <section id="blog" class="blog">
                 <div class="blog__header">
-                    <p class="blog__header1">some of my</p>
-                    <h2 class="blog__header2">Medium
-                        <span class="blog__header2Span">posts</span>
-                    </h2>
+                    <h2 class="title">Medium posts</h2>
                 </div>
                 <ul class="blog__slider row">
                     Posts go here

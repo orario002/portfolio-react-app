@@ -34,6 +34,7 @@ img {
 ul {
   list-style: none;
   display: flex;
+
   li {
     margin-right: 2rem;
   }
@@ -260,13 +261,14 @@ footer {
 .home {
   background-color: @dark;
   color: white;
-  min-height:100vh;
+  min-height: 100vh;
 
   main {
+    padding: 10rem;
     font-weight: 800;
     font-size: 3rem;
     text-align: center;
-    padding: 10rem;
+
     h1 {
       font-weight: 800;
     }
@@ -284,6 +286,7 @@ footer {
 
 .contact {
   padding: 10rem;
+
   a {
     font-family: 'Archivo Black', sans-serif;
     margin-left: 0.25rem;
@@ -291,6 +294,14 @@ footer {
 }
 
 
+@media only screen and (max-width: 600px) {
+  main, .contact, .home main {
+    padding: 1rem;
+  }
+  .sub-nav {
+    margin: 0 !important;
+  }
+}
 
 
 

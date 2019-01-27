@@ -9,10 +9,10 @@ const JSON = {
     Sandy: {
         name: 'sandy',
         portfolioImage: `${Sandy}`,
-        link: 'http://sandychiu.co.uk'
+        link: 'http://sandychiu.co.uk',
     },
     Olivet: {
-        name:'olivet',
+        name: 'olivet',
         portfolioImage: `${Olivet}`,
         link: 'http://olivet.me',
     },
@@ -34,9 +34,10 @@ class Work extends React.Component {
             <div className="row">
                 {Object.keys(JSON).map(key => (
                     <Col sm="12" md="6">
-                        <p>{JSON[key].link}</p>
                         <div>
-                        <img src={JSON[key].portfolioImage} alt={JSON[key].name} key={key} />
+                            <a href={JSON[key].link}>
+                                <img src={JSON[key].portfolioImage} alt={JSON[key].name} key={key}/>
+                            </a>
                         </div>
                     </Col>
                 ))}

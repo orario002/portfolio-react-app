@@ -11,7 +11,7 @@ class Portfolio extends Component {
         return (
             <Router>
                 <div>
-                    <ul className="m-4">
+                    <ul className="m-4 sub-nav">
                         <li>
                             <NavLink activeClassName="selected" to="/portfolio/work/">Websites</NavLink>
                         </li>

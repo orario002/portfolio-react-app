@@ -34,10 +34,8 @@ class About extends Component {
     render() {
         return (
             <div>
-                <div className="row">
-                    <PieChart/>
-                    <BarChart/>
-                </div>
+                <h2 className="title text-center m-4">What Would Unicorn Do<span role="img"
+                                                                                    aria-label="unicorn">🦄</span></h2>
                 <div className="row">
                     {Object.keys(JSON).map(key => (
                         <Col xs="12" sm="6" md="4" className={"p-4"}>
@@ -45,6 +43,10 @@ class About extends Component {
                             <p className="description">{JSON[key].text}</p>
                         </Col>
                     ))}
+                </div>
+                <div className="row">
+                    <PieChart/>
+                    <BarChart/>
                 </div>
             </div>
         );
