@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-import {BrowserRouter as Router, Route, Link, Switch} from "react-router-dom";
+import {BrowserRouter as Router, Route, NavLink, Switch} from "react-router-dom";
 
 import Work from "./Portfolio/Work"
 import Gallery from "./Portfolio/Gallery"
@@ -11,15 +11,15 @@ class Portfolio extends Component {
         return (
             <Router>
                 <div>
-                    <ul>
+                    <ul className="m-4">
                         <li>
-                            <Link to="/portfolio/work/">Websites</Link>
+                            <NavLink activeClassName="selected" to="/portfolio/work/">Websites</NavLink>
                         </li>
                         <li>
-                            <Link to="/portfolio/gallery/">Illustration</Link>
+                            <NavLink activeClassName="selected" to="/portfolio/gallery/">Illustration</NavLink>
                         </li>
                         <li>
-                            <Link to="/portfolio/photography/">Photography</Link>
+                            <NavLink activeClassName="selected" to="/portfolio/photography/">Photography</NavLink>
                         </li>
                     </ul>
                     <main>

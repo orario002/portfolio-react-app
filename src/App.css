@@ -59,6 +59,9 @@ ul {
 ul li {
   margin-right: 2rem;
 }
+main {
+  padding: 2rem;
+}
 /* Nav */
 nav {
   font-weight: 300;
@@ -72,6 +75,9 @@ nav a {
   color: #fff;
   text-decoration: none;
   margin-right: 1rem;
+}
+.selected {
+  font-family: 'Archivo Black', sans-serif;
 }
 /* Sticky footer */
 :root {
@@ -99,6 +105,10 @@ footer {
   padding: 20px;
   background: lightsalmon;
   color: white;
+  font-weight: 300;
+}
+.title {
+  font-size: 1.4em;
   font-weight: 300;
 }
 /* Blog */
@@ -195,10 +205,6 @@ footer {
   display: flex;
 }
 /* BarChart */
-.title {
-  font-size: 1.4em;
-  font-weight: 300;
-}
 .bar-group .name-label {
   text-anchor: end;
   font-weight: 300;
@@ -246,4 +252,15 @@ footer {
 .home nav,
 .home footer {
   background-color: #29292e;
+}
+/* Form */
+.form-center {
+  margin: 0 auto;
+}
+.contact {
+  padding: 10rem;
+}
+.contact a {
+  font-family: 'Archivo Black', sans-serif;
+  margin-left: 0.25rem;
 }

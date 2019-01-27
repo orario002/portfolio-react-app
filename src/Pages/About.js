@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Col} from "reactstrap";
-import BarChart from "./About/BarChart";
-import PieChart from "./About/PieChart";
+import BarChart from "../Component/BarChart";
+import PieChart from "../Component/PieChart";
 
 const JSON = {
     am: {

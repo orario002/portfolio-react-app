@@ -18,19 +18,19 @@ class App extends Component {
                         <header>
                             <nav>
                                 <div>
-                                    <Link to="/"><img src={Logo} alt="logo" width="50" height="50"/></Link>
+                                    <NavLink to="/"><img src={Logo} alt="logo" width="50" height="50"/></NavLink>
                                 </div>
                                 <div>
-                                    <Link to="/about/">About</Link>
+                                    <NavLink activeClassName="selected" to="/about/">About</NavLink>
                                 </div>
                                 <div>
-                                    <NavLink exact to="/portfolio/work/">Portfolio</NavLink>
+                                    <NavLink activeClassName="selected" exact to="/portfolio/work/">Portfolio</NavLink>
                                 </div>
                                 <div>
-                                    <Link to="/blog/">Blog</Link>
+                                    <NavLink activeClassName="selected" to="/blog/">Blog</NavLink>
                                 </div>
                                 <div>
-                                    <Link to="/contact/">Contact</Link>
+                                    <NavLink activeClassName="selected" to="/contact/">Contact</NavLink>
                                 </div>
                             </nav>
                         </header>

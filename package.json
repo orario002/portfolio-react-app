@@ -6,6 +6,7 @@
     "@amcharts/amcharts4": "^4.0.22",
     "@typeform/embed": "^0.6.1",
     "amcharts": "^3.14.5",
+    "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
     "d3": "^5.7.0",
     "jquery": "^1.9.1",
