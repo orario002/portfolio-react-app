@@ -43,10 +43,6 @@
   font-weight: 800;
   src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN8rsOUuhs.ttf) format('truetype');
 }
-/* Body */
-body {
-  font-size: 16px;
-}
 /* Variables */
 a,
 a:hover {
@@ -241,22 +237,22 @@ footer {
 /* Background */
 .home {
   /*background-color: #29292e;*/
-  color: black;
+  /*color: white;*/
   min-height: 100vh;
 }
 .home main {
   padding: 10rem;
   /*font-weight: 800;*/
   /*font-size: 3rem;*/
-  /*text-align: center;*/
+  text-align: center;
 }
 .home main h1 {
   font-weight: 800;
 }
-/*.home nav,*/
-/*.home footer {*/
-  /*background-color: #29292e;*/
-/*}*/
+.home nav,
+.home footer {
+  background-color: #29292e;
+}
 /* Form */
 .form-center {
   margin: 0 auto;
@@ -284,7 +280,13 @@ text.title {
 .social-emoji {
   font-size: 1.5rem;
 }
-.icon-large {
-  width: 50px;
-  Height: 50px;
+.img-crop {
+  object-fit: cover;
+}
+.icon {
+  object-fit: contain;
+  padding: 1.25rem;
+}
+.title {
+  font-weight: 800;
 }
