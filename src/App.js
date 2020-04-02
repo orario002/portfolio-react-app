@@ -44,7 +44,7 @@ class App extends Component {
                         </main>
                     </div>
                     <footer className="d-flex justify-content-between">
-                        <span>©2019 sandychiu.com All rights reserved.</span>
+                        <span>©2020 sandychiu.com All rights reserved. Written in ReactJs.</span>
                         <span class="social-emoji">
                         <a class="mr-2" target="_blank" href="https://www.instagram.com/sandychiuuu">📸</a>
                             <a target="_blank" href="https://www.twitter.com/sandychiu">🐦</a>

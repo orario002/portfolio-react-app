@@ -17,31 +17,35 @@
   font-family: 'Archivo Black';
   font-style: normal;
   font-weight: 400;
-  src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'), url(https://fonts.gstatic.com/s/archivoblack/v8/HTxqL289NzCGg4MzN6KJ7eW6CYyF-w.ttf) format('truetype');
+  src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'), url(https://fonts.gstatic.com/s/archivoblack/v9/HTxqL289NzCGg4MzN6KJ7eW6CYyF-w.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhs.ttf) format('truetype');
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhs.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf) format('truetype');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 800;
-  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuhs.ttf) format('truetype');
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN8rsOUuhs.ttf) format('truetype');
+}
+/* Body */
+body {
+  font-size: 16px;
 }
 /* Variables */
 a,
@@ -236,23 +240,23 @@ footer {
 }
 /* Background */
 .home {
-  background-color: #29292e;
-  color: white;
+  /*background-color: #29292e;*/
+  color: black;
   min-height: 100vh;
 }
 .home main {
   padding: 10rem;
-  font-weight: 800;
-  font-size: 3rem;
-  text-align: center;
+  /*font-weight: 800;*/
+  /*font-size: 3rem;*/
+  /*text-align: center;*/
 }
 .home main h1 {
   font-weight: 800;
 }
-.home nav,
-.home footer {
-  background-color: #29292e;
-}
+/*.home nav,*/
+/*.home footer {*/
+  /*background-color: #29292e;*/
+/*}*/
 /* Form */
 .form-center {
   margin: 0 auto;
@@ -279,4 +283,8 @@ text.title {
 }
 .social-emoji {
   font-size: 1.5rem;
+}
+.icon-large {
+  width: 50px;
+  Height: 50px;
 }
