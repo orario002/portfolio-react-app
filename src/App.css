@@ -240,12 +240,6 @@ footer {
   /*color: white;*/
   min-height: 100vh;
 }
-.home main {
-  padding: 10rem;
-  /*font-weight: 800;*/
-  /*font-size: 3rem;*/
-  text-align: center;
-}
 .home main h1 {
   font-weight: 800;
 }

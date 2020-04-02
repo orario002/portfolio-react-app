@@ -18,7 +18,7 @@ class App extends Component {
                         <header>
                             <nav className="d-flex justify-content-between">
                                 <div>
-                                    <NavLink to="/"><img src={Logo} alt="logo" width="50" height="50"/>Sandy Chiu | Product Designer</NavLink>
+                                    <NavLink to="/"><img src={Logo} alt="logo" width="50" height="50"/></NavLink><span>Sandy Chiu, Product Designer in London</span>
                                 </div>
                                 <div>
                                     <NavLink activeClassName="selected" exact to="/portfolio/work/">Portfolio</NavLink>
@@ -39,17 +39,15 @@ class App extends Component {
                     </div>
                     <footer className="d-flex justify-content-between align-items-center">
                         <div>
-                        <span>©2020 sandychiu.com All rights reserved.</span>
+                        <span>©2020 sandychiu.com All rights reserved. Made with React.</span>
                         </div>
                         <div>
-                        <span className="mr-2">Built in ReactJs.</span>
                         <span class="social-emoji">
                         <a class="mr-2" target="_blank" href="https://www.instagram.com/sandychiuuu">📸</a>
                             <a target="_blank" href="https://www.twitter.com/sandychiu">🐦</a>
                         </span>
                         </div>
                     </footer>
-
                 </div>
             </Router>
 
