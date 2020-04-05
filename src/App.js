@@ -44,10 +44,8 @@ class App extends Component {
                         </div>
                         <div>
                             <div>
-                                <div><a target="_blank" href="mailto:hello@sandychiu.com">hello@sandychiu.com</a></div>
-                                <div><a className="mr-2" target="_blank"
-                                        href="https://www.instagram.com/sandychiuuu">Instagram</a></div>
-                                <div><a target="_blank" href="https://www.twitter.com/sandychiu">Twitter</a></div>
+                                <a className="pr-2" target="_blank" href="mailto:hello@sandychiu.com">Email</a>•
+                                <a className="pl-2 mr-2" target="_blank" href="https://linkedin.com/in/sandychiuuu/">Linkedin</a>
                             </div>
                         </div>
                     </footer>
