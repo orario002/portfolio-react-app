@@ -6,12 +6,12 @@ import AboutData from "../Data/AboutData";
 class About extends Component {
     render() {
         return (
-            <div className="container">
-                <Row className="m-3">
-                    <Col xs={12} lg={6}><img className="profile rounded-circle"
+            <div>
+                <Row className="m-5">
+                    <Col xs={12} md={4}><img className="profile rounded-circle"
                                              src={AboutData.profile.myImage}/>
                     </Col>
-                    <Col xs={12} lg={6}>
+                    <Col xs={12} md={8}>
                         {Object.keys(AboutData).map(key => (
                             <div>
                                 <p>{AboutData[key].paragraph}</p>

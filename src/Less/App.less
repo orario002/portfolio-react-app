@@ -13,20 +13,29 @@
  *
  */
 @import '~bootstrap/dist/css/bootstrap.css';
-@import url('https://fonts.googleapis.com/css?family=Helvetica+Neue:300,400,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Open+Sans:wght@300;400;700');
 
 /* Variables */
 
-@primary: #04B4AE;
+@primary: #59B9C6;
 @secondary: lightsalmon;
 @dark: #29292e;
 @white: #fff;
 @black: #000;
 
-body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 100;
+h1 {
+  font-size: 2rem;
 }
+
+h2 {
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
 a, a:hover {
   color: inherit;
   text-decoration: none;
@@ -39,7 +48,10 @@ img {
 ul {
   list-style: none;
   display: flex;
-
+  &.tags {
+    list-style: disc;
+    flex-direction: column;
+  }
   li {
     margin-right: 2rem;
   }
@@ -97,11 +109,16 @@ nav {
 footer {
   padding: 20px;
   font-weight: 300;
+  font-size: 0.85rem;
 }
 
 .title {
-  font-size: 1.4rem;
-  font-weight: 200;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  font-weight: 800;
+  a {
+    font-size: 1.5rem;
+  }
 }
 
 /* Blog */
@@ -140,7 +157,7 @@ footer {
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: left
   }
 
   &__post {
@@ -285,14 +302,10 @@ footer {
   .sub-nav {
     margin: 0 !important;
   }
-}
 
-text.title {
-  font-weight: 800;
-}
-
-.social-emoji {
-  font-size: 1.5rem;
+  nav {
+    flex-direction: column;
+  }
 }
 
 .icon-large {
@@ -304,10 +317,10 @@ text.title {
   object-fit: cover;
 }
 
-img-coverphoto {
-  object-fit: none;
+.img-coverphoto {
+  object-fit: cover;
   padding: 1.25rem;
-  object-position: -20% 0;
+  margin: 0 auto;
 }
 
 .icon {
@@ -317,4 +330,26 @@ img-coverphoto {
 
 .title {
   font-weight: 800;
+  text-align: center;
+}
+
+.brand {
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  margin-top: auto;
+  &.btn-primary {
+    background: @primary;
+    border-radius: 0;
+    border: none;
+    color: @dark;
+    &:hover {
+      background: @dark;
+      color: @primary;
+    }
+  }
 }

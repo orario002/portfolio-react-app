@@ -1,31 +1,28 @@
-import NFS from "../Assets/portfolio/portfolio_nfs_create-application.png";
-import Puma from "../Assets/portfolio/portfolio_puma_in-progress.png";
-import Adobe from "../Assets/portfolio/portfolio_adobe-b2b_generator_basic-info.png";
+import Camelot from "../Assets/portfolio/portfolio_camelot.png";
+import HSBC from "../Assets/portfolio/portfolio_hsbc.png";
+import Ensemble from "../Assets/portfolio/portfolio_ensemble.png";
 
 export const DevelopData = {
-    NFS: {
-        name: 'New Forms Solution',
-        portfolioImage: `${NFS}`,
-        link: '',
-        "title": 'New Forms Solutions (Ensemble)',
-        "description": 'A web portal designed to manage digitalised forms and streamline insurance and banking application process.',
-        "tag": 'Experience and Visual Design'
+    Camelot: {
+        "name": 'Camelot',
+        "portfolioImage": `${Camelot}`,
+        "title": 'Irish Perimium Lottery',
+        "description": 'Agile software development with Adobe running in sprints.',
+        "tags": ['Front-end Development', 'Adobe Experience Manager (content management system)']
     },
-    Puma: {
-        name: 'Puma',
-        portfolioImage: `${Puma}`,
-        link: '',
-        "title": 'Puma Adobe Illustrator Plugin',
-        "description": 'A customised Adobe Illustrator plugin integrates with Puma’s web based application for an improved digital design workflow.\n',
-        "tag": 'Experience and Visual Design'
+    HSBC: {
+        "name": 'HSBC',
+        "portfolioImage": `${HSBC}`,
+        "title": 'HSBC Forms Portal',
+        "description": 'Digitalised form management portal for internal staff.',
+        "tags": ['Front-end Development', 'React.js', 'Adobe Experience Manager (content management system)']
     },
-    Adobe: {
-        name: 'Adobe',
-        portfolioImage: `${Adobe}`,
-        link: '',
-        "title": 'We Business Microsite Builder (Adobe)',
-        "description": 'A microsite builder prototype offering B2B solution with Adobe Experience Manager (content management system)',
-        "tag": 'Experience and Visual Design'
+    Ensemble: {
+        "name": 'Ensemble',
+        "portfolioImage": `${Ensemble}`,
+        "title": 'Ensemble UK Website',
+        "description": 'Redesign and develop company website with remote team in Vancouver.',
+        "tags": ['Front-end Development', 'Angular.js', 'Adobe Experience Manager (content management system)']
     },
 };
 

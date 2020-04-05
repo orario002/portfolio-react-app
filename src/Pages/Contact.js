@@ -11,7 +11,7 @@ class Contact extends React.Component {
                 <p className="text-center mb-4">You can find me on
                     <a target="_blank" className="text-decoration-underline"
                        href="https://linkedin.com/in/sandychiuuu/">Linkedin</a>,
-                    <a target="_blank" href="https://behance.net/ChingYuChiu">Dribbble</a>,
+                    <a target="_blank" href="https://dribbble.com/sandychiu">Dribbble</a>,
                     <a target="_blank" href="https://github.com/orario002">github</a>,
                     or drop me an <a href="mailto:hello@sandychiu.com">Email</a>
                 </p>

@@ -33,7 +33,7 @@ class Blog extends Component {
             let output = '';
             posts.forEach((item) => {
                 output += `
-         <li class="blog__post col-md-3  col-12" >
+         <li class="blog__post col-md-4  col-xs-12" >
             <a target="_blank" href="${item.link}">
                <img src="${item.thumbnail}" class="blog__topImg"/>
                <div class="blog__content">

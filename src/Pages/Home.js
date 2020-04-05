@@ -13,13 +13,14 @@ class Home extends Component {
 
     render() {
         return (
-            <div class="container">
+            <div>
                 <div class="header m-5">
-                    <h1 className="pb-3">Hi I’m Sandy, a digital product designer based in London.</h1>
+                    <h1 className="pb-3">Hi I’m <span className="brand">Sandy</span>, a digital product designer based
+                        in London.</h1>
                     <h2 className="pb-3">Specialising in Experience Design and Visual Design.</h2>
                 </div>
-                <div class="content m-5">
-                   <Row>
+                <div class="content m-5 d-flex flex-column align-items-center">
+                    <Row>
                         {Object.keys(SkillsData).map(key => (
                             <Col lg={3} sm={12}>
                                 <div className="d-flex justify-content-center">
@@ -28,7 +29,8 @@ class Home extends Component {
                                 <p>{SkillsData[key].content}</p>
                             </Col>
                         ))}
-                   </Row>
+                    </Row>
+                    <button className="btn btn-primary"><a href="./portfolio/design/">See my work</a></button>
                 </div>
             </div>
         );

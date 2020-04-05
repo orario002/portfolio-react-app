@@ -14,27 +14,45 @@
  */
 @import '~bootstrap/dist/css/bootstrap.css';
 @font-face {
-  font-family: 'Helvetica Neue';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Helvetica Neue Light'), local('HelveticaNeue-Light'), url(https://fonts.gstatic.com/l/font?kit=jAncgHBgCsv4eNLTaMECf8DQsNwQWQWTXmg&skey=94b5a6be98cdd9eb&v=v9) format('truetype');
-}
-@font-face {
-  font-family: 'Helvetica Neue';
+  font-family: 'Caveat';
   font-style: normal;
   font-weight: 400;
-  src: local('Helvetica Neue'), local('HelveticaNeue'), url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS7exU&skey=4ad46dd97873f7d7&v=v9) format('truetype');
+  src: local('Caveat Regular'), local('Caveat-Regular'), url(https://fonts.gstatic.com/s/caveat/v7/Wnz6HAc5bAfYB2QLYQ.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Helvetica Neue';
+  font-family: 'Caveat';
   font-style: normal;
   font-weight: 700;
-  src: local('Helvetica Neue Bold'), local('HelveticaNeue-Bold'), url(https://fonts.gstatic.com/l/font?kit=jAncgHBgCsv4eNLTaMECf8DQsNwAXgWTXmg&skey=ba59c4fdb0ab3b35&v=v9) format('truetype');
+  src: local('Caveat Bold'), local('Caveat-Bold'), url(https://fonts.gstatic.com/s/caveat/v7/Wnz5HAc5bAfYB2Qz3RM9og.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8-VQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-U1Ug.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rg-VQ.ttf) format('truetype');
 }
 /* Variables */
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 a,
 a:hover {
@@ -47,6 +65,10 @@ img {
 ul {
   list-style: none;
   display: flex;
+}
+ul.tags {
+  list-style: disc;
+  flex-direction: column;
 }
 ul li {
   margin-right: 2rem;
@@ -95,10 +117,15 @@ nav a {
 footer {
   padding: 20px;
   font-weight: 300;
+  font-size: 0.85rem;
 }
 .title {
-  font-size: 1.4rem;
-  font-weight: 200;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.title a {
+  font-size: 1.5rem;
 }
 /* Blog */
 .blog {
@@ -131,7 +158,7 @@ footer {
   padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
 }
 .blog__post {
   border-radius: 5px;
@@ -247,12 +274,9 @@ footer {
   .sub-nav {
     margin: 0 !important;
   }
-}
-text.title {
-  font-weight: 800;
-}
-.social-emoji {
-  font-size: 1.5rem;
+  nav {
+    flex-direction: column;
+  }
 }
 .icon-large {
   width: 50px;
@@ -261,10 +285,10 @@ text.title {
 .img-crop {
   object-fit: cover;
 }
-img-coverphoto {
-  object-fit: none;
+.img-coverphoto {
+  object-fit: cover;
   padding: 1.25rem;
-  object-position: -20% 0;
+  margin: 0 auto;
 }
 .icon {
   object-fit: contain;
@@ -272,4 +296,24 @@ img-coverphoto {
 }
 .title {
   font-weight: 800;
+  text-align: center;
+}
+.brand {
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+}
+.btn {
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  margin-top: auto;
+}
+.btn.btn-primary {
+  background: #59B9C6;
+  border-radius: 0;
+  border: none;
+  color: #29292e;
+}
+.btn.btn-primary:hover {
+  background: #29292e;
+  color: #59B9C6;
 }

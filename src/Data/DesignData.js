@@ -7,9 +7,9 @@ export const DesignData = {
         name: 'New Forms Solution',
         portfolioImage: `${NFS}`,
         link: '',
-        "title": 'New Forms Solutions (Ensemble)',
+        "title": 'New Forms Solutions',
         "description": 'A web portal designed to manage digitalised forms and streamline insurance and banking application process.',
-        "tag": 'Experience and Visual Design'
+        "tags": ['Experience Design', 'Visual Design']
     },
     Puma: {
         name: 'Puma',
@@ -17,15 +17,15 @@ export const DesignData = {
         link: '',
         "title": 'Puma Adobe Illustrator Plugin',
         "description": 'A customised Adobe Illustrator plugin integrates with Puma’s web based application for an improved digital design workflow.\n',
-        "tag": 'Experience and Visual Design'
+        "tags": ['Experience Design', 'Visual Design']
     },
     Adobe: {
         name: 'Adobe',
         portfolioImage: `${Adobe}`,
         link: '',
-        "title": 'We Business Microsite Builder (Adobe)',
+        "title": 'We Business Microsite Builder',
         "description": 'A microsite builder prototype offering B2B solution with Adobe Experience Manager (content management system)',
-        "tag": 'Experience and Visual Design'
+        "tags": ['Experience Design', 'Visual Design']
     },
 };
 
