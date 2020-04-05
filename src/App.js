@@ -39,7 +39,7 @@ class App extends Component {
                     </div>
                     <footer className="d-flex justify-content-between align-items-center">
                         <div>
-                        <span>©2020 sandychiu.com All rights reserved. Made with React.</span>
+                        <span>©2020 coded in ReactJs by Sandy Chiu.</span>
                         </div>
                         <div>
                         <span class="social-emoji">

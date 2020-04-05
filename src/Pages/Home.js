@@ -13,15 +13,12 @@ class Home extends Component {
 
     render() {
         return (
-            <div>
+            <div class="container">
                 <div class="header m-5">
-                    <h1 className="mb-2 text-center">
-                        <div>Sandy Chiu</div>
-                        <div>Product Designer</div>
-                    </h1>
-                    <h2 className="mb-5 text-center">Experience Design & Visual Design</h2>
+                    <h1 className="pb-3">Hi I’m Sandy, a digital product designer based in London.</h1>
+                    <h2 className="pb-3">Specialised in Experience Design and Visual Design.</h2>
                 </div>
-                <div class="content">
+                <div class="content m-5">
                    <Row>
                         {Object.keys(SkillsData).map(key => (
                             <Col lg={3} sm={12}>
