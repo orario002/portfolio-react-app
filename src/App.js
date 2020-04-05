@@ -7,7 +7,6 @@ import About from "./Pages/About";
 import Portfolio from "./Pages/Portfolio";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
-import Logo from "./Assets/brand/hexagon.png";
 
 class App extends Component {
     render() {
