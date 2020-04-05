@@ -66,6 +66,10 @@ nav a {
   text-decoration: none;
   margin-right: 1rem;
 }
+.selected {
+  font-weight: 800;
+  border-bottom: 5px solid black;
+}
 /* Sticky footer */
 :root {
   --space: 1.5em 0;
@@ -231,6 +235,7 @@ footer {
   padding: 10rem;
 }
 .contact a {
+  font-weight: 800;
   margin-left: 0.25rem;
 }
 @media only screen and (max-width: 600px) {
@@ -242,6 +247,9 @@ footer {
   .sub-nav {
     margin: 0 !important;
   }
+}
+text.title {
+  font-weight: 800;
 }
 .social-emoji {
   font-size: 1.5rem;

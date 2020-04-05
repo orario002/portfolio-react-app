@@ -3,7 +3,7 @@ import {Col} from "reactstrap";
 import ModalPortfolio from "../../Component/ModalPortfolio"
 import WorkData from "../../Data/WorkData"
 
-class Work extends React.Component {
+class Design extends React.Component {
     render() {
         return (
             <div className="row">
@@ -24,4 +24,4 @@ class Work extends React.Component {
 }
 
 
-export default Work;
+export default Design;

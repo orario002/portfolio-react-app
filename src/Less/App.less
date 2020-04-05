@@ -21,6 +21,7 @@
 @secondary: lightsalmon;
 @dark: #29292e;
 @white: #fff;
+@black: #000;
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -51,12 +52,10 @@ main {
 /* Nav */
 nav {
   font-weight: 300;
-  //background-color: @primary;
   padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  //color: @white;
   a {
     text-decoration: none;
     margin-right: 1rem;
@@ -64,7 +63,8 @@ nav {
 }
 
 .selected {
-  //font-family: 'Archivo Black', sans-serif;
+  font-weight: 800;
+  border-bottom: 5px solid black;
 }
 
 /* Sticky footer */
@@ -96,8 +96,6 @@ nav {
 
 footer {
   padding: 20px;
-  //background: @secondary;
-  //color: white;
   font-weight: 300;
 }
 
@@ -274,7 +272,7 @@ footer {
   padding: 10rem;
 
   a {
-    //font-family: 'Archivo Black', sans-serif;
+    font-weight: 800;
     margin-left: 0.25rem;
   }
 }
@@ -290,7 +288,7 @@ footer {
 }
 
 text.title {
-  //font-family: 'Archivo Black', sans-serif;
+  font-weight: 800;
 }
 
 .social-emoji {

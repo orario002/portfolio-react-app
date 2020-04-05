@@ -21,7 +21,7 @@ class App extends Component {
                                     <NavLink to="/"><img src={Logo} alt="logo" width="50" height="50"/></NavLink><span>Sandy Chiu, Product Designer in London</span>
                                 </div>
                                 <div>
-                                    <NavLink activeClassName="selected" exact to="/portfolio/work/">Portfolio</NavLink>
+                                    <NavLink activeClassName="selected" exact to="/portfolio/design/">Portfolio</NavLink>
                                     <NavLink activeClassName="selected" to="/about/">About</NavLink>
                                     <NavLink activeClassName="selected" to="/blog/">Blog</NavLink>
                                     <NavLink activeClassName="selected" to="/contact/">Contact</NavLink>
@@ -32,7 +32,7 @@ class App extends Component {
                         <main>
                             <Route path="/" exact component={Home}/>
                             <Route path="/about/" component={About}/>
-                            <Route path="/portfolio/work" component={Portfolio}/>
+                            <Route path="/portfolio/design" component={Portfolio}/>
                             <Route path="/blog/" component={Blog}/>
                             <Route path="/contact/" component={Contact}/>
                         </main>
