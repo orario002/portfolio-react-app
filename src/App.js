@@ -18,7 +18,7 @@ class App extends Component {
                         <header>
                             <nav className="d-flex justify-content-between">
                                 <div>
-                                    <NavLink to="/"><img src={Logo} alt="logo" width="50" height="50"/></NavLink><span>Sandy Chiu, Product Designer in London</span>
+                                    <NavLink to="/"><img src={Logo} alt="logo" width="50" height="50"/></NavLink><span>Sandy Chiu</span>
                                 </div>
                                 <div>
                                     <NavLink activeClassName="selected" exact to="/portfolio/design/">Portfolio</NavLink>

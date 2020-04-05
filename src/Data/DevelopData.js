@@ -2,7 +2,7 @@ import NFS from "../Assets/portfolio/portfolio_nfs_create-application.png";
 import Puma from "../Assets/portfolio/portfolio_puma_in-progress.png";
 import Adobe from "../Assets/portfolio/portfolio_adobe-b2b_generator_basic-info.png";
 
-export const WorkData = {
+export const DevelopData = {
     NFS: {
         name: 'New Forms Solution',
         portfolioImage: `${NFS}`,
@@ -29,4 +29,4 @@ export const WorkData = {
     },
 };
 
-export default WorkData;
+export default DevelopData;

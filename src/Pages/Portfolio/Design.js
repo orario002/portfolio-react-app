@@ -1,19 +1,19 @@
 import React from "react";
 import {Col} from "reactstrap";
 import ModalPortfolio from "../../Component/ModalPortfolio"
-import WorkData from "../../Data/WorkData"
+import DesignData from "../../Data/DesignData"
 
 class Design extends React.Component {
     render() {
         return (
             <div className="row">
-                {Object.keys(WorkData).map(key => (
+                {Object.keys(DesignData).map(key => (
                     <Col sm="12" md="4">
                         <div>
-                            <a target="_blank" href={WorkData[key].link}>
-                                <img className="img-coverphoto" src={WorkData[key].portfolioImage} alt={WorkData[key].name} key={key} height={500}/>
-                                <h2>{WorkData[key].title}</h2>
-                                <p>{WorkData[key].description}</p>
+                            <a target="_blank" href={DesignData[key].link}>
+                                <img className="img-coverphoto" src={DesignData[key].portfolioImage} alt={DesignData[key].name} key={key} height={500}/>
+                                <h2>{DesignData[key].title}</h2>
+                                <p>{DesignData[key].description}</p>
                             </a>
                         </div>
                     </Col>

@@ -16,7 +16,7 @@ class Home extends Component {
             <div class="container">
                 <div class="header m-5">
                     <h1 className="pb-3">Hi I’m Sandy, a digital product designer based in London.</h1>
-                    <h2 className="pb-3">Specialised in Experience Design and Visual Design.</h2>
+                    <h2 className="pb-3">Specialising in Experience Design and Visual Design.</h2>
                 </div>
                 <div class="content m-5">
                    <Row>
