@@ -13,7 +13,6 @@
  *
  */
 @import '~bootstrap/dist/css/bootstrap.css';
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/font-awesome.min.css');
 @font-face {
   font-family: 'Caveat';
   font-style: normal;
@@ -64,8 +63,11 @@ img {
   max-width: 100%;
 }
 ul {
-  list-style: none;
   display: flex;
+}
+ul .nav,
+ul.sub-nav {
+  list-style: none;
 }
 ul.tags {
   list-style: disc;
@@ -321,4 +323,12 @@ footer {
 .btn.btn-primaryfocus-within {
   background: #29292e;
   color: #59B9C6;
+}
+.banner__hero {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  background: #29292e;
+  padding: 2rem;
+  background-image: linear-gradient(#000, #29292e);
 }

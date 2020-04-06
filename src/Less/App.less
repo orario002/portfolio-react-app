@@ -18,7 +18,6 @@
 /* Variables */
 
 @primary: #59B9C6;
-@secondary: lightsalmon;
 @dark: #29292e;
 @white: #fff;
 @black: #000;
@@ -46,7 +45,9 @@ img {
 }
 
 ul {
-  list-style: none;
+  .nav, &.sub-nav {
+    list-style: none;
+  }
   display: flex;
   &.tags {
     list-style: disc;
@@ -351,5 +352,16 @@ footer {
       background: @dark;
       color: @primary;
     }
+  }
+}
+
+.banner {
+  &__hero {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    background: @dark;
+    padding: 2rem;
+    background-image: linear-gradient(@black, @dark);
   }
 }

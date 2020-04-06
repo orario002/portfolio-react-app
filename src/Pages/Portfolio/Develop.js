@@ -15,8 +15,6 @@ class Develop extends React.Component {
                                 return <li className="tags" key={index}>{value}</li>
                             })}</ul>
                         </div>
-                        {/*<button className="btn btn-primary"><a href={DevelopData[key].link}>Read*/}
-                            {/*more</a></button>*/}
                     </Col>
                 ))}
             </div>

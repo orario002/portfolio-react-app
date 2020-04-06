@@ -6,6 +6,8 @@ class Adobe extends React.Component {
         return (
             <div className="row container">
                 <h1>Adobe B2B</h1>
+                <button className="btn btn-primary"><a href="/portfolio/design/nfs">Previous</a></button>
+                <button className="btn btn-primary"><a href="/portfolio/design/puma">Next</a></button>
             </div>
         );
     }
