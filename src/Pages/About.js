@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, Link} from "react";
 import {Col, Row} from "reactstrap";
 import InterestsData from "../Data/InterestsData";
 import AboutData from "../Data/AboutData";
@@ -12,11 +12,16 @@ class About extends Component {
                                              src={AboutData.profile.myImage}/>
                     </Col>
                     <Col xs={12} md={8}>
+                        <div class="pb-2">
                         {Object.keys(AboutData).map(key => (
                             <div>
                                 <p>{AboutData[key].paragraph}</p>
                             </div>
                         ))}
+                        </div>
+                        <div className="">
+                        <button className="btn btn-primary"><a href={AboutData.profile.myResume}>Resume</a></button>
+                        </div>
                     </Col>
                 </Row>
                 <Row className="m-3">

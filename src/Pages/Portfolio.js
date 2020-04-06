@@ -2,8 +2,16 @@ import React, {Component} from "react";
 
 import {BrowserRouter as Router, Route, NavLink, Switch} from "react-router-dom";
 
-import Design from "./Portfolio/Design"
+
+//Design projects
+import Design from "./Portfolio/Design";
+import NFS from "./Portfolio/Design/NFS";
+import Puma from "./Portfolio/Design/Puma";
+import Adobe from "./Portfolio/Design/Adobe";
+
+//Develop projects
 import Develop from "./Portfolio/Develop"
+
 
 class Portfolio extends Component {
     render() {
@@ -21,6 +29,9 @@ class Portfolio extends Component {
                     <main>
                         <Switch>
                             <Route exact path="/portfolio/design/" component={Design}/>
+                            <Route exact path="/portfolio/design/NFS" component={NFS}/>
+                            <Route exact path="/portfolio/design/Puma" component={Puma}/>
+                            <Route exact path="/portfolio/design/Adobe" component={Adobe}/>
                             <Route path="/portfolio/develop/" component={Develop}/>
                         </Switch>
                     </main>

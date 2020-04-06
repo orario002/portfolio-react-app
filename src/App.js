@@ -24,7 +24,7 @@ class App extends Component {
                                     <NavLink activeClassName="selected" exact
                                              to="/portfolio/design/">Portfolio</NavLink>
                                     <NavLink activeClassName="selected" to="/about/">About</NavLink>
-                                    <NavLink activeClassName="selected" to="/blog/">Blog</NavLink>
+                                    <NavLink activeClassName="selected" to="/blog/">Writing</NavLink>
                                     <NavLink activeClassName="selected" to="/contact/">Contact</NavLink>
                                 </div>
                             </nav>

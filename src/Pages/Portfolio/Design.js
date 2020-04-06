@@ -1,5 +1,6 @@
 import React from "react";
 import {Col} from "reactstrap";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 import ModalPortfolio from "../../Component/ModalPortfolio"
 import DesignData from "../../Data/DesignData"
 
@@ -16,8 +17,8 @@ class Design extends React.Component {
                                 return <li key={index}>{value}</li>
                             })}</ul>
                         </div>
-                        <button className="btn btn-primary"><a href={DesignData[key].link}>Read
-                            more</a></button>
+                        <button className="btn btn-primary"><Link to={DesignData[key].link}>Read
+                            more</Link></button>
                     </Col>
                 ))}
             </div>
