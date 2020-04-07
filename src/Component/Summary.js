@@ -2,6 +2,7 @@ import React from 'react';
 import {Col, Row} from 'reactstrap';
 
 class Summary extends React.Component {
+    // Dynamically Render Elements https://www.freecodecamp.org/forum/t/use-array-map-to-dynamically-render-elements/198828
     render() {
         const tools = this.props.tools.map(function (tool) {
             return <li> {tool} </li>;

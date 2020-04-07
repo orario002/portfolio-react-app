@@ -13,7 +13,7 @@
  *
  */
 @import '~bootstrap/dist/css/bootstrap.css';
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Open+Sans:wght@300;400;700');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Open+Sans:wght@300;400;600;700;800');
 
 /* Variables */
 
@@ -113,13 +113,17 @@ footer {
   font-size: 0.85rem;
 }
 
-.title {
+h1.title, h2.title {
   font-family: 'Caveat', cursive;
   font-size: 1.5rem;
   font-weight: 800;
   a {
     font-size: 1.5rem;
   }
+}
+
+h3.title {
+  text-align: left;
 }
 
 /* Blog */
@@ -363,5 +367,16 @@ footer {
     background: @dark;
     padding: 2rem;
     background-image: linear-gradient(@black, @dark);
+  }
+}
+
+.imageText {
+  margin-bottom: 2rem;
+  h3 {
+    padding-bottom: 1rem;
+    font-weight: 600;
+  }
+  p {
+    padding-bottom: 2rem;
   }
 }

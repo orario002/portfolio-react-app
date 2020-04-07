@@ -40,8 +40,20 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirk-VQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
   font-weight: 700;
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rg-VQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN8rs-VQ.ttf) format('truetype');
 }
 /* Variables */
 h1 {
@@ -120,13 +132,18 @@ footer {
   font-weight: 300;
   font-size: 0.85rem;
 }
-.title {
+h1.title,
+h2.title {
   font-family: 'Caveat', cursive;
   font-size: 1.5rem;
   font-weight: 800;
 }
-.title a {
+h1.title a,
+h2.title a {
   font-size: 1.5rem;
+}
+h3.title {
+  text-align: left;
 }
 /* Blog */
 .blog {
@@ -329,4 +346,14 @@ footer {
   background: #29292e;
   padding: 2rem;
   background-image: linear-gradient(#000, #29292e);
+}
+.imageText {
+  margin-bottom: 2rem;
+}
+.imageText h3 {
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.imageText p {
+  padding-bottom: 2rem;
 }
