@@ -16,48 +16,45 @@ class ImageText extends React.Component {
 
         if (imagePosition === left) {
             return (
-                <div className="imageText">
-                    <Row>
-                        <Col xs={12} md={6}><img src={this.props.src} alt={this.props.name}/></Col>
-                        <Col xs={12} md={6}>
-                            <h3>{this.props.title}</h3>
-                            <p className="pb-5">{this.props.description}</p></Col>
-                    </Row>
-                </div>
+                <Row className="imageText imageText--wrapper">
+                    <Col xs={12} md={6} className="img-wrapper"><img src={this.props.src} alt={this.props.name}/></Col>
+                    <Col xs={12} md={6}>
+                        <h3>{this.props.title}</h3>
+                        <p className="pb-5">{this.props.description}</p></Col>
+                </Row>
             )
         }
         if (imagePosition === right) {
             return (
-                <div className="imageText">
-                    <Row>
+                <Row className="imageText imageText--wrapper">
                         <Col xs={12} md={6}>
                             <h3>{this.props.title}</h3>
                             <p>{this.props.description}</p></Col>
-                        <Col xs={12} md={6}><img src={this.props.src} alt={this.props.name}/></Col>
-                    </Row>
-                </div>
+                        <Col xs={12} md={6} className="img-wrapper"><img src={this.props.src}
+                                                                         alt={this.props.name}/></Col>
+                </Row>
             )
         }
         if (imagePosition === top) {
             return (
-                <div className="imageText">
-                    <Row>
-                        <img src={this.props.src} alt={this.props.name}/></Row>
-                    <Row>
+                <Row className="imageText imageText--wrapper">
+                    <Col xs={12} className="img-wrapper">
+                        <img src={this.props.src} alt={this.props.name}/></Col>
+                    <Col xs={12}>
                         <h3>{this.props.title}</h3>
                         <p>{this.props.description}</p>
-                    </Row>
-                </div>
+                    </Col>
+                </Row>
             )
         }
         if (imagePosition === bottom) {
             return (
-                <div className="imageText">
-                    <Row>
+                <Row className="imageText imageText--wrapper">
+                    <Col xs={12}>
                         <h3>{this.props.title}</h3>
-                        <p>{this.props.description}</p></Row>
-                    <Row xs={12}><img src={this.props.src} alt={this.props.name}/></Row>
-                </div>
+                        <p>{this.props.description}</p></Col>
+                    <Col xs={12}><img src={this.props.src} alt={this.props.name}/></Col>
+                </Row>
             )
         }
 

@@ -348,12 +348,21 @@ h3.title {
   background-image: linear-gradient(#000, #29292e);
 }
 .imageText {
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 .imageText h3 {
+  padding-top: 2rem;
   padding-bottom: 1rem;
   font-weight: 600;
 }
 .imageText p {
   padding-bottom: 2rem;
+}
+.imageText .row {
+  padding-bottom: 1rem;
+}
+.imageText--wrapper {
+  justify-content: center;
+  align-items: center;
 }
