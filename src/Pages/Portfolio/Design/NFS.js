@@ -8,11 +8,11 @@ import NfsData from "../../../Data/NfsData"
 class NFS extends React.Component {
     render() {
         return (
-            <div className="row container">
+            <Row className="container">
                 <Banner title={NfsData.hero.title} intro={NfsData.hero.intro} img={NfsData.hero.img}/>
-                <Summary overview={NfsData.summary.overview} time={NfsData.summary.time} tools={NfsData.summary.tools} role={NfsData.summary.role} team={NfsData.summary.team}/>
+                <Summary overview={NfsData.summary.overview} time={NfsData.summary.time} tools={NfsData.summary.tools} roles={NfsData.summary.roles} teams={NfsData.summary.teams}/>
                 <button className="btn btn-primary"><a href="/portfolio/design/adobe">Next</a></button>
-            </div>
+            </Row>
         );
     }
 }

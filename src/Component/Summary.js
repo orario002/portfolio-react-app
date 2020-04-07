@@ -3,9 +3,16 @@ import {Col, Row} from 'reactstrap';
 
 class Summary extends React.Component {
     render() {
-            const tools = this.props.tools.map(function(tool){
-                return <li> {tool} </li>;
-            });
+        const tools = this.props.tools.map(function (tool) {
+            return <li> {tool} </li>;
+        });
+        const roles = this.props.roles.map(function (role) {
+            return <li> {role} </li>;
+        });
+        const teams = this.props.teams.map(function (team) {
+            return <li> {team} </li>;
+        });
+
         return (
             <div className="summary p-5">
                 <Row>
@@ -22,29 +29,19 @@ class Summary extends React.Component {
                     </Col>
                     <Col md={6} xs={12}>
                         <strong>Tools</strong>
-                        <ul>
-                                {tools}
-                        </ul>
+                        <ul>{tools}</ul>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                         <strong>Role</strong>
-                        <ul>
-                            <li>
-                                {this.props.role}
-                            </li>
-                        </ul>
+                        <ul>{roles}</ul>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                         <strong>Team</strong>
-                        <ul>
-                            <li>
-                                {this.props.team}
-                            </li>
-                        </ul>
+                        <ul>{teams}</ul>
                     </Col>
                 </Row>
             </div>

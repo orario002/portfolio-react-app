@@ -62,12 +62,10 @@ a:hover {
 img {
   max-width: 100%;
 }
-ul {
-  display: flex;
-}
 ul .nav,
 ul.sub-nav {
   list-style: none;
+  display: flex;
 }
 ul.tags {
   list-style: disc;
