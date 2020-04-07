@@ -49,10 +49,12 @@ ul {
     list-style: none;
     display: flex;
   }
+
   &.tags {
     list-style: disc;
     flex-direction: column;
   }
+
   li {
     margin-right: 2rem;
   }
@@ -69,6 +71,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+
   a {
     text-decoration: none;
     margin-right: 1rem;
@@ -117,6 +120,7 @@ h1.title, h2.title {
   font-family: 'Caveat', cursive;
   font-size: 1.5rem;
   font-weight: 800;
+
   a {
     font-size: 1.5rem;
   }
@@ -347,11 +351,13 @@ h3.title {
   padding: 0.75rem;
   font-size: 0.85rem;
   margin-top: auto;
+
   &.btn-primary {
     background: @primary;
     border-radius: 0;
     border: none;
     color: @dark;
+
     &:hover, &:focus, &:active, &:visited, &focus-within {
       background: @dark;
       color: @primary;
@@ -370,22 +376,32 @@ h3.title {
   }
 }
 
+// ImageText Component
 .imageText {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+
   h3 {
     padding-top: 2rem;
     padding-bottom: 1rem;
     font-weight: 600;
   }
+
   p {
     padding-bottom: 2rem;
   }
+
   .row {
     padding-bottom: 1rem;
   }
+
   &--wrapper {
     justify-content: center;
     align-items: center;
   }
+}
+
+// Full Width
+.full-width {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+
 }
