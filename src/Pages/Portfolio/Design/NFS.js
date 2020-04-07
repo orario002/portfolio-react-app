@@ -12,6 +12,7 @@ class NFS extends React.Component {
         return (
             <Row className="container">
                 <Banner title={NfsData.banner.title} intro={NfsData.banner.intro} img={NfsData.banner.img}/>
+                <button className="btn btn-primary"><a href="/portfolio/design/adobe">Next</a></button>
                 <Summary overview={NfsData.summary.overview} time={NfsData.summary.time} tools={NfsData.summary.tools}
                          roles={NfsData.summary.roles} teams={NfsData.summary.teams}/>
                 <ImageText imagePosition="left" src={NfsData.process.src} alt={NfsData.process.name} title={NfsData.process.title} description={NfsData.process.description}/>
@@ -22,7 +23,6 @@ class NFS extends React.Component {
                 <ImageText imagePosition="right" src={NfsData.style.src} alt={NfsData.style.name} title={NfsData.style.title} description={NfsData.style.description}/>
                 <ImageText imagePosition="left" src={NfsData.component.src} alt={NfsData.component.name} title={NfsData.component.title} description={NfsData.component.description}/>
                 <Outcome title={NfsData.outcome.title} description={NfsData.outcome.description} deliveries={NfsData.outcome.deliveries} lesson={NfsData.outcome.lesson}/>
-                <button className="btn btn-primary"><a href="/portfolio/design/adobe">Next</a></button>
             </Row>
         );
     }
