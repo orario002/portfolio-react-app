@@ -3,8 +3,11 @@ import {Col, Row} from 'reactstrap';
 
 class Summary extends React.Component {
     render() {
+            const tools = this.props.tools.map(function(tool){
+                return <li> {tool} </li>;
+            });
         return (
-            <div>
+            <div className="summary p-5">
                 <Row>
                     <Col>
                         <strong>Overview</strong>
@@ -20,9 +23,7 @@ class Summary extends React.Component {
                     <Col md={6} xs={12}>
                         <strong>Tools</strong>
                         <ul>
-                            <li>
-                                {this.props.tools}
-                            </li>
+                                {tools}
                         </ul>
                     </Col>
                 </Row>
