@@ -1,75 +1,78 @@
-import Banner from "../Assets/portfolio/portfolio_nfs_create-application.png";
-import Process from "../Assets/portfolio/portfolio_nfs_process.png";
-import Workshop from "../Assets/portfolio/portfolio_nfs_user-journey.png";
-import Research from "../Assets/portfolio/portfolio_nfs_empathy-map.png";
-import Empathy from "../Assets/portfolio/portfolio_nfs_empathy-map.png";
-import Journey from "../Assets/portfolio/portfolio_nfs_user-journey.png";
-import Style from "../Assets/portfolio/portfolio_nfs_user-journey.png";
-import Component from "../Assets/portfolio/portfolio_nfs_user-journey.png";
+import Banner from "../Assets/portfolio/portfolio_adobe-b2b_generator_mockup.png";
+import Process from "../Assets/portfolio/portfolio_adobe_ux_process.png";
+import Interview from "../Assets/portfolio/portfolio_adobe_stakeholder_interview.png";
+import User from "../Assets/portfolio/portfolio_adobe-b2b_user-story.png";
+import Flow from "../Assets/portfolio/portfolio_adobe-b2b_userflow_notation.png";
+import Wireframe from "../Assets/portfolio/portfolio_adobe_form_paper_wireframe.png";
+import Annotation from "../Assets/portfolio/portfolio_adobe-b2b_wireframe_notation.png";
+import Theme from "../Assets/portfolio/portfolio_adobe-b2b_generator_theme.png";
+import Logo from "../Assets/portfolio/portfolio_adobe-b2b_webusiness_logo.png"
 
 export const AdobeData = {
     banner: {
         name: 'Hero Banner',
-        title: 'A web portal to manage digitalised forms and streamline insurance application process.',
-        intro: 'We designed a web portal for enterprise and small businesses to manage form filling and approving process, using smart Adobe Experience Manager technology. To generate forms into PDFs and manage applications in the web portal we created. This is a minimum variable product for pitching to potential clients, who might be interest in customise this product with their brand.',
+        title: 'A microsite builder prototype offering B2B solution with Adobe Experience Manager, to create simple webpages effortlessly.',
+        intro: 'Designed for our partner Adobe to demonstrate how businesses can utilise Adobe Experience Manager’s smart technology to quickly build microsites. Without technical knowledge, anyone from organisation can simply fill out a form to generate basic webpages using default templates.',
         img: `${Banner}`
     },
     summary: {
-        overview: 'New Forms Solution by Ensemble is a minimum viable product designed to provide digital form transformation solutions. Our experiences in banking and insurance sectors, have introduced us a large amount of paper forms to digitalise in transformation and we would like this product to change customer experiences for our clients.',
-        time: 'Jul 8 to Aug 23, 2019',
-        tools: ['Sketch', 'Invision'],
-        roles: ['Lead UX Designer', 'Visual Designer', 'Front-end Developer'],
-        teams: ['Project manager, Software developer', 'Product manager', 'Technical lead', 'QA']
+        logo: `${Logo}`,
+        overview: 'We Business by our partner Adobe is a prototype built to demonstrate Adobe Experience Manager technologies. Microsite builder is a prototype designed to allow business to fill forms to generate basic web pages without technical knowledge. With the abilities to implement with their own customised theme and brand.',
+        time: 'Mar 4 to Mar 22, 2019 (3 weeks)',
+        tools: ['Adobe XD', 'Zeplin'],
+        roles: ['UX Designer', 'Visual Designer'],
+        teams: ['Software Developer', 'Project Manager']
     },
     process: {
         name: 'UX process',
         src: `${Process}`,
-        title: 'Led UX design with cross-functional teams in the design and development process, from validating concept to demonstrating product to executives.',
-        description: 'We used discovery workshops to brainstorm high level vision of the product. To find out what the pain points might be, and who are the potential users, we conducted a competitive analysis. After presenting my findings to the team, we had more specific details about out potential users and what might they use it for. This information helped us to iterate user flows, wireframes, and interactive prototypes.'
-    },
-    discovery: {
-        name: 'Workshop',
-        src: `${Workshop}`,
-        title: 'Bringing in a team of variety experiences, to brainstorm what it takes to build a minimum viable form portal product.',
-        description: 'I facilitated workshops with the project team, including project manager, product manager, designer, and technical lead. We collaborated to identify high level product vision and initial requirements, using a combination of white boards, card sorting, and sticky notes. To build share understandings, we created user stories together in the workshops to focus on user needs. It helped us in discussions and iterating user flows and journeys later on.'
-    },
-    research: {
-        name: 'Research',
-        src: `${Research}`,
-        title: 'After analysing user reviews from our competitors, we learnt users want less hassle to integrate the form manager that is user friendly.',
-        description: 'From analysing competitors’ reviews, I learnt what ticks their boxes such as a form product being user friendly, affordable, and being able to customise conditional logic and integration. As well as what can be improved such as technical issues, varieties of styles themes, and easy to integrates with current systems. Our new product could aim to help users fulfil their goals among some common user cases, including event registration, internal forms for organisations or contact forms etc. according to our research. '
-    },
-    empathy: {
-        name: 'Empathy Map',
-        src: `${Empathy}`,
-        title: 'Empathy maps help users like Chris to achieve their goals quickly create and manage applications. It allows them to focus on other important tasks they might have.',
+        title: 'I was the solo UX designer on this 3 week project covered user user flow, wire-framing and prototyping.',
         description: ''
     },
-    journey: {
-        name: 'User Journey',
-        src: `${Journey}`,
-        title: 'Demonstrated user flows with technical team and the stakeholders to ensure we share the same vision before the design phase.',
-        description: 'After brainstorming sessions and research, I worked with the technical team to refine user flows by having discussions and challenging any gaps. There are two different roles: one as an admin user who creates and manages the application (for example Chris the sales executive from the empathy map); and a customer who completes the application by filling out and sign forms.'
+    interview: {
+        name: 'Stakeholder Interview',
+        src: `${Interview}`,
+        title: 'After interviewing with stakeholders we got to understand the the context of the project.',
+        description: ''
     },
-    style: {
-        name: 'Style Guide',
-        src: `${Style}`,
-        title: 'Display status of elements when interaction happens.',
-        description: 'Having a centralised approach for common elements such as button, input field that showcases how different status in visual design. It does not just help my design process also can help communication with front-end development and reduce confusion.'
+    user: {
+        name: 'User Story',
+        src: `${User}`,
+        title: '3 B2B client personas emerged from the initial research.',
+        description: 'Adobe presented us with user stories we later used to produce user flows and iterate the designs. From small to large scale of businesses, they would require different level of complexity to produce a microsite for their brand and products. We identified the major difference will be either it is a small business or a larger business, depends on how many equipments they have.'
+    },
+    flow: {
+        name: 'User Flow',
+        src: `${Flow}`,
+        title: 'Select business type to generate microsite depends on its complexity.',
+        description: 'Through discussions with the technical team and the stakeholders, we came to agreement of two main user flows. A user will choose which business types they have when fill out the information, it then automatically generate either simpler or more complicated webpages using default microsite templates.'
+    },
+    wireframe: {
+        name: 'Paper Wireframe',
+        src: `${Wireframe}`,
+        title: 'Use forms to collect basic company information, save data and inject to webpage templates.',
+        description: 'I collaborated with the cross-functional team between London and North America, to identify key user flows and evolve the prototype with various design iterations. Started with wireframing on pen and paper because it is quick and flexible for putting ideas together.'
+    },
+    annotation: {
+        name: 'Annotation',
+        src: `${Annotation}`,
+        title: 'Designing sections in bite size to make the process of filling out a form as easy as possible.',
+        description: 'Because our target users are not technically trained, we want the builder to be as simple and straightforward as possible. Visually we ensure to use clear language, and align text to the left so it is easier to read. It divided into sections general, product, services, and finally allowing them to preview before the pages are created.'
 
     },
-    component: {
-        name: 'Component',
-        src: `${Component}`,
-        title: 'I structure my visual designs in Sketch, suggesting how it can be built into components in the development phase.',
+    theme: {
+        name: 'Theme',
+        src: `${Theme}`,
+        title: 'I structure my visual designs in Sketch, suggesting how it can be built into components in the development phase.Defined design style guide and UI elements to maintain consistency in theme.',
+        description: 'We chose a neutral green colour theme to speak to the target audience in the agriculture industry, it complements with the shades of grey so it’s easier on the eyes. A style guide with colour palette, typography and UI elements are created and shared among the team, developers then can utilise this information to advance front-end development. I also ensure the design files are modularised in symbol they can later develop as components.'
     },
     outcome: {
-        title: 'Interaction in this application is the most challenging areas, we spent a lot of time refine the user flows.',
-        description: 'Taking in part of both design and development process, helped me to understand the technical constraints and was able to immediate communicate interactions with technical team. It helped me to fill the gaps in my designs.',
-        deliveries: ['70 screens were designed in Sketch and exported to Invision for development.',
-            'Minimum viable product were built with the development team.',
-            'Demonstrated to executives and other teams in both London and Vancouver offices.'],
-        lesson: 'We learned validation with users are the keys to clarify user flows and finding gap in designs. With limitation of time and budget, we were able to use resources within the company to smoke test and help us moving forward. Next time, I hope we\'ll have opportunities to invest more time and effort in usability testing as well as user interviews.'
+        title: 'Successfully tell product stories through prototyping.',
+        description: 'We were asked to make prototype within Adobe Experience Manager platform, developing using out-of-box component. As a designer, I have to be aware of this constraint and make sure the design fit in the category. This has helped reduce customisation and limit the time our developer spends to create this prototype.',
+        deliveries: ['High fidelity wireframes of microsite builder were developed into Interactive prototype.\n',
+            'Because the designs were based on out-of-box components in Adobe Experience Manager, the developers can build the components more efficiently.',
+            'Exported designs from Adobe XD to Zeplin for front-end developers to view specifications.'],
+        lesson: 'Before we can deliver clear messages through the prototype, we needed to speak to the stakeholders and understand the context of the project. It helps us to understand what matters to them. As a prototype we wanted to campaign product value whilst tell a good story to help potential client imagine using it.'
     }
 };
 

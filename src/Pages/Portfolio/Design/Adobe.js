@@ -20,12 +20,12 @@ class Adobe extends React.Component {
                 <Summary overview={data.summary.overview} time={data.summary.time} tools={data.summary.tools}
                          roles={data.summary.roles} teams={data.summary.teams}/>
                 <ImageText imagePosition="left" src={data.process.src} alt={data.process.name} title={data.process.title} description={data.process.description}/>
-                <ImageText imagePosition="right" src={data.discovery.src} alt={data.discovery.name} title={data.discovery.title} description={data.discovery.description}/>
-                <ImageText imagePosition="left" src={data.research.src} alt={data.research.name} title={data.research.title} description={data.research.description}/>
-                <ImageText imagePosition="right" src={data.empathy.src} alt={data.empathy.name} title={data.empathy.title} description={data.empathy.description}/>
-                <ImageText imagePosition="left" src={data.journey.src} alt={data.journey.name} title={data.journey.title} description={data.journey.description}/>
-                <ImageText imagePosition="right" src={data.style.src} alt={data.style.name} title={data.style.title} description={data.style.description}/>
-                <ImageText imagePosition="left" src={data.component.src} alt={data.component.name} title={data.component.title} description={data.component.description}/>
+                <ImageText imagePosition="right" src={data.interview.src} alt={data.interview.name} title={data.interview.title} description={data.interview.description}/>
+                <ImageText imagePosition="left" src={data.user.src} alt={data.user.name} title={data.user.title} description={data.user.description}/>
+                <ImageText imagePosition="right" src={data.flow.src} alt={data.flow.name} title={data.flow.title} description={data.flow.description}/>
+                <ImageText imagePosition="left" src={data.wireframe.src} alt={data.wireframe.name} title={data.wireframe.title} description={data.wireframe.description}/>
+                <ImageText imagePosition="right" src={data.annotation.src} alt={data.annotation.name} title={data.annotation.title} description={data.annotation.description}/>
+                <ImageText imagePosition="left" src={data.theme.src} alt={data.theme.name} title={data.theme.title} description={data.theme.description}/>
                 <Outcome title={data.outcome.title} description={data.outcome.description} deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
 
  </Row>
