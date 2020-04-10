@@ -1,11 +1,11 @@
 import Banner from "../Assets/portfolio/portfolio_nfs_create-application.png";
 import Process from "../Assets/portfolio/portfolio_nfs_process.png";
-import Workshop from "../Assets/portfolio/portfolio_nfs_user-journey.png";
-import Research from "../Assets/portfolio/portfolio_nfs_empathy-map.png";
+import Workshop from "../Assets/portfolio/portfolio_nfs_workshop.png";
+import Research from "../Assets/portfolio/portfolio_nfs_data.png";
 import Empathy from "../Assets/portfolio/portfolio_nfs_empathy-map.png";
 import Journey from "../Assets/portfolio/portfolio_nfs_user-journey.png";
-import Style from "../Assets/portfolio/portfolio_nfs_user-journey.png";
-import Component from "../Assets/portfolio/portfolio_nfs_user-journey.png";
+import Style from "../Assets/portfolio/portfolio_nfs_styleguide.png";
+import Component from "../Assets/portfolio/portfolio_nfs_sketch_symbols.png";
 
 export const NfsData = {
     banner: {
