@@ -6,6 +6,9 @@ import Empathy from "../Assets/portfolio/portfolio_nfs_empathy-map.png";
 import Journey from "../Assets/portfolio/portfolio_nfs_user-journey.png";
 import Style from "../Assets/portfolio/portfolio_nfs_styleguide.png";
 import Component from "../Assets/portfolio/portfolio_nfs_sketch_symbols.png";
+import PaperWireframe from "../Assets/portfolio/portfolio_nfs_wireframe_mobile_table.png";
+import WireframeFeatures from "../Assets/portfolio/portfolio_nfs_wireframe_notation_part1.png";
+import WireframeSteps from "../Assets/portfolio/portfolio_nfs_wireframe_notation_part2.png";
 
 export const NfsData = {
     banner: {
@@ -50,6 +53,22 @@ export const NfsData = {
         src: `${Journey}`,
         title: 'Demonstrated user flows with technical team and the stakeholders to ensure we share the same vision before the design phase.',
         description: 'After brainstorming sessions and research, I worked with the technical team to refine user flows by having discussions and challenging any gaps. There are two different roles: one as an admin user who creates and manages the application (for example Chris the sales executive from the empathy map); and a customer who completes the application by filling out and sign forms.'
+    },
+    paperWireframe: {
+        name: 'Paper Wireframe',
+        src: `${PaperWireframe}`,
+        title: 'Collaborated wireframe reviews to iterate and clarify user journeys.',
+        description: 'From the discovery workshops, we were able to escalate user flows to interface using paper wireframes. It allows us to quickly make any changes as soon as we spot any gaps in designs. We reviewed the wireframes and iterate changes, to ensure the journeys are as clear as we can. During this process I was able to remove any unnecessary steps, and getting feedback from other member who is less familiar with the project.'
+    },
+    wireframeFeatures: {
+        name: 'Wireframe features with Notation',
+        src: `${WireframeFeatures}`,
+        title: 'Our goal is make creating applications clearer and simpler so our users can get on with other more important tasks.',
+        description: 'We understand these administrational process can be rather dull for professionals like Chris. It is our goal to make their journey as easy as possible, and as painless as possible.'
+    },
+    wireframeSteps: {
+        name: 'Wireframe steps with Notation',
+        src: `${WireframeSteps}`,
     },
     style: {
         name: 'Style Guide',

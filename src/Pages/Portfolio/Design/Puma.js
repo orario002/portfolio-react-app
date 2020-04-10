@@ -6,14 +6,17 @@ import ImageText from "../../../Component/ImageText";
 import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/PumaData";
 
+const prev = "/portfolio/design/adobe";
+const next = "/portfolio/design/nfs";
+
 class Puma extends React.Component {
     render() {
         return (
             <Row className="container">
                 <h1>Puma</h1>
                 <Banner title={data.banner.title} intro={data.banner.intro} img={data.banner.img}/>
-                <button className="btn btn-primary"><a href="/portfolio/design/adobe">Previous</a></button>
-                <button className="btn btn-primary"><a href="/portfolio/design/nfs">Next</a></button>
+                <button className="btn btn-primary"><a href={prev}>Previous</a></button>
+                <button className="btn btn-primary"><a href={next}>Next</a></button>
                 <Summary overview={data.summary.overview} time={data.summary.time} tools={data.summary.tools}
                          roles={data.summary.roles} teams={data.summary.teams}/>
                 <ImageText imagePosition="left" src={data.process.src} alt={data.process.name} title={data.process.title} description={data.process.description}/>
