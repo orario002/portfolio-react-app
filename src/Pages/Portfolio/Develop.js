@@ -5,7 +5,7 @@ import DevelopData from "../../Data/DevelopData"
 class Develop extends React.Component {
     render() {
         return (
-            <div className="row container">
+            <div className="d-flex">
                 {Object.keys(DevelopData).map(key => (
                     <Col sm="12" md="4" className="d-flex justify-content-center flex-column align-items-start">
                         <img className="img-coverphoto" src={DevelopData[key].portfolioImage}

@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Link, NavLink} from "react-router-dom";
 
 import Home from "./Pages/Home";
@@ -29,7 +29,7 @@ class App extends Component {
                             </nav>
                         </header>
 
-                        <main className="container">
+                        <main>
                             <Route path="/" exact component={Home}/>
                             <Route path="/about/" component={About}/>
                             <Route path="/portfolio/design" component={Portfolio}/>

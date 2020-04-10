@@ -1,5 +1,4 @@
 import React from "react";
-import {Row} from "reactstrap";
 import Banner from "../../../Component/Banner";
 import Summary from "../../../Component/Summary";
 import ImageText from "../../../Component/ImageText";
@@ -12,7 +11,7 @@ const next = "/portfolio/design/nfs";
 class Puma extends React.Component {
     render() {
         return (
-            <Row className="container">
+            <div>
                 <h1>Puma</h1>
                 <Banner title={data.banner.title} intro={data.banner.intro} img={data.banner.img}/>
                 <button className="btn btn-primary"><a href={prev}>Previous</a></button>
@@ -26,7 +25,7 @@ class Puma extends React.Component {
                 <ImageText imagePosition="left" src={data.prototype.src} alt={data.prototype.name} title={data.prototype.title} description={data.prototype.description}/>
                 <ImageText imagePosition="right" src={data.annotation.src} alt={data.annotation.name} title={data.annotation.title} description={data.annotation.description}/>
                 <Outcome title={data.outcome.title} description={data.outcome.description} deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
-            </Row>
+            </div>
         );
     }
 }

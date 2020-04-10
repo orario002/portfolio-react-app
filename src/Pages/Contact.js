@@ -4,7 +4,7 @@ import ContactForm from "../Component/ContactForm";
 class Contact extends React.Component {
     render() {
         return (
-            <div className="contact">
+            <div className="contact container">
                 <h2 className="title text-center m-4">Come and say hello
                     <span role="img" aria-label="waving-hand">👋</span>
                 </h2>

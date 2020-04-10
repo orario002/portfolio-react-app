@@ -7,7 +7,7 @@ import DesignData from "../../Data/DesignData"
 class Design extends React.Component {
     render() {
         return (
-            <div className="row container">
+            <div className="d-flex">
                 {Object.keys(DesignData).map(key => (
                     <Col sm="12" md="4" className="d-flex justify-content-center flex-column align-items-start">
                         <img className="img-coverphoto" src={DesignData[key].portfolioImage}

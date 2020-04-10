@@ -20,6 +20,7 @@ import Zoom from "../Assets/icon/icon_zoom.png";
 
 export const AboutData = {
     profile: {
+        title: "Profile Picture",
         myImage: `${Profile}`,
         myJourney: `${Journey}`,
         myResume:`${Resume}`
