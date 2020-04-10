@@ -1,75 +1,70 @@
-import Banner from "../Assets/portfolio/portfolio_nfs_create-application.png";
-import Process from "../Assets/portfolio/portfolio_nfs_process.png";
-import Workshop from "../Assets/portfolio/portfolio_nfs_user-journey.png";
-import Research from "../Assets/portfolio/portfolio_nfs_empathy-map.png";
-import Empathy from "../Assets/portfolio/portfolio_nfs_empathy-map.png";
-import Journey from "../Assets/portfolio/portfolio_nfs_user-journey.png";
-import Style from "../Assets/portfolio/portfolio_nfs_user-journey.png";
-import Component from "../Assets/portfolio/portfolio_nfs_user-journey.png";
+import Banner from "../Assets/portfolio/portfolio_puma_mac.png";
+import Process from "../Assets/portfolio/portfolio_puma_process.png";
+import Persona from "../Assets/portfolio/portfolio_puma_persona.png";
+import FlowBefore from "../Assets/portfolio/portfolio_puma_user-flow_beore.png";
+import FlowAfter from "../Assets/portfolio/portfolio_puma_user-flow_after.png";
+import Wireframe from "../Assets/portfolio/portfolio_puma_wireframe_paper.png";
+import Prototype from "../Assets/portfolio/portfolio_puma_prototype.png";
+import Anotation from "../Assets/portfolio/portfolio_puma_notation.png";
 
 export const PumaData = {
     banner: {
         name: 'Hero Banner',
-        title: 'A web portal to manage digitalised forms and streamline insurance application process.',
-        intro: 'We designed a web portal for enterprise and small businesses to manage form filling and approving process, using smart Adobe Experience Manager technology. To generate forms into PDFs and manage applications in the web portal we created. This is a minimum variable product for pitching to potential clients, who might be interest in customise this product with their brand.',
+        title: 'Designing a new Adobe Illustrator plugin for graphic designers at Puma.',
+        intro: 'Design a custom Adobe Illustrator plugin that integrates with Puma’s content management system, which is a web based application. The integration will facilitate a creative workflow that does not need to step outside the Adobe creative cloud software in order to search and manage assets, either locally or on the server.',
         img: `${Banner}`
     },
     summary: {
-        overview: 'New Forms Solution by Ensemble is a minimum viable product designed to provide digital form transformation solutions. Our experiences in banking and insurance sectors, have introduced us a large amount of paper forms to digitalise in transformation and we would like this product to change customer experiences for our clients.',
-        time: 'Jul 8 to Aug 23, 2019',
-        tools: ['Sketch', 'Invision'],
-        roles: ['Lead UX Designer', 'Visual Designer', 'Front-end Developer'],
-        teams: ['Project manager, Software developer', 'Product manager', 'Technical lead', 'QA']
+        logo: '',
+        overview: 'The client asked us to design and build a software plugin, which will allow their design team to access digital assets without leaving their normal work applications, primarily the Adobe Creative Cloud Illustrator. Their motivation is to enhance work experiences and increase productivity.',
+        time: 'Aug 13 to Sep 27, 2018 (6 weeks)',
+        tools: ['Adobe XD', 'Overflow'],
+        roles: ['UX Designer', 'Visual Designer'],
+        teams: ['Technical team in Germany and Poland (client)', 'Developer and business analyst in Vancouver (internal)', 'Developer and project manager in London (internal)']
     },
     process: {
         name: 'UX process',
         src: `${Process}`,
-        title: 'Led UX design with cross-functional teams in the design and development process, from validating concept to demonstrating product to executives.',
-        description: 'We used discovery workshops to brainstorm high level vision of the product. To find out what the pain points might be, and who are the potential users, we conducted a competitive analysis. After presenting my findings to the team, we had more specific details about out potential users and what might they use it for. This information helped us to iterate user flows, wireframes, and interactive prototypes.'
+        title: 'Collaborated with teams across Europe and North America to understand technical restraints and requirements.',
+        description: 'To establish a mutual understanding of why this application is needed and for who, during the design process we worked within a cross-functional team in multiple time zones. Together we explored and challenged each other through discussing ideas, after several iterations we were able to export the designs for development and reviews.'
     },
-    discovery: {
-        name: 'Workshop',
-        src: `${Workshop}`,
-        title: 'Bringing in a team of variety experiences, to brainstorm what it takes to build a minimum viable form portal product.',
-        description: 'I facilitated workshops with the project team, including project manager, product manager, designer, and technical lead. We collaborated to identify high level product vision and initial requirements, using a combination of white boards, card sorting, and sticky notes. To build share understandings, we created user stories together in the workshops to focus on user needs. It helped us in discussions and iterating user flows and journeys later on.'
+    persona: {
+        name: 'Persona',
+        src: `${Persona}`,
+        title: 'Helping graphic designers like Jamie to increase productivity and have a better work experiences.',
+        description: 'We were introduced to the persona provided by client in the beginning of the project. This plugin will help graphic designers like Jamie to increase productivity, with its smooth integration between Adobe Illustrator and Puma’s CMS web application.'
     },
-    research: {
-        name: 'Research',
-        src: `${Research}`,
-        title: 'After analysing user reviews from our competitors, we learnt users want less hassle to integrate the form manager that is user friendly.',
-        description: 'From analysing competitors’ reviews, I learnt what ticks their boxes such as a form product being user friendly, affordable, and being able to customise conditional logic and integration. As well as what can be improved such as technical issues, varieties of styles themes, and easy to integrates with current systems. Our new product could aim to help users fulfil their goals among some common user cases, including event registration, internal forms for organisations or contact forms etc. according to our research. '
+    flow: {
+        name: 'User Flow',
+        src: `${FlowAfter}`,
+        title: 'To integrate current system with the plugin smoothly and create meaningful UI, we want to understand how does the main functions work.',
+        description: 'Reviewed requirements scope with Puma stakeholders to clarify flows, UX behaviour, and discussion of technical feasibility.'
     },
-    empathy: {
-        name: 'Empathy Map',
-        src: `${Empathy}`,
-        title: 'Empathy maps help users like Chris to achieve their goals quickly create and manage applications. It allows them to focus on other important tasks they might have.',
+    wireframe: {
+        name: 'Wireframe',
+        src: `${Wireframe}`,
+        title: 'Start with pen and paper to sketch wireframe and interactions.',
+        description: 'After we have solid understanding of the user, and what they are doing using the current content management system. We started to sketch and use it to further validate our ideas.'
+    },
+    prototype: {
+        name: 'Prototype',
+        src: `${Prototype}`,
+        title: 'After many iterations, it evolved from sketches to a high fidelity visual, with minimum styles to blend into the Adobe interface.',
+        description: 'I used Adobe XD to create wireframes and interactive prototypes to communicate the flow with the team. To help developers build on the high fidelity wireframes, I exported 37 screens for them to inspect the designs.'
+    },
+    annotation: {
+        name: 'Annotation',
+        src: `${Anotation}`,
+        title: 'TThis is a tool to allow designers to get their job done while remaining in Adobe Illustrator.',
         description: ''
     },
-    journey: {
-        name: 'User Journey',
-        src: `${Journey}`,
-        title: 'Demonstrated user flows with technical team and the stakeholders to ensure we share the same vision before the design phase.',
-        description: 'After brainstorming sessions and research, I worked with the technical team to refine user flows by having discussions and challenging any gaps. There are two different roles: one as an admin user who creates and manages the application (for example Chris the sales executive from the empathy map); and a customer who completes the application by filling out and sign forms.'
-    },
-    style: {
-        name: 'Style Guide',
-        src: `${Style}`,
-        title: 'Display status of elements when interaction happens.',
-        description: 'Having a centralised approach for common elements such as button, input field that showcases how different status in visual design. It does not just help my design process also can help communication with front-end development and reduce confusion.'
-
-    },
-    component: {
-        name: 'Component',
-        src: `${Component}`,
-        title: 'I structure my visual designs in Sketch, suggesting how it can be built into components in the development phase.',
-    },
     outcome: {
-        title: 'Interaction in this application is the most challenging areas, we spent a lot of time refine the user flows.',
-        description: 'Taking in part of both design and development process, helped me to understand the technical constraints and was able to immediate communicate interactions with technical team. It helped me to fill the gaps in my designs.',
-        deliveries: ['70 screens were designed in Sketch and exported to Invision for development.',
-            'Minimum viable product were built with the development team.',
-            'Demonstrated to executives and other teams in both London and Vancouver offices.'],
-        lesson: 'We learned validation with users are the keys to clarify user flows and finding gap in designs. With limitation of time and budget, we were able to use resources within the company to smoke test and help us moving forward. Next time, I hope we\'ll have opportunities to invest more time and effort in usability testing as well as user interviews.'
+        title: 'No two projects are the same, we worked as a team with our clients to solve problems.',
+        description: 'It was our first time to design and build an Adobe Illustrator plugin. Although the concept was new to us, we started the project with an open mind and willingness to learn. It was our ability to take it on quickly and not be afraid of asking questions has impressed our client.',
+        deliveries: ['An interactive prototype were created for demonstration.',
+            '37 screens were designed and hand over to developers.',
+            'Client were happy with the beta version and is available to test with users.'],
+        lesson: 'If there were more time and budget for this project, I would involved the target audience earlier on in the project to map out user journey, rather than relying on the persona given by the client. By having access with real users will also help us in testing and validation.'
     }
 };
 
