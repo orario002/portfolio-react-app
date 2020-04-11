@@ -4,6 +4,7 @@ import Summary from "../../../Component/Summary";
 import ImageText from "../../../Component/ImageText";
 import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/AdobeData";
+import {Button} from 'reactstrap';
 
 const prev = "/portfolio/design/nfs";
 const next = "/portfolio/design/puma";
@@ -14,9 +15,9 @@ class Adobe extends React.Component {
             <div>
                 <h1>Adobe B2B</h1>
                 <Banner title={data.banner.title} intro={data.banner.intro} img={data.banner.img}/>
-                <div classname="d-flex justify-content-between">
-                    <button className="btn btn-primary"><a href={prev}>Previous</a></button>
-                    <button className="btn btn-primary"><a href={next}>Next</a></button>
+                <div className="d-flex justify-content-between">
+                    <Button color="primary"><a href={prev}>Previous</a></Button>
+                    <Button color="primary"><a href={next}>Next</a></Button>
                 </div>
                 <Summary className="summary container" overview={data.summary.overview} time={data.summary.time}
                          tools={data.summary.tools}

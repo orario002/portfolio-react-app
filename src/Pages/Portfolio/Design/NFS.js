@@ -4,6 +4,7 @@ import Summary from "../../../Component/Summary";
 import ImageText from "../../../Component/ImageText";
 import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/NfsData";
+import {Button} from 'reactstrap';
 
 const next = "/portfolio/design/adobe";
 
@@ -13,8 +14,8 @@ class NFS extends React.Component {
         return (
             <div>
                 <Banner title={data.banner.title} intro={data.banner.intro} img={data.banner.img}/>
-                <div className="d-flex justify-content-between">
-                    <button className="btn btn-primary"><a href={next}>Next</a></button>
+                <div className="d-flex justify-content-end">
+                    <Button color="primary"><a href={next}>Next</a></Button>
                 </div>
                 <Summary overview={data.summary.overview} time={data.summary.time} tools={data.summary.tools}
                          roles={data.summary.roles} teams={data.summary.teams}/>
