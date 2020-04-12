@@ -8,12 +8,12 @@ class Outcome extends React.Component {
         });
 
         return (
-            <div className="outcome p-5">
-                <Row>
+            <div className="outcome container">
+                <Row className="pb-3">
                     <h2>{this.props.title}</h2>
                     <p>{this.props.description}</p>
                 </Row>
-                <Row>
+                <Row className="pb-3">
                     <Col xs={12}>
                     <strong>Delivery</strong>
                     </Col>
@@ -21,7 +21,7 @@ class Outcome extends React.Component {
                     <ul>{deliveries}</ul>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="pb-3">
                     <strong>Lesson learned</strong>
                     <p>{this.props.lesson}</p>
                 </Row>

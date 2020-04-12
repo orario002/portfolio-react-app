@@ -12,11 +12,8 @@ class NFS extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="portfolio">
                 <Banner title={data.banner.title} intro={data.banner.intro} img={data.banner.img}/>
-                <div className="d-flex justify-content-end">
-                    <Button color="primary"><a href={next}>Next</a></Button>
-                </div>
                 <Summary overview={data.summary.overview} time={data.summary.time} tools={data.summary.tools}
                          roles={data.summary.roles} teams={data.summary.teams}/>
                 <ImageText imagePosition="left" src={data.process.src} alt={data.process.name}
@@ -41,6 +38,9 @@ class NFS extends React.Component {
                            title={data.component.title} description={data.component.description}/>
                 <Outcome title={data.outcome.title} description={data.outcome.description}
                          deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
+                <div className="d-flex justify-content-end">
+                    <Button color="primary"><a href={next}>Next</a></Button>
+                </div>
             </div>
         );
     }

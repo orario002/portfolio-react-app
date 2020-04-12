@@ -15,7 +15,7 @@ class Summary extends React.Component {
         });
 
         return (
-            <div className="summary p-5">
+            <div className="summary container">
                 <Row>
                     <Col>
                         <strong>Overview</strong>

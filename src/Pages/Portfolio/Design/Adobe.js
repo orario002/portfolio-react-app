@@ -12,13 +12,8 @@ const next = "/portfolio/design/puma";
 class Adobe extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Adobe B2B</h1>
+            <div class="portfolio">
                 <Banner title={data.banner.title} intro={data.banner.intro} img={data.banner.img}/>
-                <div className="d-flex justify-content-between">
-                    <Button color="primary"><a href={prev}>Previous</a></Button>
-                    <Button color="primary"><a href={next}>Next</a></Button>
-                </div>
                 <Summary className="summary container" overview={data.summary.overview} time={data.summary.time}
                          tools={data.summary.tools}
                          roles={data.summary.roles} teams={data.summary.teams}/>
@@ -38,7 +33,10 @@ class Adobe extends React.Component {
                            description={data.theme.description}/>
                 <Outcome className="outcome container" title={data.outcome.title} description={data.outcome.description}
                          deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
-
+                <div className="d-flex justify-content-between">
+                    <Button color="primary"><a href={prev}>Previous</a></Button>
+                    <Button color="primary"><a href={next}>Next</a></Button>
+                </div>
             </div>
         );
     }

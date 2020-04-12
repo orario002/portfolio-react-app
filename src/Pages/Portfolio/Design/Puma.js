@@ -12,13 +12,8 @@ const next = "/portfolio/design/nfs";
 class Puma extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Puma</h1>
+            <div className="portfolio">
                 <Banner title={data.banner.title} intro={data.banner.intro} img={data.banner.img}/>
-                <div className="d-flex justify-content-between">
-                    <Button color="primary"><a href={prev}>Previous</a></Button>
-                    <Button color="primary"><a href={next}>Next</a></Button>
-                </div>
                 <Summary overview={data.summary.overview} time={data.summary.time} tools={data.summary.tools}
                          roles={data.summary.roles} teams={data.summary.teams}/>
                 <ImageText imagePosition="left" src={data.process.src} alt={data.process.name}
@@ -35,6 +30,10 @@ class Puma extends React.Component {
                            title={data.annotation.title} description={data.annotation.description}/>
                 <Outcome title={data.outcome.title} description={data.outcome.description}
                          deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
+                <div className="d-flex justify-content-between">
+                    <Button color="primary"><a href={prev}>Previous</a></Button>
+                    {/*<Button color="primary"><a href={next}>Next</a></Button>*/}
+                </div>
             </div>
         );
     }

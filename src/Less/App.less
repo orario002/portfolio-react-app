@@ -24,6 +24,7 @@
 
 h1 {
   font-size: 2rem;
+  font-weight: 700;
 }
 
 h2 {
@@ -62,7 +63,7 @@ ul {
 }
 
 main {
-  padding: 2rem;
+  //padding: 2rem;
 }
 
 /* Nav */
@@ -301,20 +302,6 @@ h3.title {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  main, .contact, .home main {
-    padding: 1rem;
-  }
-
-  .sub-nav {
-    margin: 0 !important;
-  }
-
-  nav {
-    flex-direction: column;
-  }
-}
-
 .icon-large {
   width: 50px;
   Height: 50px;
@@ -363,19 +350,54 @@ h3.title {
   }
 }
 
+/* Portfolio */
+
+.portfolio {
+  h1, h2, strong {
+    font-weight: 700;
+  }
+}
+
+// Banner
 .banner {
   &__hero {
     width: 100%;
-    height: 500px;
+    max-height: 700px;
     object-fit: contain;
     background: @dark;
     padding: 2rem;
     background-image: linear-gradient(@black, @dark);
   }
+  .intro {
+    padding: 3rem;
+    p {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+// Summary
+
+.summary, .outcome {
+  padding: 0 3rem 3rem 3rem;
+  strong {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  p, li {
+    font-size: 1.25rem;
+  }
 }
 
 // ImageText Component
 .imageText {
+
+  &--wrapper {
+    padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
+  }
 
   h3 {
     padding-top: 2rem;
@@ -385,15 +407,17 @@ h3.title {
 
   p {
     padding-bottom: 2rem;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
   }
 
   .row {
     padding-bottom: 1rem;
   }
 
-  &--wrapper {
-    justify-content: center;
-    align-items: center;
+  .text-wrapper {
+    padding: 0 2rem;
+    align-self: flex-start;
   }
 }
 
@@ -403,22 +427,30 @@ h3.title {
   margin-right: calc(50% - 50vw);
 }
 
-// Loader
-.load{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);
-  /*change these sizes to fit into your project*/
-  width:100px;
-  height:100px;
+/* Media query */
+
+// Mobile
+@media only screen and (max-width: 767px) {
+  main, .contact, .home main {
+    padding: 1rem;
+  }
+
+  .banner__hero {
+    max-height: 300px;
+  }
+
+  .sub-nav {
+    margin: 0 !important;
+  }
+
+  nav {
+    flex-direction: column;
+  }
 }
-.load hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
 
-.load :first-child{background:#19A68C;animation-delay:-1.5s}
-.load :nth-child(2){background:#F63D3A;animation-delay:-1s}
-.load :nth-child(3){background:#FDA543;animation-delay:-0.5s}
-.load :last-child{background:#193B48}
-
-@keyframes spin{
-  0%,100%{transform:translate(0)}
-  25%{transform:translate(160%)}
-  50%{transform:translate(160%, 160%)}
-  75%{transform:translate(0, 160%)}
+// Tablet
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner__hero {
+    max-height: 500px;
+  }
 }

@@ -18,7 +18,7 @@ class ImageText extends React.Component {
             return (
                 <Row className="imageText imageText--wrapper">
                     <Col xs={12} md={6} className="img-wrapper"><img src={this.props.src} alt={this.props.name}/></Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} className="text-wrapper">
                         <h3>{this.props.title}</h3>
                         <p className="pb-5">{this.props.description}</p></Col>
                 </Row>
@@ -27,7 +27,7 @@ class ImageText extends React.Component {
         if (imagePosition === right) {
             return (
                 <Row className="imageText imageText--wrapper">
-                        <Col xs={12} md={6}>
+                        <Col xs={12} md={6} className="text-wrapper">
                             <h3>{this.props.title}</h3>
                             <p>{this.props.description}</p></Col>
                         <Col xs={12} md={6} className="img-wrapper"><img src={this.props.src}
@@ -40,7 +40,7 @@ class ImageText extends React.Component {
                 <Row className="imageText imageText--wrapper">
                     <Col xs={12} className="img-wrapper">
                         <img src={this.props.src} alt={this.props.name}/></Col>
-                    <Col xs={12}>
+                    <Col xs={12} className="text-wrapper">
                         <h3>{this.props.title}</h3>
                         <p>{this.props.description}</p>
                     </Col>
@@ -50,7 +50,7 @@ class ImageText extends React.Component {
         if (imagePosition === bottom) {
             return (
                 <Row className="imageText imageText--wrapper">
-                    <Col xs={12}>
+                    <Col xs={12} className="text-wrapper">
                         <h3>{this.props.title}</h3>
                         <p>{this.props.description}</p></Col>
                     <Col xs={12}><img src={this.props.src} alt={this.props.name}/></Col>
