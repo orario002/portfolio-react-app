@@ -1,13 +1,13 @@
 import React from "react";
-import {Col} from "reactstrap";
+import {Col, Container} from "reactstrap";
 import DevelopData from "../../Data/DevelopData"
 
 class Develop extends React.Component {
     render() {
         return (
-            <div className="d-flex">
+            <Container className="d-flex row ml-auto mr-auto">
                 {Object.keys(DevelopData).map(key => (
-                    <Col sm="12" md="4" className="d-flex justify-content-center flex-column align-items-start">
+                    <Col sm={12} md={6} lg={4} className="d-flex justify-content-center flex-column align-items-start">
                         <img className="img-coverphoto" src={DevelopData[key].portfolioImage}
                              alt={DevelopData[key].name} key={key} height={500}/>
                         <div><h2 className="title">{DevelopData[key].title}</h2><p>{DevelopData[key].description}</p>
@@ -17,7 +17,7 @@ class Develop extends React.Component {
                         </div>
                     </Col>
                 ))}
-            </div>
+            </Container>
         );
     }
 }

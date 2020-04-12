@@ -27,7 +27,7 @@ class About extends Component {
                     {Object.keys(InterestsData).map(key => (
                         <Col xs={12} lg={4}>
                             <img className="img-crop mb-2" src={InterestsData[key].image} width={500} height={250} alt="{InterestsData[key].title}"/>
-                            <h3 className="title mb-2"><strong>{InterestsData[key].title}</strong></h3>
+                            <h2 className="title mb-2">{InterestsData[key].title}</h2>
                             <p>{InterestsData[key].content}</p>
                         </Col>
                     ))}

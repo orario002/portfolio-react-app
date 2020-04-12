@@ -100,9 +100,18 @@ nav a {
   text-decoration: none;
   margin-right: 1rem;
 }
-.selected {
-  font-weight: 800;
+.nav .selected,
+.sub-nav .selected {
+  font-weight: 700;
   border-bottom: 5px solid black;
+}
+.nav .selected:hover,
+.sub-nav .selected:hover {
+  color: black;
+}
+.nav a:hover,
+.sub-nav a:hover {
+  color: #59B9C6;
 }
 /* Sticky footer */
 :root {
@@ -142,7 +151,8 @@ h2.title a {
   font-size: 1.5rem;
 }
 h3.title {
-  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 /* Blog */
 .blog {
@@ -287,7 +297,7 @@ h3.title {
   object-fit: cover;
 }
 .img-coverphoto {
-  object-fit: cover;
+  object-fit: contain;
   padding: 1.25rem;
   margin: 0 auto;
 }

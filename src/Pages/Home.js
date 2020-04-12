@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Col, Row} from "reactstrap";
+import {Col, Row, Button} from "reactstrap";
 import SkillsData from "../Data/SkillsData";
 
 class Home extends Component {
@@ -21,7 +21,7 @@ class Home extends Component {
                     <h2 className="pb-3">Specialising in Experience Design and Visual Design.</h2>
                 </div>
                 <div className="content m-5 d-flex flex-column align-items-center">
-                    <Row>
+                    <Row className="pb-5">
                         {Object.keys(SkillsData).map(key => (
                             <Col lg={3} sm={12}>
                                 <div className="d-flex justify-content-center">
@@ -31,7 +31,7 @@ class Home extends Component {
                             </Col>
                         ))}
                     </Row>
-                    <button className="btn btn-primary"><a href={portfolio}>See my work</a></button>
+                    <Button className="btn btn-primary"><a href={portfolio}>See my work</a></Button>
                 </div>
             </div>
         );

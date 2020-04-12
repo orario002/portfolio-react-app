@@ -1,5 +1,5 @@
 import React from "react";
-import {Col} from "reactstrap";
+import {Col, Container} from "reactstrap";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import ModalPortfolio from "../../Component/ModalPortfolio"
 import DesignData from "../../Data/DesignData"
@@ -7,9 +7,9 @@ import DesignData from "../../Data/DesignData"
 class Design extends React.Component {
     render() {
         return (
-            <div className="d-flex">
+            <Container className="d-flex row ml-auto mr-auto">
                 {Object.keys(DesignData).map(key => (
-                    <Col sm="12" md="4" className="d-flex justify-content-center flex-column align-items-start">
+                    <Col sm={12} md={6} lg={4} className="d-flex justify-content-center flex-column align-items-start">
                         <img className="img-coverphoto" src={DesignData[key].portfolioImage}
                              alt={DesignData[key].name} key={key} height={500}/>
                         <div><h2 className="title">{DesignData[key].title}</h2><p>{DesignData[key].description}</p>
@@ -21,7 +21,7 @@ class Design extends React.Component {
                             more</Link></button>
                     </Col>
                 ))}
-            </div>
+            </Container>
         );
     }
 }

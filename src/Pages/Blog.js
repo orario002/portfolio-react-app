@@ -74,9 +74,9 @@ class Blog extends Component {
                         <h2 className="title mb-5">Medium posts</h2>
                     </div>
                     <ul className="blog__slider row container">
-                        Posts go here
+                        <Spinner className="d-flex justify-content-center" color="info"/>
                     </ul>
-                    <Spinner color="info"/>
+
                 </section>
                 :
                 <section id="blog" class="blog">

@@ -1,6 +1,6 @@
-import Camelot from "../Assets/portfolio/portfolio_camelot.png";
-import HSBC from "../Assets/portfolio/portfolio_hsbc.png";
-import Ensemble from "../Assets/portfolio/portfolio_ensemble.png";
+import Camelot from "../Assets/portfolio/portfolio_ipl_screen.png";
+import HSBC from "../Assets/portfolio/portfolio_hsbc_logo.svg";
+import Ensemble from "../Assets/portfolio/portfolio_ensemble_screen.png";
 
 export const DevelopData = {
     Camelot: {
@@ -13,7 +13,7 @@ export const DevelopData = {
     HSBC: {
         name: 'HSBC',
         portfolioImage: `${HSBC}`,
-        title: 'HSBC Forms Portal',
+        title: 'HSBC Digital Forms Portal ',
         description: 'Digitalised form management portal for internal staff.',
         tags: ['Front-end Development', 'React.js', 'Adobe Experience Manager (content management system)']
     },

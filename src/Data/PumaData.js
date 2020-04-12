@@ -55,7 +55,7 @@ export const PumaData = {
     annotation: {
         name: 'Annotation',
         src: `${Anotation}`,
-        title: 'TThis is a tool to allow designers to get their job done while remaining in Adobe Illustrator.',
+        title: 'This is a tool to allow designers to get their job done while remaining in Adobe Illustrator.',
         description: ''
     },
     outcome: {

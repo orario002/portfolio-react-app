@@ -80,9 +80,19 @@ nav {
   }
 }
 
-.selected {
-  font-weight: 800;
-  border-bottom: 5px solid black;
+.nav, .sub-nav {
+
+  .selected {
+    font-weight: 700;
+    border-bottom: 5px solid black;
+    &:hover {
+      color: black;
+    }
+  }
+  a:hover {
+    color: @primary;
+  }
+
 }
 
 /* Sticky footer */
@@ -129,7 +139,8 @@ h1.title, h2.title {
 }
 
 h3.title {
-  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* Blog */
@@ -312,7 +323,7 @@ h3.title {
 }
 
 .img-coverphoto {
-  object-fit: cover;
+  object-fit: contain;
   padding: 1.25rem;
   margin: 0 auto;
 }
