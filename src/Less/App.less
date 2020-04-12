@@ -48,16 +48,17 @@ ul {
   .nav, &.sub-nav {
     list-style: none;
     display: flex;
+    margin-right: 2rem;
   }
 
+  .blog__style {
+    list-style: none;
+  }
   &.tags {
     list-style: disc;
     flex-direction: column;
   }
 
-  li {
-    margin-right: 2rem;
-  }
 }
 
 main {
@@ -171,16 +172,13 @@ h3.title {
 
   &__post {
     border-radius: 5px;
-    margin: 3rem 1rem;
-    width: 25%;
-    -webkit-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, .15);
-    -moz-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, .15);
-    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, .15);
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+    height: 100%;
   }
 
   &__topImg {
-    max-width: 100%;
-    margin: 1rem 0;
+    object-fit: cover;
+    height: 300px;
   }
 
   &__content {
@@ -403,5 +401,24 @@ h3.title {
 .full-width {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+}
 
+// Loader
+.load{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);
+  /*change these sizes to fit into your project*/
+  width:100px;
+  height:100px;
+}
+.load hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
+
+.load :first-child{background:#19A68C;animation-delay:-1.5s}
+.load :nth-child(2){background:#F63D3A;animation-delay:-1s}
+.load :nth-child(3){background:#FDA543;animation-delay:-0.5s}
+.load :last-child{background:#193B48}
+
+@keyframes spin{
+  0%,100%{transform:translate(0)}
+  25%{transform:translate(160%)}
+  50%{transform:translate(160%, 160%)}
+  75%{transform:translate(0, 160%)}
 }

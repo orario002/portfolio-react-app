@@ -19,7 +19,7 @@ class Portfolio extends Component {
             <Router>
                 <div>
                     <ul className="m-4 pb-2 sub-nav">
-                        <li>
+                        <li className="mr-3">
                             <NavLink activeClassName="selected" to="/portfolio/design/">Design</NavLink>
                         </li>
                         <li>
