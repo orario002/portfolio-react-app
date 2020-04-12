@@ -76,7 +76,7 @@ class Blog extends Component {
                     <ul className="blog__slider row container">
                         Posts go here
                     </ul>
-                    <Spinner class="info"/>
+                    <Spinner color="info"/>
                 </section>
                 :
                 <section id="blog" class="blog">
