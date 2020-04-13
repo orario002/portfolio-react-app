@@ -18,6 +18,7 @@
 /* Variables */
 
 @primary: #59B9C6;
+@secondary: #357E88;
 @dark: #29292e;
 @white: #fff;
 @black: #000;
@@ -90,7 +91,7 @@ nav {
     }
   }
   a:hover {
-    color: @primary;
+    color: @secondary;
   }
 
 }
@@ -126,21 +127,17 @@ footer {
   padding: 20px;
   font-weight: 300;
   font-size: 0.85rem;
-}
-
-h1.title, h2.title {
-  font-family: 'Caveat', cursive;
-  font-size: 1.5rem;
-  font-weight: 800;
-
-  a {
-    font-size: 1.5rem;
+  a:hover {
+    color: @secondary;
   }
 }
 
-h3.title {
-  font-size: 1.5rem;
+.title {
+  font-size: 1.2rem;
   font-weight: 700;
+  a {
+    font-size: 1.5rem;
+  }
 }
 
 /* Blog */
@@ -310,6 +307,10 @@ h3.title {
   a {
     font-weight: 800;
     margin-left: 0.25rem;
+    color: @secondary;
+    &:hover {
+      color: @dark;
+    }
   }
 }
 
@@ -333,11 +334,6 @@ h3.title {
   padding: 1.25rem;
 }
 
-.title {
-  font-weight: 800;
-  text-align: center;
-}
-
 .brand {
   font-family: 'Caveat', cursive;
   font-size: 2rem;
@@ -347,16 +343,16 @@ h3.title {
   padding: 0.75rem;
   font-size: 0.85rem;
   margin-top: auto;
-
   &.btn-primary {
     background: @primary;
     border-radius: 0;
     border: none;
     color: @dark;
 
-    &:hover, &:focus, &:active, &:visited, &focus-within {
-      background: @dark;
+    &:hover, &:focus, &:active, &:visited, &focus-within, &:not(:disabled):not(.disabled):active, &:not(:disabled):not(.disabled).active {
       color: @primary;
+      background-color: @dark;
+      border-color: @dark;
     }
   }
 }

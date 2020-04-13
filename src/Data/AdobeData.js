@@ -12,7 +12,7 @@ export const AdobeData = {
     banner: {
         name: 'Hero Banner',
         title: 'A microsite builder prototype offering B2B solution with Adobe Experience Manager, to create simple webpages effortlessly.',
-        intro: 'Designed for our partner Adobe to demonstrate how businesses can utilise Adobe Experience Manager’s smart technology to quickly build microsites. Without technical knowledge, anyone from organisation can simply fill out a form to generate basic webpages using default templates.',
+        intro: 'Designed for our partner to demonstrate how businesses can utilise Adobe Experience Manager’s smart technology to quickly build microsites. Without technical knowledge, anyone from organisation can simply fill out a form to generate basic webpages using default templates.',
         img: `${Banner}`
     },
     summary: {

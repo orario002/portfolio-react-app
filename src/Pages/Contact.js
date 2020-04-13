@@ -5,8 +5,8 @@ class Contact extends React.Component {
     render() {
         return (
             <div className="contact container">
-                <h2 className="title text-center m-4">Come and say hello
-                    <span role="img" aria-label="waving-hand">👋</span>
+                <h2 className="brand text-center m-4">Come and say hello
+                    <span className="pl-2" role="img" aria-label="waving-hand">👋</span>
                 </h2>
                 <p className="text-center mb-4">You can find me on
                     <a target="_blank" className="text-decoration-underline"

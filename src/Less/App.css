@@ -111,7 +111,7 @@ nav a {
 }
 .nav a:hover,
 .sub-nav a:hover {
-  color: #59B9C6;
+  color: #357E88;
 }
 /* Sticky footer */
 :root {
@@ -140,19 +140,15 @@ footer {
   font-weight: 300;
   font-size: 0.85rem;
 }
-h1.title,
-h2.title {
-  font-family: 'Caveat', cursive;
-  font-size: 1.5rem;
-  font-weight: 800;
+footer a:hover {
+  color: #357E88;
 }
-h1.title a,
-h2.title a {
-  font-size: 1.5rem;
-}
-h3.title {
-  font-size: 1.5rem;
+.title {
+  font-size: 1.2rem;
   font-weight: 700;
+}
+.title a {
+  font-size: 1.5rem;
 }
 /* Blog */
 .blog {
@@ -288,6 +284,10 @@ h3.title {
 .contact a {
   font-weight: 800;
   margin-left: 0.25rem;
+  color: #357E88;
+}
+.contact a:hover {
+  color: #29292e;
 }
 .icon-large {
   width: 50px;
@@ -304,10 +304,6 @@ h3.title {
 .icon {
   object-fit: contain;
   padding: 1.25rem;
-}
-.title {
-  font-weight: 800;
-  text-align: center;
 }
 .brand {
   font-family: 'Caveat', cursive;
@@ -328,9 +324,12 @@ h3.title {
 .btn.btn-primary:focus,
 .btn.btn-primary:active,
 .btn.btn-primary:visited,
-.btn.btn-primaryfocus-within {
-  background: #29292e;
+.btn.btn-primaryfocus-within,
+.btn.btn-primary:not(:disabled):not(.disabled):active,
+.btn.btn-primary:not(:disabled):not(.disabled).active {
   color: #59B9C6;
+  background-color: #29292e;
+  border-color: #29292e;
 }
 /* Portfolio */
 .portfolio h1,

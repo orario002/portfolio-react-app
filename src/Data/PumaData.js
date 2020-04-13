@@ -10,8 +10,8 @@ import Anotation from "../Assets/portfolio/portfolio_puma_notation.png";
 export const PumaData = {
     banner: {
         name: 'Hero Banner',
-        title: 'Designing a new Adobe Illustrator plugin for graphic designers at Puma.',
-        intro: 'Design a custom Adobe Illustrator plugin that integrates with Puma’s content management system, which is a web based application. The integration will facilitate a creative workflow that does not need to step outside the Adobe creative cloud software in order to search and manage assets, either locally or on the server.',
+        title: 'Designing a new Adobe Illustrator plugin for graphic designers at a multinational sports retailer.',
+        intro: 'Design a custom Adobe Illustrator plugin that integrates with content management system, which is a web based application. The integration will facilitate a creative workflow that does not need to step outside the Adobe creative cloud software in order to search and manage assets, either locally or on the server.',
         img: `${Banner}`
     },
     summary: {

@@ -45,7 +45,7 @@ class Blog extends Component {
                <img src="${item.thumbnail}" class="blog__topImg"/>
                <div class="blog__content d-flex flex-column">
                   <div class="blog_preview">
-                     <h2 class="blog__title">${shortenText(item.title, 0, 100)}</h2>
+                     <h2 class="blog__title title">${shortenText(item.title, 0, 100)}</h2>
                      <p class="blog__intro">${shortenText(toText(item.content), 0, 100) + '...'}</p>
                      <button class="btn btn-primary">Read More</button>
                   </div>
