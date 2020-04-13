@@ -1,14 +1,14 @@
-import Banner from "../Assets/portfolio/portfolio_nfs_create-application.png";
-import Process from "../Assets/portfolio/portfolio_nfs_process.png";
+import Banner from "../Assets/portfolio/portfolio_formhub_screens.png";
+import Process from "../Assets/portfolio/portfolio_formhub_process.png";
 import Workshop from "../Assets/portfolio/portfolio_nfs_workshop.png";
-import Research from "../Assets/portfolio/portfolio_nfs_data.png";
+import Research from "../Assets/portfolio/portfolio_formhub_analysis.png";
 import Empathy from "../Assets/portfolio/portfolio_nfs_empathy-map.png";
 import Journey from "../Assets/portfolio/portfolio_nfs_user-journey.png";
 import Style from "../Assets/portfolio/portfolio_nfs_styleguide.png";
-import Component from "../Assets/portfolio/portfolio_nfs_sketch_symbols.png";
+import Component from "../Assets/portfolio/portfolio_formhub_symbols.png";
 import PaperWireframe from "../Assets/portfolio/portfolio_nfs_wireframe_mobile_table.png";
-import WireframeFeatures from "../Assets/portfolio/portfolio_nfs_wireframe_notation_part1.png";
-import WireframeSteps from "../Assets/portfolio/portfolio_nfs_wireframe_notation_part2.png";
+import WireframeFeatures from "../Assets/portfolio/portfolio_formhub_screens_feature_annotation.png";
+import WireframeSteps from "../Assets/portfolio/portfolio_formhub_screens_annotation.png";
 
 export const NfsData = {
     banner: {
@@ -18,7 +18,7 @@ export const NfsData = {
         img: `${Banner}`
     },
     summary: {
-        overview: 'New Forms Solution by Ensemble is a minimum viable product designed to provide digital form transformation solutions. Our experiences in banking and insurance sectors, have introduced us a large amount of paper forms to digitalise in transformation and we would like this product to change customer experiences for our clients.',
+        overview: 'This is a minimum viable product designed to provide digital form transformation solutions. Our experiences in banking and insurance sectors, have introduced us a large amount of paper forms to digitalise in transformation and we would like this product to change customer experiences for our clients.',
         time: 'Jul 8 to Aug 23, 2019',
         tools: ['Sketch', 'Invision'],
         roles: ['Lead UX Designer', 'Visual Designer', 'Front-end Developer'],

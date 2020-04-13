@@ -1,6 +1,8 @@
 import React from 'react';
 import {Col, Row} from "reactstrap";
 
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
 class Banner extends React.Component {
     render() {
         return (

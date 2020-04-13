@@ -1,12 +1,13 @@
-import Banner from "../Assets/portfolio/portfolio_adobe-b2b_generator_mockup.png";
-import Process from "../Assets/portfolio/portfolio_adobe_ux_process.png";
-import Interview from "../Assets/portfolio/portfolio_adobe_stakeholder_interview.png";
+import Banner from "../Assets/portfolio/portfolio_easysite_mockup_mac.png";
+import Process from "../Assets/portfolio/portfolio_easysite_process.png";
+import Interview from "../Assets/portfolio/portfolio_easysite_interview.png";
 import User from "../Assets/portfolio/portfolio_adobe-b2b_user-story.png";
 import Flow from "../Assets/portfolio/portfolio_adobe-b2b_userflow_notation.png";
 import Wireframe from "../Assets/portfolio/portfolio_adobe_form_paper_wireframe.png";
 import Annotation from "../Assets/portfolio/portfolio_adobe-b2b_wireframe_notation.png";
 import Theme from "../Assets/portfolio/portfolio_adobe-b2b_generator_theme.png";
-import Logo from "../Assets/portfolio/portfolio_adobe-b2b_webusiness_logo.png"
+import Logo from "../Assets/portfolio/portfolio_adobe-b2b_webusiness_logo.png";
+import Screens from "../Assets/portfolio/portfolio_easysite_screens.png";
 
 export const AdobeData = {
     banner: {
@@ -17,7 +18,7 @@ export const AdobeData = {
     },
     summary: {
         logo: `${Logo}`,
-        overview: 'We Business by our partner Adobe is a prototype built to demonstrate Adobe Experience Manager technologies. Microsite builder is a prototype designed to allow business to fill forms to generate basic web pages without technical knowledge. With the abilities to implement with their own customised theme and brand.',
+        overview: 'Client work with request to design a prototype for businesses, to fill a form that generates basic web pages without technical knowledge. With the abilities to implement with their own customised theme and brand.',
         time: 'Mar 4 to Mar 22, 2019 (3 weeks)',
         tools: ['Adobe XD', 'Zeplin'],
         roles: ['UX Designer', 'Visual Designer'],
@@ -39,7 +40,7 @@ export const AdobeData = {
         name: 'User Story',
         src: `${User}`,
         title: '3 B2B client personas emerged from the initial research.',
-        description: 'Adobe presented us with user stories we later used to produce user flows and iterate the designs. From small to large scale of businesses, they would require different level of complexity to produce a microsite for their brand and products. We identified the major difference will be either it is a small business or a larger business, depends on how many equipments they have.'
+        description: 'Our client presented us with user stories we later used to produce user flows and iterate the designs. From small to large scale of businesses, they would require different level of complexity to produce a microsite for their brand and products. We identified the major difference will be either it is a small business or a larger business, depends on how many equipments they have.'
     },
     flow: {
         name: 'User Flow',
@@ -65,6 +66,10 @@ export const AdobeData = {
         src: `${Theme}`,
         title: 'I structure my visual designs in Sketch, suggesting how it can be built into components in the development phase.Defined design style guide and UI elements to maintain consistency in theme.',
         description: 'We chose a neutral green colour theme to speak to the target audience in the agriculture industry, it complements with the shades of grey so it’s easier on the eyes. A style guide with colour palette, typography and UI elements are created and shared among the team, developers then can utilise this information to advance front-end development. I also ensure the design files are modularised in symbol they can later develop as components.'
+    },
+    screens: {
+        name: 'Screens',
+        src: `${Screens}`
     },
     outcome: {
         title: 'Successfully tell product stories through prototyping.',

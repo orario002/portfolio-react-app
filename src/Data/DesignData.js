@@ -1,14 +1,14 @@
-import NFS from "../Assets/portfolio/portfolio_nfs_create-application_min.png";
-import Puma from "../Assets/portfolio/portfolio_puma_in-progress.png";
-import Adobe from "../Assets/portfolio/portfolio_adobe-b2b_generator_basic-info.png";
+import NFS from "../Assets/portfolio/portfolio_formhub_mockup.png";
+import Puma from "../Assets/portfolio/portfolio_plugin_screen.png";
+import Adobe from "../Assets/portfolio/portfolio_easySite_basic_mockup.png";
 
 export const DesignData = {
     NFS: {
-        name: 'Digital Forms Solution',
+        name: 'Digital Forms Manager',
         portfolioImage: `${NFS}`,
         link: '/portfolio/design/nfs',
-        title: 'Digital Forms Solution',
-        description: 'A web portal designed to manage digitalised forms and streamline insurance and banking application process.',
+        title: 'Digital Forms Manager',
+        description: 'A web portal designed to manage digitalised forms and streamline application process.',
         tags: ['Experience Design', 'Visual Design']
     },
     Puma: {
@@ -24,7 +24,7 @@ export const DesignData = {
         portfolioImage: `${Adobe}`,
         link: '/portfolio/design/adobe',
         title: 'AEM Microsite Builder',
-        description: 'A microsite builder prototype offering B2B solution with Adobe Experience Manager (content management system)',
+        description: 'A microsite builder prototype offering B2B solution with Adobe Experience Manager (content management system).',
         tags: ['Experience Design', 'Visual Design']
     },
 };

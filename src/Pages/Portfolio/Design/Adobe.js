@@ -4,7 +4,7 @@ import Summary from "../../../Component/Summary";
 import ImageText from "../../../Component/ImageText";
 import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/AdobeData";
-import {Button} from 'reactstrap';
+import {Button, Media} from 'reactstrap';
 
 const prev = "/portfolio/design/nfs";
 const next = "/portfolio/design/puma";
@@ -31,6 +31,7 @@ class Adobe extends React.Component {
                            title={data.annotation.title} description={data.annotation.description}/>
                 <ImageText imagePosition="left" src={data.theme.src} alt={data.theme.name} title={data.theme.title}
                            description={data.theme.description}/>
+                <Media object alt={data.screens.name} src={data.screens.src} />
                 <Outcome className="outcome container" title={data.outcome.title} description={data.outcome.description}
                          deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
                 <div className="d-flex justify-content-between">

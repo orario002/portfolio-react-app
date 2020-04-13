@@ -1,11 +1,11 @@
-import Banner from "../Assets/portfolio/portfolio_puma_mac.png";
-import Process from "../Assets/portfolio/portfolio_puma_process.png";
+import Banner from "../Assets/portfolio/portfolio_plugin_mockup_imac-pro.png";
+import Process from "../Assets/portfolio/portfolio_plugin_process.png";
 import Persona from "../Assets/portfolio/portfolio_puma_persona.png";
-import FlowBefore from "../Assets/portfolio/portfolio_puma_user-flow_beore.png";
+import FlowCompare from "../Assets/portfolio/portfolio_plugin_flow_before-after.png";
 import FlowAfter from "../Assets/portfolio/portfolio_puma_user-flow_after.png";
 import Wireframe from "../Assets/portfolio/portfolio_puma_wireframe_paper.png";
-import Prototype from "../Assets/portfolio/portfolio_puma_prototype.png";
-import Anotation from "../Assets/portfolio/portfolio_puma_notation.png";
+import Prototype from "../Assets/portfolio/portfolio_plugin_overflow.png";
+import Anotation from "../Assets/portfolio/portfolio_plugin_annotation.png";
 
 export const PumaData = {
     banner: {
@@ -32,13 +32,13 @@ export const PumaData = {
         name: 'Persona',
         src: `${Persona}`,
         title: 'Helping graphic designers like Jamie to increase productivity and have a better work experiences.',
-        description: 'We were introduced to the persona provided by client in the beginning of the project. This plugin will help graphic designers like Jamie to increase productivity, with its smooth integration between Adobe Illustrator and Puma’s CMS web application.'
+        description: 'We were introduced to the persona provided by client in the beginning of the project. This plugin will help graphic designers like Jamie to increase productivity, with its smooth integration between Adobe Illustrator and internal’s CMS web application.'
     },
     flow: {
         name: 'User Flow',
-        src: `${FlowAfter}`,
+        src: `${FlowCompare}`,
         title: 'To integrate current system with the plugin smoothly and create meaningful UI, we want to understand how does the main functions work.',
-        description: 'Reviewed requirements scope with Puma stakeholders to clarify flows, UX behaviour, and discussion of technical feasibility.'
+        description: 'Reviewed requirements scope with stakeholders to clarify flows, UX behaviour, and discussion of technical feasibility.'
     },
     wireframe: {
         name: 'Wireframe',
