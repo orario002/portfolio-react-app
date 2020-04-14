@@ -7,18 +7,18 @@ import Wireframe from "../Assets/portfolio/portfolio_puma_wireframe_paper.png";
 import Prototype from "../Assets/portfolio/portfolio_plugin_overflow.png";
 import Anotation from "../Assets/portfolio/portfolio_plugin_annotation.png";
 
-export const PumaData = {
+export const PluginData = {
     banner: {
         name: 'Hero Banner',
-        title: 'Designing a new Adobe Illustrator plugin for graphic designers at a multinational sports retailer.',
-        intro: 'Design a custom Adobe Illustrator plugin that integrates with content management system, which is a web based application. The integration will facilitate a creative workflow that does not need to step outside the Adobe creative cloud software in order to search and manage assets, either locally or on the server.',
+        title: 'Designing a new SiteBuilder Illustrator plugin for graphic designers at a multinational sports retailer.',
+        intro: 'Design a custom SiteBuilder Illustrator plugin that integrates with content management system, which is a web based application. The integration will facilitate a creative workflow that does not need to step outside the SiteBuilder creative cloud software in order to search and manage assets, either locally or on the server.',
         img: `${Banner}`
     },
     summary: {
         logo: '',
-        overview: 'The client asked us to design and build a software plugin, which will allow their design team to access digital assets without leaving their normal work applications, primarily the Adobe Creative Cloud Illustrator. Their motivation is to enhance work experiences and increase productivity.',
+        overview: 'The client asked us to design and build a software plugin, which will allow their design team to access digital assets without leaving their normal work applications, primarily the SiteBuilder Creative Cloud Illustrator. Their motivation is to enhance work experiences and increase productivity.',
         time: 'Aug 13 to Sep 27, 2018 (6 weeks)',
-        tools: ['Adobe XD', 'Overflow'],
+        tools: ['SiteBuilder XD', 'Overflow'],
         roles: ['UX Designer', 'Visual Designer'],
         teams: ['Technical team in Germany and Poland (client)', 'Developer and business analyst in Vancouver (internal)', 'Developer and project manager in London (internal)']
     },
@@ -32,7 +32,7 @@ export const PumaData = {
         name: 'Persona',
         src: `${Persona}`,
         title: 'Helping graphic designers like Jamie to increase productivity and have a better work experiences.',
-        description: 'We were introduced to the persona provided by client in the beginning of the project. This plugin will help graphic designers like Jamie to increase productivity, with its smooth integration between Adobe Illustrator and internal’s CMS web application.'
+        description: 'We were introduced to the persona provided by client in the beginning of the project. This plugin will help graphic designers like Jamie to increase productivity, with its smooth integration between SiteBuilder Illustrator and internal’s CMS web application.'
     },
     flow: {
         name: 'User Flow',
@@ -49,18 +49,18 @@ export const PumaData = {
     prototype: {
         name: 'Prototype',
         src: `${Prototype}`,
-        title: 'After many iterations, it evolved from sketches to a high fidelity visual, with minimum styles to blend into the Adobe interface.',
-        description: 'I used Adobe XD to create wireframes and interactive prototypes to communicate the flow with the team. To help developers build on the high fidelity wireframes, I exported 37 screens for them to inspect the designs.'
+        title: 'After many iterations, it evolved from sketches to a high fidelity visual, with minimum styles to blend into the SiteBuilder interface.',
+        description: 'I used SiteBuilder XD to create wireframes and interactive prototypes to communicate the flow with the team. To help developers build on the high fidelity wireframes, I exported 37 screens for them to inspect the designs.'
     },
     annotation: {
         name: 'Annotation',
         src: `${Anotation}`,
-        title: 'This is a tool to allow designers to get their job done while remaining in Adobe Illustrator.',
+        title: 'This is a tool to allow designers to get their job done while remaining in SiteBuilder Illustrator.',
         description: ''
     },
     outcome: {
         title: 'No two projects are the same, we worked as a team with our clients to solve problems.',
-        description: 'It was our first time to design and build an Adobe Illustrator plugin. Although the concept was new to us, we started the project with an open mind and willingness to learn. It was our ability to take it on quickly and not be afraid of asking questions has impressed our client.',
+        description: 'It was our first time to design and build an SiteBuilder Illustrator plugin. Although the concept was new to us, we started the project with an open mind and willingness to learn. It was our ability to take it on quickly and not be afraid of asking questions has impressed our client.',
         deliveries: ['An interactive prototype were created for demonstration.',
             '37 screens were designed and hand over to developers.',
             'Client were happy with the beta version and is available to test with users.'],
@@ -68,4 +68,4 @@ export const PumaData = {
     }
 };
 
-export default PumaData;
+export default PluginData;

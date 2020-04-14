@@ -1,13 +1,12 @@
 import React from "react";
 import {Col, Container, Spinner} from "reactstrap";
-import {BrowserRouter, Route, Link} from "react-router-dom";
-import ModalPortfolio from "../../Component/ModalPortfolio"
+import {Link} from "react-router-dom";
 import DesignData from "../../Data/DesignData"
 
 class Design extends React.Component {
 
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             fileStatus: props.src ? 'loading' : 'no image to load'
         }
@@ -43,7 +42,7 @@ class Design extends React.Component {
                                 'no image to load': () => {
                                     return (<p>{this.state.fileStatus}</p>)
                                 },
-                            }
+                            };
                             return status[this.state.fileStatus]()
                         })()}
                         <img onLoad={this.setFileStatus.bind(this, 'loaded')}

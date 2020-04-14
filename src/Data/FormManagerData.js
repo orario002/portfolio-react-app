@@ -14,7 +14,7 @@ export const NfsData = {
     banner: {
         name: 'Hero Banner',
         title: 'A web portal to manage digitalised forms and streamline insurance application process.',
-        intro: 'We designed a web portal for enterprise and small businesses to manage form filling and approving process, using smart Adobe Experience Manager technology. To generate forms into PDFs and manage applications in the web portal we created. This is a minimum variable product for pitching to potential clients, who might be interest in customise this product with their brand.',
+        intro: 'We designed a web portal for enterprise and small businesses to manage form filling and approving process, using smart SiteBuilder Experience Manager technology. To generate forms into PDFs and manage applications in the web portal we created. This is a minimum variable product for pitching to potential clients, who might be interest in customise this product with their brand.',
         img: `${Banner}`
     },
     summary: {

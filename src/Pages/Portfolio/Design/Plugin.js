@@ -3,13 +3,13 @@ import Banner from "../../../Component/Banner";
 import Summary from "../../../Component/Summary";
 import ImageText from "../../../Component/ImageText";
 import Outcome from "../../../Component/Outcome";
-import data from "../../../Data/PumaData";
+import data from "../../../Data/PluginData";
 import {Button} from 'reactstrap';
 
 const prev = "/portfolio/design/adobe";
 const next = "/portfolio/design/nfs";
 
-class Puma extends React.Component {
+class Plugin extends React.Component {
     render() {
         return (
             <div className="portfolio">
@@ -40,4 +40,4 @@ class Puma extends React.Component {
 }
 
 
-export default Puma;
+export default Plugin;

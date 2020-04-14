@@ -3,13 +3,13 @@ import Banner from "../../../Component/Banner";
 import Summary from "../../../Component/Summary";
 import ImageText from "../../../Component/ImageText";
 import Outcome from "../../../Component/Outcome";
-import data from "../../../Data/AdobeData";
+import data from "../../../Data/SiteBuilderData";
 import {Button, Media} from 'reactstrap';
 
 const prev = "/portfolio/design/nfs";
 const next = "/portfolio/design/puma";
 
-class Adobe extends React.Component {
+class SiteBuilder extends React.Component {
     render() {
         return (
             <div class="portfolio">
@@ -44,4 +44,4 @@ class Adobe extends React.Component {
 }
 
 
-export default Adobe;
+export default SiteBuilder;

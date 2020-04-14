@@ -1,6 +1,6 @@
 import NFS from "../Assets/portfolio/portfolio_formhub_mockup.png";
 import Puma from "../Assets/portfolio/portfolio_plugin_screen.png";
-import Adobe from "../Assets/portfolio/portfolio_easySite_basic_mockup.png";
+import Adobe from "../Assets/portfolio/portfolio_easysite_basic_mockup.png";
 
 export const DesignData = {
     NFS: {
@@ -15,8 +15,8 @@ export const DesignData = {
         name: 'Plugin',
         portfolioImage: `${Puma}`,
         link: '/portfolio/design/puma',
-        title: 'Adobe Illustrator Plugin',
-        description: 'A customised Adobe Illustrator plugin integrates with web based application for an improved digital design workflow.\n',
+        title: 'SiteBuilder Illustrator Plugin',
+        description: 'A customised SiteBuilder Illustrator plugin integrates with web based application for an improved digital design workflow.\n',
         tags: ['Experience Design', 'Visual Design']
     },
     Adobe: {
@@ -24,7 +24,7 @@ export const DesignData = {
         portfolioImage: `${Adobe}`,
         link: '/portfolio/design/adobe',
         title: 'AEM Microsite Builder',
-        description: 'A microsite builder prototype offering B2B solution with Adobe Experience Manager (content management system).',
+        description: 'A microsite builder prototype offering B2B solution with SiteBuilder Experience Manager (content management system).',
         tags: ['Experience Design', 'Visual Design']
     },
 };

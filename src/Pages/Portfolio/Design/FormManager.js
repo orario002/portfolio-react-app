@@ -3,12 +3,12 @@ import Banner from "../../../Component/Banner";
 import Summary from "../../../Component/Summary";
 import ImageText from "../../../Component/ImageText";
 import Outcome from "../../../Component/Outcome";
-import data from "../../../Data/NfsData";
+import data from "../../../Data/FormManagerData";
 import {Button} from 'reactstrap';
 
 const next = "/portfolio/design/adobe";
 
-class NFS extends React.Component {
+class FormManager extends React.Component {
 
     render() {
         return (
@@ -47,4 +47,4 @@ class NFS extends React.Component {
 }
 
 
-export default NFS;
+export default FormManager;
