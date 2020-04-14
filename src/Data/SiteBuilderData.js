@@ -1,12 +1,12 @@
-import Banner from "../Assets/portfolio/portfolio_site-builder_mockup_mac.png";
-import Process from "../Assets/portfolio/portfolio_site-builder_process.png";
-import Interview from "../Assets/portfolio/portfolio_site-builder_interview.png";
-import User from "../Assets/portfolio/portfolio_site-builder_user-story.png";
-import Flow from "../Assets/portfolio/portfolio_site-builder_userflow_notation.png";
-import Wireframe from "../Assets/portfolio/portfolio_site-builder_form_paper_wireframe.png";
-import Annotation from "../Assets/portfolio/portfolio_site-builder_wireframe_notation.png";
-import Theme from "../Assets/portfolio/portfolio_site-builder_theme.png";
-import Screens from "../Assets/portfolio/portfolio_site-builder_screens.png";
+import Banner from "../Assets/portfolio/portfolio_sitebuilder_mockup_mac.png";
+import Process from "../Assets/portfolio/portfolio_sitebuilder_process.png";
+import Interview from "../Assets/portfolio/portfolio_sitebuilder_interview.png";
+import User from "../Assets/portfolio/portfolio_sitebuilder_user-story.png";
+import Flow from "../Assets/portfolio/portfolio_sitebuilder_userflow_notation.png";
+import Wireframe from "../Assets/portfolio/portfolio_sitebuilder_form_paper_wireframe.png";
+import Annotation from "../Assets/portfolio/portfolio_sitebuilder_wireframe_notation.png";
+import Theme from "../Assets/portfolio/portfolio_sitebuilder_theme.png";
+import Screens from "../Assets/portfolio/portfolio_sitebuilder_screens.png";
 
 export const SiteBuilderData = {
     banner: {

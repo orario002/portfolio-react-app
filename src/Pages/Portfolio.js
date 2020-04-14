@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Route, NavLink, Switch} from "react-router-dom"
 
 //Design projects
 import Design from "./Portfolio/Design";
-import FormManager from "./Portfolio/Design/FormManager";
+import FormsManager from "./Portfolio/Design/FormsManager";
 import Plugin from "./Portfolio/Design/Plugin";
 import SiteBuilder from "./Portfolio/Design/SiteBuilder";
 
@@ -29,7 +29,7 @@ class Portfolio extends Component {
                     <main>
                         <Switch>
                             <Route exact path="/portfolio/design/" component={Design}/>
-                            <Route exact path="/portfolio/design/FormManager" component={FormManager}/>
+                            <Route exact path="/portfolio/design/FormsManager" component={FormsManager}/>
                             <Route exact path="/portfolio/design/Plugin" component={Plugin}/>
                             <Route exact path="/portfolio/design/SiteBuilder" component={SiteBuilder}/>
                             <Route path="/portfolio/development/" component={Dev}/>

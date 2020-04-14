@@ -6,8 +6,8 @@ import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/SiteBuilderData";
 import {Button, Media} from 'reactstrap';
 
-const prev = "/portfolio/design/nfs";
-const next = "/portfolio/design/puma";
+const prev = "/portfolio/design/formsmanager";
+const next = "/portfolio/design/plugin";
 
 class SiteBuilder extends React.Component {
     render() {
@@ -36,7 +36,7 @@ class SiteBuilder extends React.Component {
                          deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
                 <div className="d-flex justify-content-between">
                     <Button color="primary"><a href={prev}>Previous</a></Button>
-                    <Button color="primary"><a href={next}>Next</a></Button>
+                    {/*<Button color="primary"><a href={next}>Next</a></Button>*/}
                 </div>
             </div>
         );
