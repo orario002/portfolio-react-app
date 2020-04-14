@@ -1,13 +1,12 @@
-import Banner from "../Assets/portfolio/portfolio_easysite_mockup_mac.png";
-import Process from "../Assets/portfolio/portfolio_easysite_process.png";
-import Interview from "../Assets/portfolio/portfolio_easysite_interview.png";
-import User from "../Assets/portfolio/portfolio_adobe-b2b_user-story.png";
-import Flow from "../Assets/portfolio/portfolio_adobe-b2b_userflow_notation.png";
-import Wireframe from "../Assets/portfolio/portfolio_adobe_form_paper_wireframe.png";
-import Annotation from "../Assets/portfolio/portfolio_adobe-b2b_wireframe_notation.png";
-import Theme from "../Assets/portfolio/portfolio_adobe-b2b_generator_theme.png";
-import Logo from "../Assets/portfolio/portfolio_adobe-b2b_webusiness_logo.png";
-import Screens from "../Assets/portfolio/portfolio_easysite_screens.png";
+import Banner from "../Assets/portfolio/portfolio_sitebuilder_mockup_mac.png";
+import Process from "../Assets/portfolio/portfolio_sitebuilder_process.png";
+import Interview from "../Assets/portfolio/portfolio_sitebuilder_interview.png";
+import User from "../Assets/portfolio/portfolio_sitebuilder_user-story.png";
+import Flow from "../Assets/portfolio/portfolio_sitebuilder_userflow_notation.png";
+import Wireframe from "../Assets/portfolio/portfolio_sitebuilder_form_paper_wireframe.png";
+import Annotation from "../Assets/portfolio/portfolio_sitebuilder_wireframe_notation.png";
+import Theme from "../Assets/portfolio/portfolio_sitebuilder_theme.png";
+import Screens from "../Assets/portfolio/portfolio_sitebuilder_screens.png";
 
 export const SiteBuilderData = {
     banner: {
@@ -17,7 +16,6 @@ export const SiteBuilderData = {
         img: `${Banner}`
     },
     summary: {
-        logo: `${Logo}`,
         overview: 'Client work with request to design a prototype for businesses, to fill a form that generates basic web pages without technical knowledge. With the abilities to implement with their own customised theme and brand.',
         time: 'Mar 4 to Mar 22, 2019 (3 weeks)',
         tools: ['SiteBuilder XD', 'Zeplin'],

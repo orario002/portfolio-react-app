@@ -1,6 +1,6 @@
 import NFS from "../Assets/portfolio/portfolio_formhub_mockup.png";
 import Puma from "../Assets/portfolio/portfolio_plugin_screen.png";
-import Adobe from "../Assets/portfolio/portfolio_easysite_basic_mockup.png";
+import Adobe from "../Assets/portfolio/portfolio_sitebuilder_basic_mockup.png";
 
 export const DesignData = {
     NFS: {
