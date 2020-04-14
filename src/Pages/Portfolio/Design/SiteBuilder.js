@@ -4,7 +4,7 @@ import Summary from "../../../Component/Summary";
 import ImageText from "../../../Component/ImageText";
 import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/SiteBuilderData";
-import {Button, Media} from 'reactstrap';
+import {Media} from 'reactstrap';
 import {Link} from "react-router-dom";
 import {FaArrowRight} from 'react-icons/fa';
 

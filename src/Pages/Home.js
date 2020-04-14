@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Col, Row, Button} from "reactstrap";
+import {Col, Row} from "reactstrap";
 import SkillsData from "../Data/SkillsData";
 import {Link} from "react-router-dom";
 

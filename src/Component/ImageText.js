@@ -1,13 +1,10 @@
 import React from 'react';
 import {Col, Row} from 'reactstrap';
 
-class ImageText extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
 // Conditional rendering https://reactjs.org/docs/conditional-rendering.html
+
+class ImageText extends React.Component {
+    render() {
         const imagePosition = this.props.imagePosition;
         const left = "left";
         const right = "right";

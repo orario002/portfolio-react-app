@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Col, Row, Spinner} from "reactstrap";
+import {Spinner} from "reactstrap";
 
 class Blog extends Component {
 

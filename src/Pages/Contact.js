@@ -14,10 +14,10 @@ class Contact extends React.Component {
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/orario002">GitHub</a>,
                     or drop me an<a href="mailto:hello@sandychiu.com">Email</a>
                 </p>
-                <p className="text-center mb-4">Follow me on<a target="_blank"
-                                                                href="https://www.instagram.com/sandychiuuu">Instagram
-                    📸</a>and
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/sandychiu">Twitter 🐦</a>
+                <p className="text-center mb-4">Follow me on<a target="_blank" rel="noopener noreferrer"
+                                                               href="https://www.instagram.com/sandychiuuu">Instagram
+                    <span role="img" aria-label="camera emoji">📸</span></a>and
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/sandychiu">Twitter<span role="img" aria-label="bird emoji">🐦</span></a>
                 </p>
             </div>
         );

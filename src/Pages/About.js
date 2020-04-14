@@ -1,4 +1,4 @@
-import React, {Component, Link} from "react";
+import React, {Component} from "react";
 import {Col, Row} from "reactstrap";
 import InterestsData from "../Data/InterestsData";
 import AboutData from "../Data/AboutData";

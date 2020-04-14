@@ -1,8 +1,7 @@
 import React, {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, NavLink, Switch} from "react-router-dom";
-import ScrollToTop from "react-scroll-up";
-import { FaArrowUp, FaLinkedin, FaEnvelope} from 'react-icons/fa';
+import {FaLinkedin, FaEnvelope} from 'react-icons/fa';
 
 import Home from "./Pages/Home";
 import About from "./Pages/About";
