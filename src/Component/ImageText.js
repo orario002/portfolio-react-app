@@ -17,7 +17,7 @@ class ImageText extends React.Component {
         if (imagePosition === left) {
             return (
                 <Row className="imageText imageText--wrapper">
-                    <Col xs={12} md={6} className="img-wrapper"><img src={this.props.src} alt={this.props.name}/></Col>
+                    <Col xs={12} md={6} className="img-wrapper"><img loading="lazy" src={this.props.src} alt={this.props.name}/></Col>
                     <Col xs={12} md={6} className="text-wrapper">
                         <h3>{this.props.title}</h3>
                         <p>{this.props.description}</p></Col>
@@ -30,7 +30,7 @@ class ImageText extends React.Component {
                         <Col xs={12} md={6} className="text-wrapper">
                             <h3>{this.props.title}</h3>
                             <p>{this.props.description}</p></Col>
-                        <Col xs={12} md={6} className="img-wrapper"><img src={this.props.src}
+                        <Col xs={12} md={6} className="img-wrapper"><img loading="lazy" src={this.props.src}
                                                                          alt={this.props.name}/></Col>
                 </Row>
             )
@@ -39,7 +39,7 @@ class ImageText extends React.Component {
             return (
                 <Row className="imageText imageText--wrapper">
                     <Col xs={12} className="img-wrapper">
-                        <img src={this.props.src} alt={this.props.name}/></Col>
+                        <img loading="lazy" src={this.props.src} alt={this.props.name}/></Col>
                     <Col xs={12} className="text-wrapper">
                         <h3>{this.props.title}</h3>
                         <p>{this.props.description}</p>
@@ -53,7 +53,7 @@ class ImageText extends React.Component {
                     <Col xs={12} className="text-wrapper">
                         <h3>{this.props.title}</h3>
                         <p>{this.props.description}</p></Col>
-                    <Col xs={12}><img src={this.props.src} alt={this.props.name}/></Col>
+                    <Col xs={12}><img loading="lazy" src={this.props.src} alt={this.props.name}/></Col>
                 </Row>
             )
         }
