@@ -1,14 +1,14 @@
-import Banner from "../Assets/portfolio/portfolio_formhub_screens.png";
-import Process from "../Assets/portfolio/portfolio_formhub_process.png";
-import Workshop from "../Assets/portfolio/portfolio_nfs_workshop.png";
-import Research from "../Assets/portfolio/portfolio_formhub_analysis.png";
-import Empathy from "../Assets/portfolio/portfolio_nfs_empathy-map.png";
-import Journey from "../Assets/portfolio/portfolio_nfs_user-journey.png";
-import Style from "../Assets/portfolio/portfolio_nfs_styleguide.png";
-import Component from "../Assets/portfolio/portfolio_formhub_symbols.png";
-import PaperWireframe from "../Assets/portfolio/portfolio_nfs_wireframe_mobile_table.png";
-import WireframeFeatures from "../Assets/portfolio/portfolio_formhub_screens_feature_annotation.png";
-import WireframeSteps from "../Assets/portfolio/portfolio_formhub_screens_annotation.png";
+import Banner from "../Assets/portfolio/portfolio_form-manager_screens.png";
+import Process from "../Assets/portfolio/portfolio_form-manager_process.png";
+import Workshop from "../Assets/portfolio/portfolio_form-manager_workshop.png";
+import Research from "../Assets/portfolio/portfolio_form-manager_analysis.png";
+import Empathy from "../Assets/portfolio/portfolio_form-manager_empathy-map.png";
+import Journey from "../Assets/portfolio/portfolio_form-manager_user-journey.png";
+import Style from "../Assets/portfolio/portfolio_form-manager_styleguide.png";
+import Component from "../Assets/portfolio/portfolio_form-manager_symbols.png";
+import PaperWireframe from "../Assets/portfolio/portfolio_form-manager_wireframe_mobile_table.png";
+import WireframeFeatures from "../Assets/portfolio/portfolio_form-manager_screens_feature_annotation.png";
+import WireframeSteps from "../Assets/portfolio/portfolio_form-manager_screens_annotation.png";
 
 export const NfsData = {
     banner: {

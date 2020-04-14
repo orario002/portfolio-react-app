@@ -1,6 +1,6 @@
-import NFS from "../Assets/portfolio/portfolio_formhub_mockup.png";
+import NFS from "../Assets/portfolio/portfolio_form-manager_mockup.png";
 import Puma from "../Assets/portfolio/portfolio_plugin_screen.png";
-import Adobe from "../Assets/portfolio/portfolio_sitebuilder_basic_mockup.png";
+import Adobe from "../Assets/portfolio/portfolio_site-builder_basic_mockup.png";
 
 export const DesignData = {
     NFS: {
@@ -15,7 +15,7 @@ export const DesignData = {
         name: 'Plugin',
         portfolioImage: `${Puma}`,
         link: '/portfolio/design/puma',
-        title: 'SiteBuilder Illustrator Plugin',
+        title: 'Adobe Illustrator Plugin',
         description: 'A customised SiteBuilder Illustrator plugin integrates with web based application for an improved digital design workflow.\n',
         tags: ['Experience Design', 'Visual Design']
     },

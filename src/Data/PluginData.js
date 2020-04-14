@@ -1,11 +1,10 @@
 import Banner from "../Assets/portfolio/portfolio_plugin_mockup_imac-pro.png";
 import Process from "../Assets/portfolio/portfolio_plugin_process.png";
-import Persona from "../Assets/portfolio/portfolio_puma_persona.png";
+import Persona from "../Assets/portfolio/portfolio_plugin_persona.png";
 import FlowCompare from "../Assets/portfolio/portfolio_plugin_flow_before-after.png";
-import FlowAfter from "../Assets/portfolio/portfolio_puma_user-flow_after.png";
-import Wireframe from "../Assets/portfolio/portfolio_puma_wireframe_paper.png";
+import Wireframe from "../Assets/portfolio/portfolio_plugin_wireframe_paper.png";
 import Prototype from "../Assets/portfolio/portfolio_plugin_overflow.png";
-import Anotation from "../Assets/portfolio/portfolio_plugin_annotation.png";
+import Annotation from "../Assets/portfolio/portfolio_plugin_annotation.png";
 
 export const PluginData = {
     banner: {
@@ -54,7 +53,7 @@ export const PluginData = {
     },
     annotation: {
         name: 'Annotation',
-        src: `${Anotation}`,
+        src: `${Annotation}`,
         title: 'This is a tool to allow designers to get their job done while remaining in SiteBuilder Illustrator.',
         description: ''
     },

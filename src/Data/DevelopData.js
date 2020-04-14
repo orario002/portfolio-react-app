@@ -1,6 +1,6 @@
-import Camelot from "../Assets/portfolio/portfolio_ipl_screen.png";
-import HSBC from "../Assets/portfolio/portfolio_hsbc_logo.svg";
-import Ensemble from "../Assets/portfolio/portfolio_ensemble_screen.png";
+import Camelot from "../Assets/portfolio/portfolio_dev_ipl_screen.png";
+import HSBC from "../Assets/portfolio/portfolio_dev_hsbc_logo.svg";
+import Ensemble from "../Assets/portfolio/portfolio_dev_ensemble_screen.png";
 
 export const DevelopData = {
     Camelot: {
