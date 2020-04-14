@@ -9,8 +9,8 @@ import FormManager from "./Portfolio/Design/FormManager";
 import Plugin from "./Portfolio/Design/Plugin";
 import SiteBuilder from "./Portfolio/Design/SiteBuilder";
 
-//Develop projects
-import Develop from "./Portfolio/Develop"
+//Dev projects
+import Dev from "./Portfolio/Dev"
 
 
 class Portfolio extends Component {
@@ -23,16 +23,16 @@ class Portfolio extends Component {
                             <NavLink activeClassName="selected" to="/portfolio/design/">Design</NavLink>
                         </li>
                         <li>
-                            <NavLink activeClassName="selected" to="/portfolio/develop/">Development</NavLink>
+                            <NavLink activeClassName="selected" to="/portfolio/development/">Development</NavLink>
                         </li>
                     </ul>
                     <main>
                         <Switch>
                             <Route exact path="/portfolio/design/" component={Design}/>
-                            <Route exact path="/portfolio/design/NFS" component={FormManager}/>
-                            <Route exact path="/portfolio/design/Puma" component={Plugin}/>
-                            <Route exact path="/portfolio/design/Adobe" component={SiteBuilder}/>
-                            <Route path="/portfolio/develop/" component={Develop}/>
+                            <Route exact path="/portfolio/design/FormManager" component={FormManager}/>
+                            <Route exact path="/portfolio/design/Plugin" component={Plugin}/>
+                            <Route exact path="/portfolio/design/SiteBuilder" component={SiteBuilder}/>
+                            <Route path="/portfolio/development/" component={Dev}/>
                         </Switch>
                     </main>
                 </div>

@@ -2,11 +2,11 @@ import Camelot from "../Assets/portfolio/portfolio_dev_ipl_screen.png";
 import HSBC from "../Assets/portfolio/portfolio_dev_hsbc_logo.svg";
 import Ensemble from "../Assets/portfolio/portfolio_dev_ensemble_screen.png";
 
-export const DevelopData = {
+export const DevData = {
     Camelot: {
         name: 'Camelot',
         portfolioImage: `${Camelot}`,
-        title: 'Irish Perimium Lottery',
+        title: 'Irish Premium Lottery',
         description: 'Agile software development with Adobe running in sprints.',
         tags: ['Front-end Development', 'Adobe Experience Manager (content management system)'],
     },
@@ -26,4 +26,4 @@ export const DevelopData = {
     },
 };
 
-export default DevelopData;
+export default DevData;

@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactForm from "../Component/ContactForm";
 
 class Contact extends React.Component {
     render() {
