@@ -411,6 +411,9 @@ img.loading {
 .error {
   padding: 10rem;
 }
+.error p {
+  display: block;
+}
 @media only screen and (max-width: 767px) {
   .error {
     flex-direction: column;
