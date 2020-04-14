@@ -47,7 +47,7 @@ class Blog extends Component {
                   <div class="blog_preview">
                      <h2 class="blog__title title">${shortenText(item.title, 0, 100)}</h2>
                      <p class="blog__intro">${shortenText(toText(item.content), 0, 100) + '...'}</p>
-                     <button class="btn btn-primary">Read More</button>
+                     <button class="btn btn-link blog__link">Continue Reading in Medium</button>
                   </div>
                  
                   
@@ -74,7 +74,7 @@ class Blog extends Component {
                         <h2 className="title mb-5">Medium posts</h2>
                     </div>
                     <ul className="blog__slider row container">
-                        <Spinner className="d-flex justify-content-center" color="info"/>
+                        <Spinner className="ml-auto mr-auto" color="info"/>
                     </ul>
 
                 </section>

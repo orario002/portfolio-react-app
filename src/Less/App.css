@@ -56,6 +56,7 @@
   src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN8rs-VQ.ttf) format('truetype');
 }
 /* Variables */
+/* Global */
 h1 {
   font-size: 2rem;
   font-weight: 700;
@@ -240,36 +241,6 @@ footer a:hover {
 .media-list {
   display: flex;
 }
-/* BarChart */
-.bar-group .name-label {
-  text-anchor: end;
-  font-weight: 300;
-  font-size: 1em;
-  fill: #333;
-}
-.bar-group .value-label {
-  text-anchor: end;
-  fill: #fff;
-  font-weight: 900;
-  font-size: 0.7em;
-}
-.container .bar-group {
-  transition: opacity 0.3s;
-}
-/* Fade bars when the chart is hovered */
-.container:hover .bar-group {
-  opacity: 0.3;
-}
-/* But don't fade the hovered bar... */
-.container .bar-group:hover {
-  opacity: 1;
-}
-.container .bar-group:hover .name-label {
-  font-weight: 400;
-}
-.container .bar-group:hover .value-label {
-  font-size: 0.8em;
-}
 /* Background */
 .home {
   min-height: 100vh;
@@ -309,6 +280,7 @@ footer a:hover {
   font-family: 'Caveat', cursive;
   font-size: 2rem;
 }
+/* Button */
 .btn {
   padding: 0.75rem;
   font-size: 0.85rem;
@@ -330,6 +302,14 @@ footer a:hover {
   color: #59B9C6;
   background-color: #29292e;
   border-color: #29292e;
+}
+.btn.btn-link {
+  color: #357E88;
+  padding-left: 0;
+  font-weight: 800;
+}
+.btn.btn-link:hover {
+  color: #357E88;
 }
 /* Portfolio */
 .portfolio h1,
@@ -373,13 +353,15 @@ footer a:hover {
 }
 .imageText h3 {
   padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   font-weight: 600;
+  line-height: 2.5rem;
 }
 .imageText p {
   padding-bottom: 2rem;
   line-height: 1.5rem;
   font-size: 1.125rem;
+  color: #333;
 }
 .imageText .row {
   padding-bottom: 1rem;

@@ -20,8 +20,12 @@
 @primary: #59B9C6;
 @secondary: #357E88;
 @dark: #29292e;
+@light: #333;
 @white: #fff;
 @black: #000;
+
+
+/* Global */
 
 h1 {
   font-size: 2rem;
@@ -56,6 +60,7 @@ ul {
   .blog__style {
     list-style: none;
   }
+
   &.tags {
     list-style: disc;
     flex-direction: column;
@@ -63,11 +68,8 @@ ul {
 
 }
 
-main {
-  //padding: 2rem;
-}
-
 /* Nav */
+
 nav {
   font-weight: 300;
   padding: 2rem;
@@ -86,10 +88,12 @@ nav {
   .selected {
     font-weight: 700;
     border-bottom: 5px solid black;
+
     &:hover {
       color: black;
     }
   }
+
   a:hover {
     color: @secondary;
   }
@@ -127,6 +131,7 @@ footer {
   padding: 20px;
   font-weight: 300;
   font-size: 0.85rem;
+
   a:hover {
     color: @secondary;
   }
@@ -135,6 +140,7 @@ footer {
 .title {
   font-size: 1.2rem;
   font-weight: 700;
+
   a {
     font-size: 1.5rem;
   }
@@ -244,50 +250,13 @@ footer {
     border: 1px solid lightblue;
     background-color: lightblue;
   }
+
 }
 
 /* Media */
 
 .media-list {
   display: flex;
-}
-
-/* BarChart */
-
-.bar-group .name-label {
-  text-anchor: end;
-  font-weight: 300;
-  font-size: 1em;
-  fill: #333;
-}
-
-.bar-group .value-label {
-  text-anchor: end;
-  fill: @white;
-  font-weight: 900;
-  font-size: 0.7em;
-}
-
-.container .bar-group {
-  transition: opacity 0.3s;
-}
-
-/* Fade bars when the chart is hovered */
-.container:hover .bar-group {
-  opacity: 0.3;
-}
-
-/* But don't fade the hovered bar... */
-.container .bar-group:hover {
-  opacity: 1;
-}
-
-.container .bar-group:hover .name-label {
-  font-weight: 400;
-}
-
-.container .bar-group:hover .value-label {
-  font-size: 0.8em;
 }
 
 /* Background */
@@ -297,6 +266,7 @@ footer {
 }
 
 /* Form */
+
 .form-center {
   margin: 0 auto;
 }
@@ -308,6 +278,7 @@ footer {
     font-weight: 800;
     margin-left: 0.25rem;
     color: @secondary;
+
     &:hover {
       color: @dark;
     }
@@ -339,10 +310,13 @@ footer {
   font-size: 2rem;
 }
 
+/* Button */
+
 .btn {
   padding: 0.75rem;
   font-size: 0.85rem;
   margin-top: auto;
+
   &.btn-primary {
     background: @primary;
     border-radius: 0;
@@ -353,6 +327,16 @@ footer {
       color: @primary;
       background-color: @dark;
       border-color: @dark;
+    }
+  }
+
+  &.btn-link {
+    color: @secondary;
+    padding-left: 0;
+    font-weight: 800;
+
+    &:hover {
+      color: @secondary;
     }
   }
 }
@@ -375,8 +359,10 @@ footer {
     padding: 2rem;
     background-image: linear-gradient(@black, @dark);
   }
+
   .intro {
     padding: 3rem;
+
     p {
       font-size: 1.25rem;
     }
@@ -387,6 +373,7 @@ footer {
 
 .summary, .outcome {
   padding: 0 3rem 3rem 3rem;
+
   strong {
     font-size: 1.25rem;
     font-weight: 700;
@@ -408,14 +395,16 @@ footer {
 
   h3 {
     padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     font-weight: 600;
+    line-height: 2.5rem;
   }
 
   p {
     padding-bottom: 2rem;
     line-height: 1.5rem;
     font-size: 1.125rem;
+    color: @light;
   }
 
   .row {

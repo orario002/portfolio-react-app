@@ -18,7 +18,7 @@ export const FormsManagerData = {
         img: `${Banner}`
     },
     summary: {
-        overview: 'This is a minimum viable product designed to provide digital form transformation solutions. Our experiences in banking and insurance sectors, have introduced us a large amount of paper forms to digitalise in transformation and we would like this product to change customer experiences for our clients.',
+        overview: 'Our experiences in banking and insurance sectors, have introduced us a large amount of paper forms to digitalise in transformation and we would like this product to change customer experiences for our clients.',
         time: 'Jul 8 to Aug 23, 2019',
         tools: ['Sketch', 'Invision'],
         roles: ['Lead UX Designer', 'Visual Designer', 'Front-end Developer'],

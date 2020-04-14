@@ -20,7 +20,7 @@ class ImageText extends React.Component {
                     <Col xs={12} md={6} className="img-wrapper"><img src={this.props.src} alt={this.props.name}/></Col>
                     <Col xs={12} md={6} className="text-wrapper">
                         <h3>{this.props.title}</h3>
-                        <p className="pb-5">{this.props.description}</p></Col>
+                        <p>{this.props.description}</p></Col>
                 </Row>
             )
         }
