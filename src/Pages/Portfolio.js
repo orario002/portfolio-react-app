@@ -32,7 +32,7 @@ class Portfolio extends Component {
                             <Route exact path="/portfolio/design/FormsManager" component={FormsManager}/>
                             <Route exact path="/portfolio/design/Plugin" component={Plugin}/>
                             <Route exact path="/portfolio/design/SiteBuilder" component={SiteBuilder}/>
-                            <Route path="/portfolio/development/" component={Dev}/>
+                            <Route exact path="/portfolio/development/" component={Dev}/>
                         </Switch>
                     </main>
                 </div>

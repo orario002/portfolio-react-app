@@ -260,10 +260,19 @@ footer a:hover {
 .contact a:hover {
   color: #29292e;
 }
-.icon-large {
+.icon--md {
   width: 50px;
   Height: 50px;
 }
+.icon--sm {
+  width: 20px;
+  Height: 20px;
+}
+icon--lg {
+  width: 100px;
+  height: 100px;
+}
+/* Image */
 .img-crop {
   object-fit: cover;
 }
@@ -271,6 +280,9 @@ footer a:hover {
   object-fit: contain;
   padding: 1.25rem;
   margin: 0 auto;
+}
+img.loading {
+  background: url(../Assets/images/logo.png) no-repeat scroll center center;
 }
 .icon {
   object-fit: contain;
@@ -376,11 +388,6 @@ footer a:hover {
 }
 /* Media query */
 @media only screen and (max-width: 767px) {
-  main,
-  .contact,
-  .home main {
-    padding: 1rem;
-  }
   .banner__hero {
     max-height: 300px;
   }
@@ -394,5 +401,10 @@ footer a:hover {
 @media (min-width: 768px) and (max-width: 991px) {
   .banner__hero {
     max-height: 500px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .error {
+    flex-direction: column;
   }
 }

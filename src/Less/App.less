@@ -285,10 +285,22 @@ footer {
   }
 }
 
-.icon-large {
+.icon--md {
   width: 50px;
   Height: 50px;
 }
+
+.icon--sm {
+  width: 20px;
+  Height: 20px;
+}
+
+icon--lg {
+  width: 100px;
+  height: 100px;
+}
+
+/* Image */
 
 .img-crop {
   object-fit: cover;
@@ -298,6 +310,10 @@ footer {
   object-fit: contain;
   padding: 1.25rem;
   margin: 0 auto;
+}
+
+img.loading {
+    background: url(../Assets/images/logo.png) no-repeat scroll center center;
 }
 
 .icon {
@@ -427,9 +443,9 @@ footer {
 
 // Mobile
 @media only screen and (max-width: 767px) {
-  main, .contact, .home main {
-    padding: 1rem;
-  }
+  //main, .contact, .home main {
+  //  padding: 1rem;
+  //}
 
   .banner__hero {
     max-height: 300px;
@@ -448,5 +464,11 @@ footer {
 @media (min-width: 768px) and (max-width: 991px) {
   .banner__hero {
     max-height: 500px;
+  }
+}
+
+.error {
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
   }
 }
