@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter as Router, Route, Switch, NavLink} from "react-router-dom";
+import {BrowserRouter as Router, Route, NavLink, Switch} from "react-router-dom";
 
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -8,6 +8,9 @@ import Portfolio from "./Pages/Portfolio";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
 import NoMatch from "./Pages/Error";
+import FormsManager from "./Pages/Portfolio";
+import Plugin from "./Pages/Portfolio";
+import SiteBuilder from "./Pages/Portfolio";
 
 class App extends Component {
     render() {
@@ -21,8 +24,7 @@ class App extends Component {
                                     <NavLink to="/"><span className="brand">Sandy Chiu</span></NavLink>
                                 </div>
                                 <div className="nav">
-                                    <NavLink activeClassName="selected" exact
-                                             to="/portfolio/design/">Portfolio</NavLink>
+                                    <NavLink activeClassName="selected" to="/portfolio/design/">Portfolio</NavLink>
                                     <NavLink activeClassName="selected" to="/about/">About</NavLink>
                                     <NavLink activeClassName="selected" to="/blog/">Writing</NavLink>
                                     <NavLink activeClassName="selected" to="/contact/">Contact</NavLink>
@@ -32,10 +34,14 @@ class App extends Component {
                         <main>
                             <Switch>
                                 <Route exact path="/" component={Home}/>
-                                <Route exact path="/about/" component={About}/>
-                                <Route exact path="/portfolio/design" component={Portfolio}/>
-                                <Route exact path="/blog/" component={Blog}/>
-                                <Route exact path="/contact/" component={Contact}/>
+                                <Route path="/about/" component={About}/>
+                                <Route exact path="/portfolio/design/" component={Portfolio}/>
+                                <Route path="/portfolio/design/formsmanager/" component={FormsManager}/>
+                                <Route path="/portfolio/design/plugin/" component={Plugin}/>
+                                <Route path="/portfolio/design/sitebuilder/" component={SiteBuilder}/>
+                                <Route exact path="/portfolio/development/" component={Portfolio}/>
+                                <Route path="/blog/" component={Blog}/>
+                                <Route path="/contact/" component={Contact}/>
                                 <Route component={NoMatch}/>
                             </Switch>
                         </main>

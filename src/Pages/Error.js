@@ -8,7 +8,7 @@ class Error extends React.Component {
         return (
             <div className="error d-flex align-items-center justify-content-center">
                 <img className="mr-3" alt="sloth sleeping in a cup" src={Sloth} width={200}/>
-                <p>Sorry, this page does not exist.<p></p>Please try again or visit the <a className="btn btn-link" href={Home}>Home page ♥</a></p>
+                <p>Sorry, this page does not exist.</p><p>Please try again or visit the <a className="btn btn-link" href={Home}>Home page ♥</a></p>
             </div>
         );
     }

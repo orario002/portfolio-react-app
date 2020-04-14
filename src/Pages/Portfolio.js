@@ -13,6 +13,8 @@ import SiteBuilder from "./Portfolio/Design/SiteBuilder";
 import Dev from "./Portfolio/Dev"
 
 
+
+
 class Portfolio extends Component {
     render() {
         return (
@@ -29,9 +31,9 @@ class Portfolio extends Component {
                     <main>
                         <Switch>
                             <Route exact path="/portfolio/design/" component={Design}/>
-                            <Route path="/portfolio/design/formsmanager" component={FormsManager}/>
-                            <Route path="/portfolio/design/plugin" component={Plugin}/>
-                            <Route path="/portfolio/design/sitebuilder" component={SiteBuilder}/>
+                            <Route path="/portfolio/design/formsmanager/" component={FormsManager}/>
+                            <Route path="/portfolio/design/plugin/" component={Plugin}/>
+                            <Route path="/portfolio/design/sitebuilder/" component={SiteBuilder}/>
                             <Route exact path="/portfolio/development/" component={Dev}/>
                         </Switch>
                     </main>

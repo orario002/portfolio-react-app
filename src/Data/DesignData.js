@@ -6,7 +6,7 @@ export const DesignData = {
     NFS: {
         name: 'Digital Forms Manager',
         portfolioImage: `${FormsManager}`,
-        link: '/portfolio/design/formsmanager',
+        link: '/portfolio/design/formsmanager/',
         title: 'Digital Forms Manager',
         description: 'A web portal designed to manage digitalised forms and streamline application process.',
         tags: ['Experience Design', 'Visual Design']
@@ -14,7 +14,7 @@ export const DesignData = {
     Puma: {
         name: 'Plugin',
         portfolioImage: `${Plugin}`,
-        link: '/portfolio/design/plugin',
+        link: '/portfolio/design/plugin/',
         title: 'Adobe Illustrator Plugin',
         description: 'A customised SiteBuilder Illustrator plugin integrates with web based application for an improved digital design workflow.\n',
         tags: ['Experience Design', 'Visual Design']
@@ -22,7 +22,7 @@ export const DesignData = {
     Adobe: {
         name: 'AEM Microsite Builder',
         portfolioImage: `${SiteBuilder}`,
-        link: '/portfolio/design/sitebuilder',
+        link: '/portfolio/design/sitebuilder/',
         title: 'AEM Microsite Builder',
         description: 'A microsite builder prototype offering B2B solution with SiteBuilder Experience Manager (content management system).',
         tags: ['Experience Design', 'Visual Design']

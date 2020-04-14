@@ -5,6 +5,7 @@ import ImageText from "../../../Component/ImageText";
 import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/FormsManagerData";
 import {Button} from 'reactstrap';
+import {Link} from "react-router-dom";
 
 const next = "/portfolio/design/plugin";
 
@@ -39,7 +40,7 @@ class FormsManager extends React.Component {
                 <Outcome title={data.outcome.title} description={data.outcome.description}
                          deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
                 <div className="d-flex justify-content-end">
-                    <Button color="primary"><a href={next}>Next</a></Button>
+                    <Button color="primary"><Link to={next}>Next</Link></Button>
                 </div>
             </div>
         );

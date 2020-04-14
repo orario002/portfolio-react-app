@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Col, Row, Button} from "reactstrap";
 import SkillsData from "../Data/SkillsData";
+import {Link} from "react-router-dom";
 
 class Home extends Component {
     componentDidMount() {
@@ -31,7 +32,7 @@ class Home extends Component {
                             </Col>
                         ))}
                     </Row>
-                    <Button className="btn btn-primary"><a href={portfolio}>See my work</a></Button>
+                    <Button className="btn btn-primary"><Link to={portfolio}>See my work</Link></Button>
                 </div>
             </div>
         );

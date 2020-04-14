@@ -5,14 +5,14 @@ import ImageText from "../../../Component/ImageText";
 import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/SiteBuilderData";
 import {Button, Media} from 'reactstrap';
+import {Link} from "react-router-dom";
 
-const prev = "/portfolio/design/formsmanager";
-const next = "/portfolio/design/plugin";
+const prev = "/portfolio/design/plugin";
 
 class SiteBuilder extends React.Component {
     render() {
         return (
-            <div class="portfolio">
+            <div className="portfolio">
                 <Banner title={data.banner.title} intro={data.banner.intro} img={data.banner.img}/>
                 <Summary className="summary container" overview={data.summary.overview} time={data.summary.time}
                          tools={data.summary.tools}
@@ -35,8 +35,7 @@ class SiteBuilder extends React.Component {
                 <Outcome className="outcome container" title={data.outcome.title} description={data.outcome.description}
                          deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
                 <div className="d-flex justify-content-between">
-                    <Button color="primary"><a href={prev}>Previous</a></Button>
-                    {/*<Button color="primary"><a href={next}>Next</a></Button>*/}
+                    <Button color="primary"><Link to={prev}>Previous</Link></Button>
                 </div>
             </div>
         );
