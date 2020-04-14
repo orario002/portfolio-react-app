@@ -7,8 +7,8 @@ class About extends Component {
     render() {
         return (
             <div className="container">
-                <Row className="m-5">
-                    <Col xs={12} md={4}><img alt={AboutData.profile.title}  className="profile rounded-circle"
+                <Row className="m-3">
+                    <Col xs={12} md={4} className="d-flex justify-content-center align-items-center"><img alt={AboutData.profile.title}  className="profile rounded-circle"
                                              src={AboutData.profile.myImage}/>
                     </Col>
                     <Col xs={12} md={8}>
@@ -23,7 +23,7 @@ class About extends Component {
                     </Col>
                 </Row>
                 <Row className="m-3">
-                    <Col xs={12} className="mb-2"><h2 className="mb-5">Some of my Interests</h2></Col>
+                    <Col xs={12} className="mb-2"><h2 className="mb-3">Some of my Interests</h2></Col>
                     {Object.keys(InterestsData).map(key => (
                         <Col xs={12} lg={4}>
                             <img className="img-crop mb-2" src={InterestsData[key].image} width={500} height={250} alt="{InterestsData[key].title}"/>

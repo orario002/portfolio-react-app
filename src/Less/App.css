@@ -384,16 +384,15 @@ img.loading {
 }
 /* Media query */
 @media only screen and (max-width: 767px) {
-  main,
-  .contact,
-  .home main {
-    padding: 1rem;
+  main .home,
+  main .contact {
+    padding: 2rem;
   }
   .banner__hero {
     max-height: 300px;
   }
-  .sub-nav {
-    margin: 0 !important;
+  .sub-nav ul {
+    margin: 0;
   }
   nav {
     flex-direction: column;
