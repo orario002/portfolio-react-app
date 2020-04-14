@@ -29,9 +29,9 @@ class Portfolio extends Component {
                     <main>
                         <Switch>
                             <Route exact path="/portfolio/design/" component={Design}/>
-                            <Route exact path="/portfolio/design/FormsManager" component={FormsManager}/>
-                            <Route exact path="/portfolio/design/Plugin" component={Plugin}/>
-                            <Route exact path="/portfolio/design/SiteBuilder" component={SiteBuilder}/>
+                            <Route path="/portfolio/design/formsmanager" component={FormsManager}/>
+                            <Route path="/portfolio/design/plugin" component={Plugin}/>
+                            <Route path="/portfolio/design/sitebuilder" component={SiteBuilder}/>
                             <Route exact path="/portfolio/development/" component={Dev}/>
                         </Switch>
                     </main>

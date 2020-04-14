@@ -388,6 +388,11 @@ img.loading {
 }
 /* Media query */
 @media only screen and (max-width: 767px) {
+  main,
+  .contact,
+  .home main {
+    padding: 1rem;
+  }
   .banner__hero {
     max-height: 300px;
   }
@@ -403,8 +408,12 @@ img.loading {
     max-height: 500px;
   }
 }
+.error {
+  padding: 10rem;
+}
 @media only screen and (max-width: 767px) {
   .error {
     flex-direction: column;
+    padding: 0;
   }
 }
