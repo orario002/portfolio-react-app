@@ -12,7 +12,6 @@
  * make sure we're resetting all spacing elements.
  *
  */
-@import '~bootstrap/dist/css/bootstrap.css';
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Open+Sans:wght@300;400;600;700;800');
 
 /* Variables */
@@ -20,7 +19,7 @@
 @primary: #59B9C6;
 @secondary: #357E88;
 @dark: #29292e;
-@light: #333;
+@light: #f2f2f2;
 @white: #fff;
 @black: #000;
 
@@ -128,7 +127,7 @@ nav {
 }
 
 footer {
-  padding: 20px;
+  padding: 2rem;
   font-weight: 300;
   font-size: 0.85rem;
 
@@ -339,10 +338,10 @@ img.loading {
     border: none;
     color: @dark;
 
-    &:hover, &:focus, &:active, &:visited, &focus-within, &:not(:disabled):not(.disabled):active, &:not(:disabled):not(.disabled).active {
-      color: @primary;
-      background-color: @dark;
-      border-color: @dark;
+    &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active, &:not(:disabled):not(.disabled).active {
+        color: @primary;
+        background-color: @dark;
+        border-color: @dark;
     }
   }
 
@@ -418,9 +417,8 @@ img.loading {
 
   p {
     padding-bottom: 2rem;
-    line-height: 1.5rem;
+    line-height: 1.875rem;
     font-size: 1.125rem;
-    color: @light;
   }
 
   .row {
@@ -475,5 +473,18 @@ img.loading {
   @media only screen and (max-width: 767px) {
     flex-direction: column;
     padding: 0;
+  }
+}
+
+.next-project {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+  justify-content: space-between;
+  align-items: center;
+  background: @light;
+  padding: 3rem;
+  &:hover {
+    color: @secondary;
   }
 }

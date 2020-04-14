@@ -19,7 +19,7 @@ class About extends Component {
                                 </div>
                             ))}
                         </div>
-                        <button className="btn btn-link"><a href={AboutData.profile.myResume}>Download Resume</a></button>
+                        <a className="btn btn-link" href={AboutData.profile.myResume} target="_blank" rel="noopener noreferrer">Download Resume</a>
                     </Col>
                 </Row>
                 <Row className="m-3">

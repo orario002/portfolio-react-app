@@ -8,16 +8,16 @@ class Contact extends React.Component {
                     <span className="pl-2" role="img" aria-label="waving-hand">👋</span>
                 </h2>
                 <p className="text-center mb-4">You can find me on
-                    <a target="_blank" className="text-decoration-underline"
+                    <a target="_blank" rel="noopener noreferrer" className="text-decoration-underline"
                        href="https://linkedin.com/in/sandychiuuu/">Linkedin</a>,
-                    <a target="_blank" href="https://dribbble.com/sandychiu">Dribbble</a>,
-                    <a target="_blank" href="https://github.com/orario002">GitHub</a>,
-                    or drop me an <a href="mailto:hello@sandychiu.com">Email</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://dribbble.com/sandychiu">Dribbble</a>,
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/orario002">GitHub</a>,
+                    or drop me an<a href="mailto:hello@sandychiu.com">Email</a>
                 </p>
-                <p className="text-center mb-4">Follow me on <a target="_blank"
+                <p className="text-center mb-4">Follow me on<a target="_blank"
                                                                 href="https://www.instagram.com/sandychiuuu">Instagram
-                    📸</a> and
-                    <a target="_blank" href="https://www.twitter.com/sandychiu">Twitter 🐦</a>
+                    📸</a>and
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/sandychiu">Twitter 🐦</a>
                 </p>
             </div>
         );

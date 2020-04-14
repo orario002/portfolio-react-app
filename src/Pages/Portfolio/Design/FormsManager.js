@@ -6,11 +6,14 @@ import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/FormsManagerData";
 import {Button} from 'reactstrap';
 import {Link} from "react-router-dom";
+import {FaArrowRight} from 'react-icons/fa';
 
 const next = "/portfolio/design/plugin";
 
 class FormsManager extends React.Component {
-
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <div className="portfolio">
@@ -39,9 +42,10 @@ class FormsManager extends React.Component {
                            title={data.component.title} description={data.component.description}/>
                 <Outcome title={data.outcome.title} description={data.outcome.description}
                          deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
-                <div className="d-flex justify-content-end">
-                    <Button color="primary"><Link to={next}>Next</Link></Button>
-                </div>
+                    <Link to={next} className="next-project">
+                    <div><div>Next Project</div><div>Adobe Illustrator Plugin</div></div>
+                    <div><FaArrowRight/></div>
+                    </Link>
             </div>
         );
     }

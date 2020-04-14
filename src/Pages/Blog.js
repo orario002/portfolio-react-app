@@ -41,13 +41,13 @@ class Blog extends Component {
                     output += `
 <li class="blog__style col-lg-4 col-md-6 col-xs-12 mb-5 d-flex" >
 <div class="blog__post d-flex">
-            <a target="_blank" href="${item.link}">
+            <a target="_blank" rel="noopener noreferrer" href="${item.link}">
                <img src="${item.thumbnail}" class="blog__topImg"/>
                <div class="blog__content d-flex flex-column">
                   <div class="blog_preview">
                      <h2 class="blog__title title">${shortenText(item.title, 0, 100)}</h2>
                      <p class="blog__intro">${shortenText(toText(item.content), 0, 100) + '...'}</p>
-                     <button class="btn btn-link blog__link">Continue Reading in Medium</button>
+                     <button class="btn btn-link blog__link">Continue Reading on Medium</button>
                   </div>
                  
                   

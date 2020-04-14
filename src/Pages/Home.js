@@ -26,13 +26,14 @@ class Home extends Component {
                         {Object.keys(SkillsData).map(key => (
                             <Col lg={3} sm={12}>
                                 <div className="d-flex justify-content-center">
-                                    <img className="icon" alt={SkillsData[key].title} src={SkillsData[key].icon} width={200} height={100}/></div>
+                                    <img className="icon" alt={SkillsData[key].title} src={SkillsData[key].icon}
+                                         width={200} height={100}/></div>
                                 <h3 className="title text-center">{SkillsData[key].title}</h3>
                                 <p>{SkillsData[key].content}</p>
                             </Col>
                         ))}
                     </Row>
-                    <Button className="btn btn-primary"><Link to={portfolio}>See my work</Link></Button>
+                    <Link to={portfolio} className="btn btn-primary">See my work</Link>
                 </div>
             </div>
         );

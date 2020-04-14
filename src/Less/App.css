@@ -12,7 +12,6 @@
  * make sure we're resetting all spacing elements.
  *
  */
-@import '~bootstrap/dist/css/bootstrap.css';
 @font-face {
   font-family: 'Caveat';
   font-style: normal;
@@ -137,7 +136,7 @@ nav a {
   visibility: hidden;
 }
 footer {
-  padding: 20px;
+  padding: 2rem;
   font-weight: 300;
   font-size: 0.85rem;
 }
@@ -307,8 +306,6 @@ img.loading {
 .btn.btn-primary:hover,
 .btn.btn-primary:focus,
 .btn.btn-primary:active,
-.btn.btn-primary:visited,
-.btn.btn-primaryfocus-within,
 .btn.btn-primary:not(:disabled):not(.disabled):active,
 .btn.btn-primary:not(:disabled):not(.disabled).active {
   color: #59B9C6;
@@ -371,9 +368,8 @@ img.loading {
 }
 .imageText p {
   padding-bottom: 2rem;
-  line-height: 1.5rem;
+  line-height: 1.875rem;
   font-size: 1.125rem;
-  color: #333;
 }
 .imageText .row {
   padding-bottom: 1rem;
@@ -419,4 +415,16 @@ img.loading {
     flex-direction: column;
     padding: 0;
   }
+}
+.next-project {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 3rem;
+}
+.next-project:hover {
+  color: #357E88;
 }

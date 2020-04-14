@@ -6,10 +6,14 @@ import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/SiteBuilderData";
 import {Button, Media} from 'reactstrap';
 import {Link} from "react-router-dom";
+import {FaArrowRight} from 'react-icons/fa';
 
-const prev = "/portfolio/design/plugin";
+const next = "/portfolio/design/formsmanager";
 
 class SiteBuilder extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <div className="portfolio">
@@ -34,9 +38,10 @@ class SiteBuilder extends React.Component {
                 <Media object alt={data.screens.name} src={data.screens.src} />
                 <Outcome className="outcome container" title={data.outcome.title} description={data.outcome.description}
                          deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
-                <div className="d-flex justify-content-between">
-                    <Button color="primary"><Link to={prev}>Previous</Link></Button>
-                </div>
+                <Link to={next} className="next-project">
+                    <div><div>Next Project</div><div>Digital Forms Manager</div></div>
+                    <div><FaArrowRight/></div>
+                </Link>
             </div>
         );
     }

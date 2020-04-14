@@ -6,11 +6,15 @@ import Outcome from "../../../Component/Outcome";
 import data from "../../../Data/PluginData";
 import {Button} from 'reactstrap';
 import {Link} from "react-router-dom";
+import {FaArrowRight} from 'react-icons/fa';
 
 const prev = "/portfolio/design/formsmanager";
 const next = "/portfolio/design/sitebuilder";
 
 class Plugin extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <div className="portfolio">
@@ -31,10 +35,10 @@ class Plugin extends React.Component {
                            title={data.annotation.title} description={data.annotation.description}/>
                 <Outcome title={data.outcome.title} description={data.outcome.description}
                          deliveries={data.outcome.deliveries} lesson={data.outcome.lesson}/>
-                <div className="d-flex justify-content-between">
-                    <Button color="primary"><Link to={prev}>Previous</Link></Button>
-                    <Button color="primary"><Link to={next}>Next</Link></Button>
-                </div>
+                <Link to={next} className="next-project">
+                    <div><div>Next Project</div><div>AEM Microsite Builder</div></div>
+                    <div><FaArrowRight/></div>
+                </Link>
             </div>
         );
     }

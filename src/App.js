@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, NavLink, Switch} from "react-router-dom";
+import ScrollToTop from "react-scroll-up";
+import { FaArrowUp, FaLinkedin, FaEnvelope} from 'react-icons/fa';
 
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -51,10 +53,10 @@ class App extends Component {
                             <span>©2020 Made with ReactJs by Sandy Chiu.</span>
                         </div>
                         <div>
-                            <div>
-                                <a className="pr-2" target="_blank" href="mailto:hello@sandychiu.com">Email</a>•
-                                <a className="pl-2 mr-2" target="_blank"
-                                   href="https://linkedin.com/in/sandychiuuu/">Linkedin</a>
+                            <div className="d-flex">
+                                <a className="pr-2 d-flex align-self-center" target="_blank" rel="noopener noreferrer" href="mailto:hello@sandychiu.com"><FaEnvelope size={20} className="mr-2"/>Email</a>•
+                                <a className="pl-2 mr-2 d-flex align-self-center" target="_blank" rel="noopener noreferrer"
+                                   href="https://linkedin.com/in/sandychiuuu/"><FaLinkedin size={20} className="mr-2"/>Linkedin</a>
                             </div>
                         </div>
                     </footer>
