@@ -72,7 +72,7 @@ export const SiteBuilderData = {
     outcome: {
         title: 'Successfully tell product stories through prototyping.',
         description: 'We were asked to make prototype within Adobe Experience Manager platform, developing using out-of-box component. As a designer, I have to be aware of this constraint and make sure the design fit in the category. This has helped reduce customisation and limit the time our developer spends to create this prototype.',
-        deliveries: ['High fidelity wireframes of microsite builder were developed into Interactive prototype.\n',
+        deliveries: ['High fidelity wireframes of microsite builder were developed into Interactive prototype.',
             'Because the designs were based on out-of-box components in Adobe Experience Manager, the developers can build the components more efficiently.',
             'Exported designs from Adobe XD to Zeplin for front-end developers to view specifications.'],
         lesson: 'Before we can deliver clear messages through the prototype, we needed to speak to the stakeholders and understand the context of the project. It helps us to understand what matters to them. As a prototype we wanted to campaign product value whilst tell a good story to help potential client imagine using it.'

@@ -16,7 +16,7 @@ export const DesignData = {
         portfolioImage: `${Plugin}`,
         link: '/portfolio/design/plugin/',
         title: 'Adobe Illustrator Plugin',
-        description: 'A customised SiteBuilder Illustrator plugin integrates with web based application for an improved digital design workflow.\n',
+        description: 'A customised Adobe Illustrator plugin integrates with web based application for an improved digital design workflow.',
         tags: ['Experience Design', 'Visual Design']
     },
     Adobe: {
@@ -24,7 +24,7 @@ export const DesignData = {
         portfolioImage: `${SiteBuilder}`,
         link: '/portfolio/design/sitebuilder/',
         title: 'AEM Microsite Builder',
-        description: 'A microsite builder prototype offering B2B solution with SiteBuilder Experience Manager (content management system).',
+        description: 'A microsite builder prototype offering B2B solution with Adobe Experience Manager (content management system).',
         tags: ['Experience Design', 'Visual Design']
     },
 };

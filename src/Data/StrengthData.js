@@ -20,7 +20,7 @@ export const StrengthData = {
         Curiosity: {
             title: "Curiosity",
             image: `${Idea}`,
-            content: "My background in customer services, sales, marketing and philosophy are a result of my strong sense of curiosity.  ",
+            content: "My background in customer services, sales, marketing and philosophy are a result of my strong sense of curiosity.",
         }
 };
 

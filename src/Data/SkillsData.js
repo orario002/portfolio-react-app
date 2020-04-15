@@ -12,17 +12,17 @@ export const SkillsData = {
     Wireframes: {
         title: "Wireframes",
         icon: `${Browser}`,
-        content: "I usually start with paper wireframes, then moved on to low fidelity wireframes on the computer using softwares such as Sketch or Adobe XD.",
+        content: "I usually start with paper wireframes, then moved on to low fidelity wireframes on the computer using software such as Sketch or Adobe XD.",
     },
     Prototyping: {
         title: "Prototyping",
         icon: `${Devices}`,
-        content: "Interaction designs with either designs softwares or functional front-end prototypes. I am currently learning about Framer.",
+        content: "Interaction designs with either design software or functional front-end prototypes. I am currently learning about Framer.",
     },
     DesignSystem: {
         title: "Design system",
         icon: `${Colour}`,
-        content: "Including styleguide for typography, iconography, colour palette, UI elements, and component patterns.",
+        content: "Including style guide for typography, iconography, colour palette, UI elements, and component patterns.",
     }
 };
 
