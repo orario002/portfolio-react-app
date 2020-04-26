@@ -30,7 +30,7 @@ export const PluginData = {
     persona: {
         name: 'Persona',
         src: `${Persona}`,
-        title: 'Helping graphic designers like Jamie to increase productivity and have a better work experiences.',
+        title: 'Helping graphic designers like Jamie to increase productivity and have better work experiences.',
         description: 'We were introduced to the persona provided by client in the beginning of the project. This plugin will help graphic designers like Jamie to increase productivity, with its smooth integration between Adobe Illustrator and internal’s CMS web application.'
     },
     flow: {
@@ -59,11 +59,11 @@ export const PluginData = {
     },
     outcome: {
         title: 'No two projects are the same, we worked as a team with our clients to solve problems.',
-        description: 'It was our first time to design and build an Adobe Illustrator plugin. Although the concept was new to us, we started the project with an open mind and willingness to learn. It was our ability to take it on quickly and not be afraid of asking questions has impressed our client.',
-        deliveries: ['An interactive prototype were created for demonstration.',
-            '37 screens were designed and hand over to developers.',
-            'Client were happy with the beta version and is available to test with users.'],
-        lesson: 'If there were more time and budget for this project, I would involved the target audience earlier on in the project to map out user journey, rather than relying on the persona given by the client. By having access with real users will also help us in testing and validation.'
+        description: 'It was our first time to design and build an Adobe Illustrator plugin. Although the concept was new to us, we started the project with an open mind and willingness to learn. It was our ability to take it on quickly and not be afraid of asking questions which impressed our client.',
+        deliveries: ['An interactive prototype was created for demonstration.',
+            '37 screens were designed and handed over to developers.',
+            'Client was happy with the beta version and is was made available to test with users.'],
+        lesson: 'If there was more time and budget for this project, I would have involved the target audience earlier on in the project to map out user journey, rather than relying on the persona given by the client. By having access with real users will help us in testing and validation.'
     }
 };
 

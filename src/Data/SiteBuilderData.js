@@ -25,13 +25,13 @@ export const SiteBuilderData = {
     process: {
         name: 'UX process',
         src: `${Process}`,
-        title: 'I was the solo UX designer on this 3 week project covered user user flow, wire-framing and prototyping.',
+        title: 'I was the solo UX designer on this 3 week project which covered user user flow, wire-framing and prototyping.',
         description: ''
     },
     interview: {
         name: 'Stakeholder Interview',
         src: `${Interview}`,
-        title: 'After interviewing with stakeholders we got to understand the the context of the project.',
+        title: 'After interviewing with stakeholders we got to understand the context of the project.',
         description: ''
     },
     user: {
@@ -62,7 +62,7 @@ export const SiteBuilderData = {
     theme: {
         name: 'Theme',
         src: `${Theme}`,
-        title: 'I structure my visual designs in Sketch, suggesting how it can be built into components in the development phase.Defined design style guide and UI elements to maintain consistency in theme.',
+        title: 'I structure my visual designs in Sketch, suggesting how it can be built into components in the development phase. I defined design style guide and UI elements to maintain consistency in theme.',
         description: 'We chose a neutral green colour theme to speak to the target audience in the agriculture industry, it complements with the shades of grey so it’s easier on the eyes. A style guide with colour palette, typography and UI elements are created and shared among the team, developers then can utilise this information to advance front-end development. I also ensure the design files are modularised in symbol they can later develop as components.'
     },
     screens: {
@@ -75,7 +75,7 @@ export const SiteBuilderData = {
         deliveries: ['High fidelity wireframes of microsite builder were developed into Interactive prototype.',
             'Because the designs were based on out-of-box components in Adobe Experience Manager, the developers can build the components more efficiently.',
             'Exported designs from Adobe XD to Zeplin for front-end developers to view specifications.'],
-        lesson: 'Before we can deliver clear messages through the prototype, we needed to speak to the stakeholders and understand the context of the project. It helps us to understand what matters to them. As a prototype we wanted to campaign product value whilst tell a good story to help potential client imagine using it.'
+        lesson: 'Before we can deliver clear messages through the prototype, we needed to speak to the stakeholders and understand the context of the project. It helps us to understand what matters to them. As a prototype we wanted to campaign product value whilst telling a good story to help potential client to imagine using it.'
     }
 };
 

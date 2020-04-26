@@ -14,11 +14,11 @@ export const FormsManagerData = {
     banner: {
         name: 'Hero Banner',
         title: 'A web portal to manage digitalised forms and streamline insurance application process.',
-        intro: 'We designed a web portal for enterprise and small businesses to manage form filling and approving process, using smart Adobe Experience Manager technology. To generate forms into PDFs and manage applications in the web portal we created. This is a minimum variable product for pitching to potential clients, who might be interest in customise this product with their brand.',
+        intro: 'We designed a web portal for enterprise and small businesses to manage form filling and approving process, using smart Adobe Experience Manager technology. To generate forms into PDFs and manage applications in the web portal we created. This is a minimum variable product for pitching to potential clients, who might be interested in customise this product with their brand.',
         img: `${Banner}`
     },
     summary: {
-        overview: 'Our experiences in banking and insurance sectors, have introduced us a large amount of paper forms to digitalise in transformation and we would like this product to change customer experiences for our clients.',
+        overview: 'Our experiences in banking and insurance sectors, have introduced us to a large amount of paper forms to digitalise in transformation and we would like this product to change customer experiences for our clients.',
         time: 'Jul 8 to Aug 23, 2019',
         tools: ['Sketch', 'Invision'],
         roles: ['Lead UX Designer', 'Visual Designer', 'Front-end Developer'],
@@ -28,7 +28,7 @@ export const FormsManagerData = {
         name: 'UX process',
         src: `${Process}`,
         title: 'Led UX design with cross-functional teams in the design and development process, from validating concept to demonstrating product to executives.',
-        description: 'We used discovery workshops to brainstorm high level vision of the product. To find out what the pain points might be, and who are the potential users, we conducted a competitive analysis. After presenting my findings to the team, we had more specific details about out potential users and what might they use it for. This information helped us to iterate user flows, wireframes, and interactive prototypes.'
+        description: 'We used discovery workshops to brainstorm high level vision of the product. To find out what the pain points might be, and who are the potential users, we conducted a competitive analysis. After presenting my findings to the team, we had more specific details about our potential users and what might they use it for. This information helped us to iterate user flows, wireframes, and interactive prototypes.'
     },
     discovery: {
         name: 'Workshop',
@@ -40,7 +40,7 @@ export const FormsManagerData = {
         name: 'Research',
         src: `${Research}`,
         title: 'After analysing user reviews from our competitors, we learnt users want less hassle to integrate the form manager that is user friendly.',
-        description: 'From analysing competitors’ reviews, I learnt what ticks their boxes such as a form product being user friendly, affordable, and being able to customise conditional logic and integration. As well as what can be improved such as technical issues, varieties of styles themes, and easy to integrates with current systems. Our new product could aim to help users fulfil their goals among some common user cases, including event registration, internal forms for organisations or contact forms etc. according to our research. '
+        description: 'From analysing competitors’ reviews, I learnt what ticks their boxes such as a form product being user friendly, affordable, and being able to customise conditional logic and integration. As well as what can be improved such as technical issues, variety of styles themes, and easy to integrate with current systems. Our new product could aim to help users fulfil their goals among some common user cases, including event registration, internal forms for organisations or contact forms etc. according to our research. '
     },
     empathy: {
         name: 'Empathy Map',
@@ -63,8 +63,8 @@ export const FormsManagerData = {
     wireframeFeatures: {
         name: 'Wireframe features with Notation',
         src: `${WireframeFeatures}`,
-        title: 'Our goal is make creating applications clearer and simpler so our users can get on with other more important tasks.',
-        description: 'We understand these administrational process can be rather dull for professionals like Chris. It is our goal to make their journey as easy as possible, and as painless as possible.'
+        title: 'Our goal is to make creating applications clearer and simpler so our users can get on with other more important tasks.',
+        description: 'We understand these administrational processes can be rather dull for professionals like Chris. It is our goal to make their journey as easy as possible, and as painless as possible.'
     },
     wireframeSteps: {
         name: 'Wireframe steps with Notation',
@@ -74,7 +74,7 @@ export const FormsManagerData = {
         name: 'Style Guide',
         src: `${Style}`,
         title: 'Display status of elements when interaction happens.',
-        description: 'Having a centralised approach for common elements such as button, input field that showcases how different status in visual design. It does not just help my design process also can help communication with front-end development and reduce confusion.'
+        description: 'Having a centralised approach for common elements such as button, input field that showcases how different status in visual design. It does not just help my design process, it can also help communication with front-end development and reduce confusion.'
 
     },
     component: {

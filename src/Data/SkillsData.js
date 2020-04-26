@@ -12,7 +12,7 @@ export const SkillsData = {
     Wireframes: {
         title: "Wireframes",
         icon: `${Browser}`,
-        content: "I usually start with paper wireframes, then moved on to low fidelity wireframes on the computer using software such as Sketch or Adobe XD.",
+        content: "I usually start with paper wireframes, then move on to low fidelity wireframes on the computer using software such as Sketch or Adobe XD.",
     },
     Prototyping: {
         title: "Prototyping",
