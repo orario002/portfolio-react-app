@@ -16,7 +16,7 @@ export const AboutData = {
         paragraph: 'Experienced as both a front-end developer and product designer has helped me communicate with engineers and work well in a cross-functional team. Throughout my career, I enjoy discovery of the unknown, I am patient and I take time to figure out the source of a problem.'
     },
     fulfillment: {
-        paragraph: 'I find fulfilment at work though creating and learning. Empathy is my drive to learn more about people and what technology can do for them, and not the other way around.'
+        paragraph: 'I find fulfilment at work through creating and learning. Empathy is my drive to learn more about people and what technology can do for them, and not the other way around.'
     }
 
 };
