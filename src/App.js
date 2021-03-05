@@ -15,6 +15,7 @@ import SiteBuilder from "./Pages/Portfolio";
 
 class App extends Component {
     render() {
+        const today = new Date();
         return (
             <Router>
                 <div className="site">
@@ -49,7 +50,7 @@ class App extends Component {
                     </div>
                     <footer className="d-flex justify-content-between align-items-center">
                         <div>
-                            <span>©2020 Made with ReactJs by Sandy Chiu.</span>
+                            <span>©{today.getFullYear()} Made with ReactJs by Sandy Chiu.</span>
                         </div>
                         <div>
                             <div className="d-flex">
