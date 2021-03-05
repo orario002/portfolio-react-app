@@ -190,10 +190,11 @@ footer a:hover {
 }
 .blog__topImg {
   object-fit: cover;
-  height: 300px;
+  height: 350px;
+  border-radius: 5px 5px 0 0;
 }
 .blog__content {
-  padding: 0.8rem;
+  padding: 1.2rem;
 }
 .blog__preview {
   font-size: 0.95rem;
