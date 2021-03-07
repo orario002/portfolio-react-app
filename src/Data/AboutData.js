@@ -1,6 +1,7 @@
 import Profile from "../Assets/images/about_profile.jpeg";
 import Journey from "../Assets/images/about_journey.png";
 import Resume from "../Assets/pdf/cv_product_designer_sandy_chiu_2020.pdf";
+import Thesis from "../Assets/pdf/thesis_exploring_blockchain_technology_and_recycling_futures_through_speculative_design.pdf";
 
 export const AboutData = {
     profile: {
@@ -8,6 +9,7 @@ export const AboutData = {
         myImage: `${Profile}`,
         myJourney: `${Journey}`,
         myResume:`${Resume}`,
+        myThesis:`${Thesis}`
     },
     intro: {
         paragraph: 'I am a generalist product designer specialising in experience design and visual design, I am also hands on and I enjoy building things with my front-end skills. Often working in content management system, I focus on reusable UI elements and modularised design.',
