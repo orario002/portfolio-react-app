@@ -5,7 +5,6 @@ class Blog extends Component {
 
     constructor(props) {
         super(props);
-
         this.state = {
             data: null,
             loading: true
@@ -22,7 +21,6 @@ class Blog extends Component {
                 // Fillter the array
                 const res = data.items; //This is an array with the content. No feed, no info about author etc..
                 const posts = res.filter(item => item.categories.length > 0); // That's the main trick* !
-
                 function toText(node) {
                     let tag = document.createElement('div');
                     tag.innerHTML = node;
@@ -39,18 +37,16 @@ class Blog extends Component {
                 let output = '';
                 posts.forEach((item) => {
                     output += `
-<li class="blog__style col-lg-4 col-md-6 col-xs-12 mb-5 d-flex" >
+<li class="blog__style col-lg-6 col-xs-12 p-4 d-flex" >
 <div class="blog__post d-flex">
-            <a target="_blank" rel="noopener noreferrer" href="${item.link}">
-               <img src="${item.thumbnail}" class="blog__topImg"/>
+            <a target="_blank" rel="noopener noreferrer" href="${item.link}" class="d-flex flex-column">
+               <img src="${item.thumbnail}" class="blog__topImg justify-content-center"/>
                <div class="blog__content d-flex flex-column">
                   <div class="blog_preview">
                      <h2 class="blog__title title">${shortenText(item.title, 0, 100)}</h2>
                      <p class="blog__intro">${shortenText(toText(item.content), 0, 100) + '...'}</p>
                      <button class="btn btn-link blog__link">Continue Reading on Medium</button>
-                  </div>
-                 
-                  
+                  </div>   
                   <div class="blog__info mt-auto">
                   <hr>
                      <span class="blog__author">${item.author}</span>
@@ -76,9 +72,8 @@ class Blog extends Component {
                     <ul className="blog__slider row container">
                         <Spinner className="ml-auto mr-auto" color="info"/>
                     </ul>
-
                 </section>
-                :
+              :
                 <section id="blog" class="blog">
                     <div class="blog__header">
                         <h2 class="title mb-5">Medium posts</h2>
@@ -86,11 +81,7 @@ class Blog extends Component {
                     <ul class="blog__slider row container">
                         Posts go here
                     </ul>
-                    {/*<ul class="blog__counter">*/}
-                    {/*<li class="blog__counterItem blog__counterItem-active"></li>*/}
-                    {/*<li class="blog__counterItem"></li>*/}
-                    {/*<li class="blog__counterItem"></li>*/}
-                    {/*</ul>*/}
+                  <p>Read More on Medium</p>
                 </section>
         );
     }

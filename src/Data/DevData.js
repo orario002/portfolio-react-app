@@ -6,7 +6,7 @@ export const DevData = {
     Camelot: {
         name: 'Camelot',
         portfolioImage: `${Camelot}`,
-        title: 'Irish Premium Lottery',
+        title: 'Irish Premium Lottery & Illinois Lottery',
         description: 'Agile software development with Adobe running in sprints.',
         tags: ['Front-end Development', 'Adobe Experience Manager (content management system)'],
     },
@@ -21,7 +21,7 @@ export const DevData = {
         name: 'Ensemble',
         portfolioImage: `${Ensemble}`,
         title: 'Ensemble UK Website',
-        description: 'Redesign and develop company website with remote team in Vancouver.',
+        description: 'Redesigned and developed company website with remote team in Vancouver.',
         tags: ['Front-end Development', 'Angular.js', 'Adobe Experience Manager (content management system)']
     },
 };
