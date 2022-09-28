@@ -6,17 +6,17 @@ export const InterestsData = {
     Illustration: {
         title: "Illustration",
         image: `${Dribbble}`,
-        content: "Drawing either on paper or on software such as Illustrator is always a good fun.",
+        content: "Drawing and painting are my passion, it bring me joy in the mundane.",
     },
     Photography: {
         title: "Photography",
         image: `${Photography}`,
-        content: "I enjoy taking photographs on film camera and DSLR.",
+        content: "I enjoy taking photographs on film cameras and DSLRs. Videography also intrigues me.",
     },
     Coding: {
         title: "Coding",
         image: `${Code}`,
-        content: "Learning how to code has given me freedom to build my own designs.",
+        content: "Having learned to code has given me the power to bring my own designs to life.",
     }
 };
 

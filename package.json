@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "portfolio.sandychiu.com",
   "dependencies": {
     "@amcharts/amcharts4": "^4.10.28",
     "@typeform/embed": "^0.6.1",

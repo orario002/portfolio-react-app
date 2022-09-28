@@ -17,9 +17,9 @@ class Home extends Component {
         return (
             <div className="container">
                 <div className="header m-5">
-                    <h1 className="pb-3">Hi I’m <span className="brand">Sandy</span>, a digital product designer based
-                        in London.</h1>
-                    <h2 className="pb-3">Specialising in Experience Design and Visual Design.</h2>
+                    <h1 className="pb-3">Hi I am <span className="brand">Sandy</span>, a digital designer based
+                        in Hertfordshire.</h1>
+                    <h2 className="pb-3">Specialising in experience design and visual design.</h2>
                 </div>
                 <div className="content m-5 d-flex flex-column align-items-center">
                     <Row className="pb-5">
