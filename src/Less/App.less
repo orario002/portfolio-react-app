@@ -1,0 +1,493 @@
+/* Reset */
+/**
+ * Global Reset of all HTML Elements
+ *
+ * Resetting all of our HTML Elements ensures a smoother
+ * visual transition between browsers. If you don't believe me,
+ * try temporarily commenting out this block of code, then go
+ * and look at Mozilla versus Safari, both good browsers with
+ * a good implementation of CSS. The thing is, all browser CSS
+ * defaults are different and at the end of the day if visual
+ * consistency is what we're shooting for, then we need to
+ * make sure we're resetting all spacing elements.
+ *
+ */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Open+Sans:wght@300;400;600;700;800');
+
+/* Variables */
+
+@primary: #59B9C6;
+@secondary: #357E88;
+@dark: #29292e;
+@light: #f2f2f2;
+@white: #fff;
+@black: #000;
+
+
+/* Global */
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+a, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  .nav, &.sub-nav {
+    list-style: none;
+    display: flex;
+    margin-right: 2rem;
+  }
+
+  .blog__style {
+    list-style: none;
+  }
+
+  &.tags {
+    list-style: disc;
+    flex-direction: column;
+  }
+
+}
+
+/* Nav */
+
+nav {
+  font-weight: 300;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+}
+
+.nav, .sub-nav {
+
+  .selected {
+    font-weight: 700;
+    border-bottom: 5px solid black;
+
+    &:hover {
+      color: black;
+    }
+  }
+
+  a:hover {
+    color: @secondary;
+  }
+
+}
+
+/* Sticky footer */
+
+:root {
+  --space: 1.5em 0;
+  --space: 2em 0;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-content {
+  flex: 1 0 auto;
+  padding: var(--space) var(--space) 0;
+  width: 100%;
+}
+
+.site-content:after {
+  content: '\00a0';
+  display: block;
+  margin-top: var(--space);
+  height: 0;
+  visibility: hidden;
+}
+
+footer {
+  padding: 2rem;
+  font-weight: 300;
+  font-size: 0.85rem;
+
+  a:hover {
+    color: @secondary;
+  }
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  a {
+    font-size: 1.5rem;
+  }
+}
+
+/* Blog */
+
+.blog {
+  margin: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__header {
+    text-align: center;
+  }
+
+  &__header1 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+  }
+
+  &__header2 {
+    margin-top: .3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  &__header2Span {
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+
+  &__slider {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left
+  }
+
+  &__post {
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+    height: 100%;
+  }
+
+  &__topImg {
+    object-fit: cover;
+    height: 350px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  &__content {
+    padding: 1.2rem;
+  }
+
+  &__preview {
+    font-size: .95rem;
+    font-weight: 300;
+  }
+
+  &__title {
+    margin-top: 0;
+    font-size: 1.4rem;
+  }
+
+  &__intro {
+    line-height: 1.5;
+  }
+
+  &__info {
+    font-weight: 300;
+  }
+
+  &__author {
+    font-size: .9rem;
+  }
+
+  &__date {
+    font-size: .85rem;
+  }
+
+  &__counter {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__counterItem {
+    height: 20px;
+    width: 20px;
+    margin: .5rem;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__counterItem-active {
+    border: 1px solid lightblue;
+    background-color: lightblue;
+  }
+
+}
+
+/* Media */
+
+.media-list {
+  display: flex;
+}
+
+/* Background */
+
+.home {
+  min-height: 100vh;
+}
+
+/* Form */
+
+.form-center {
+  margin: 0 auto;
+}
+
+.contact {
+  padding: 10rem;
+
+  a {
+    font-weight: 800;
+    margin-left: 0.25rem;
+    color: @secondary;
+
+    &:hover {
+      color: @dark;
+    }
+  }
+}
+
+.icon--md {
+  width: 50px;
+  Height: 50px;
+}
+
+.icon--sm {
+  width: 20px;
+  Height: 20px;
+}
+
+icon--lg {
+  width: 100px;
+  height: 100px;
+}
+
+/* Image */
+
+.img-crop {
+  object-fit: cover;
+}
+
+.img-coverphoto {
+  object-fit: contain;
+  padding: 1.25rem;
+  margin: 0 auto;
+}
+
+img.loading {
+    background: url(../Assets/images/logo.png) no-repeat scroll center center;
+}
+
+.icon {
+  object-fit: contain;
+  padding: 1.25rem;
+}
+
+.brand {
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+}
+
+/* Button */
+
+.btn {
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  margin-top: auto;
+
+  &.btn-primary {
+    background: @primary;
+    border-radius: 0;
+    border: none;
+    color: @dark;
+
+    &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active, &:not(:disabled):not(.disabled).active {
+        color: @primary;
+        background-color: @dark;
+        border-color: @dark;
+    }
+  }
+
+  &.btn-link {
+    color: @secondary;
+    padding-left: 0;
+    font-weight: 800;
+
+    &:hover {
+      color: @secondary;
+    }
+  }
+}
+
+/* Portfolio */
+
+.portfolio {
+  h1, h2, strong {
+    font-weight: 700;
+  }
+}
+
+// Banner
+.banner {
+  &__hero {
+    width: 100%;
+    max-height: 700px;
+    object-fit: contain;
+    background: @dark;
+    padding: 2rem;
+    background-image: linear-gradient(@black, @dark);
+  }
+
+  .intro {
+    padding: 3rem;
+
+    p {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+// Summary
+
+.summary, .outcome {
+  padding: 0 3rem 3rem 3rem;
+
+  strong {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  p, li {
+    font-size: 1.25rem;
+  }
+}
+
+// ImageText Component
+.imageText {
+
+  &--wrapper {
+    padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+  }
+
+  p {
+    padding-bottom: 2rem;
+    line-height: 1.875rem;
+    font-size: 1.125rem;
+  }
+
+  .row {
+    padding-bottom: 1rem;
+  }
+
+  .text-wrapper {
+    padding: 0 2rem;
+    align-self: flex-start;
+  }
+}
+
+// Full Width
+.full-width {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+/* Media query */
+
+// Mobile
+@media only screen and (max-width: 767px) {
+
+  main {
+    .home, .contact {
+      padding: 2rem;
+    }
+  }
+  .banner__hero {
+    max-height: 300px;
+  }
+
+  .sub-nav ul {
+    margin: 0;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+}
+
+// Tablet
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner__hero {
+    max-height: 500px;
+  }
+}
+
+.error {
+  padding: 10rem;
+  p {
+    display: block;
+  }
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.next-project {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+  justify-content: space-between;
+  align-items: center;
+  background: @light;
+  padding: 3rem;
+  &:hover {
+    color: @secondary;
+  }
+}
