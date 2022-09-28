@@ -59,7 +59,7 @@ class App extends Component {
                 <a className="pr-2 d-flex align-self-center" target="_blank" rel="noopener noreferrer"
                    href="mailto:hello@sandychiu.com"><FaEnvelope size={20} className="mr-2"/>Email</a>•
                 <a className="pl-2 mr-2 d-flex align-self-center" target="_blank" rel="noopener noreferrer"
-                   href="https://linkedin.com/in/sandychiuuu/"><FaLinkedin size={20} className="mr-2"/>Linkedin</a>
+                   href="https://www.linkedin.com/in/sandycchiu/"><FaLinkedin size={20} className="mr-2"/>Linkedin</a>
               </div>
             </div>
           </footer>
