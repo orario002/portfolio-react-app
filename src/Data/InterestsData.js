@@ -6,7 +6,7 @@ export const InterestsData = {
     Illustration: {
         title: "Illustration",
         image: `${Dribbble}`,
-        content: "Drawing and painting are my passion, it bring me joy in the mundane.",
+        content: "Drawing and painting are my passion, it brings me joy in the mundane.",
     },
     Photography: {
         title: "Photography",
