@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3ddce7e97f0a658ad5c5",
+    "revision": "d79a827b69707ecbff67",
     "url": "/static/css/main.d0fbde83.chunk.css"
   },
   {
-    "revision": "3ddce7e97f0a658ad5c5",
-    "url": "/static/js/main.3ddce7e9.chunk.js"
+    "revision": "d79a827b69707ecbff67",
+    "url": "/static/js/main.d79a827b.chunk.js"
   },
   {
     "revision": "2fc238c2662c6279f32e",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/static/media/sloth-4617460_1280.0d5c6cf2.png"
   },
   {
-    "revision": "310fee9e83535ca60d1e225a049c30af",
+    "revision": "d489c7ba2bc79aa0ac02b7e6c5ab4742",
     "url": "/index.html"
   }
 ];

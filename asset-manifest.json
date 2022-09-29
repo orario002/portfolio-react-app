@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.d0fbde83.chunk.css",
-  "main.js": "/static/js/main.3ddce7e9.chunk.js",
-  "main.js.map": "/static/js/main.3ddce7e9.chunk.js.map",
+  "main.js": "/static/js/main.d79a827b.chunk.js",
+  "main.js.map": "/static/js/main.d79a827b.chunk.js.map",
   "static/css/1.95dd3d6b.chunk.css": "/static/css/1.95dd3d6b.chunk.css",
   "static/js/1.2fc238c2.chunk.js": "/static/js/1.2fc238c2.chunk.js",
   "static/js/1.2fc238c2.chunk.js.map": "/static/js/1.2fc238c2.chunk.js.map",
@@ -47,9 +47,9 @@
   "static/media/portfolio_dev_hsbc_logo.svg": "/static/media/portfolio_dev_hsbc_logo.f01d73a7.svg",
   "static/media/portfolio_dev_ensemble_screen.png": "/static/media/portfolio_dev_ensemble_screen.7223ae67.png",
   "static/media/sloth-4617460_1280.png": "/static/media/sloth-4617460_1280.0d5c6cf2.png",
-  "static/css/1.95dd3d6b.chunk.css.map": "/static/css/1.95dd3d6b.chunk.css.map",
   "static/css/main.d0fbde83.chunk.css.map": "/static/css/main.d0fbde83.chunk.css.map",
+  "static/css/1.95dd3d6b.chunk.css.map": "/static/css/1.95dd3d6b.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.902fea28c1256b169c17341ffbccf8a6.js": "/precache-manifest.902fea28c1256b169c17341ffbccf8a6.js",
+  "precache-manifest.a3cecfb6ab6d59f9b85036f2a790d0aa.js": "/precache-manifest.a3cecfb6ab6d59f9b85036f2a790d0aa.js",
   "service-worker.js": "/service-worker.js"
 }
