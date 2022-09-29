@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "portfolio.sandychiu.com/static/media/sloth-4617460_1280.0d5c6cf2.png"
   },
   {
-    "revision": "36372c1f83de41668ccb8412fdf9555f",
+    "revision": "3326b88e51046047b39566a7a33872ea",
     "url": "portfolio.sandychiu.com/index.html"
   }
 ];
